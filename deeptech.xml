@@ -10162,7 +10162,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
    <DEVICE>
     <ENGINE>
      <TYPE model="Server-PT" customModel="">Server</TYPE>
-     <NAME translate="true">Server5</NAME>
+     <NAME translate="true">SS Server</NAME>
      <POWER>true</POWER>
      <DESCRIPTION></DESCRIPTION>
      <MODULE>
@@ -18300,7 +18300,7 @@ jXhHFivJeQ==
              <X>68</X>
              <Y>0</Y>
              <TYPE>6</TYPE>
-             <NAME translate="true">Server5</NAME>
+             <NAME translate="true">SS Server</NAME>
              <SX>1</SX>
              <SY>1</SY>
              <W>0</W>
@@ -57560,7 +57560,7 @@ jXhHFivJeQ==
    <BG_TILED>false</BG_TILED>
    <CUSTOM_IMAGE_WIDTH>-1</CUSTOM_IMAGE_WIDTH>
    <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
-   <SCALE_FACTOR>1</SCALE_FACTOR>
+   <SCALE_FACTOR>0.666667</SCALE_FACTOR>
    <ENVIRONMENT>
     <TIME_IN_SECONDS>34620</TIME_IN_SECONDS>
     <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
@@ -64049,6 +64049,14 @@ jXhHFivJeQ==
     <NOTECLUSTERID>1-1</NOTECLUSTERID>
     <MEM_ADDR>2701513372416</MEM_ADDR>
    </NOTE>
+   <NOTE uuid="{341402f4-7113-4d43-b1cb-40a0c404d52b}">
+    <X>850</X>
+    <Y>339</Y>
+    <Z>0.21</Z>
+    <TEXT translate="true"></TEXT>
+    <NOTECLUSTERID></NOTECLUSTERID>
+    <MEM_ADDR>2699606300704</MEM_ADDR>
+   </NOTE>
   </NOTES>
  </PHYSICALWORKSPACE>
  <FILTERS NDP="yes" VTP="yes" EAPOL="yes" LLDP="yes" BGP="yes" USB="yes" Bluetooth="yes" STP="yes" HTTPS="yes" HSRP="yes" PTP="yes" IPSec="yes" DNS="yes" ICMP="yes" FTP="yes" TCP="yes" IoT="yes" IoT-TCP="yes" NTP="yes" ICMPv6="yes" PAgP="yes" TACACS="yes" CDP="yes" NETFLOW="yes" UDP="yes" HSRPv6="yes" SSH="yes" POP3="yes" EIGRPv6="yes" Telnet="yes" OSPFv6="yes" RIPng="yes" PPPoED="yes" RADIUS="yes" SNMP="yes" ISAKMP="yes" DTP="yes" DHCPv6="yes" RTP="yes" CAPWAP="yes" SYSLOG="yes" REP="yes" DHCP="yes" OSPF="yes" SMTP="yes" TFTP="yes" PPP="yes" SCCP="yes" RIP="yes" H.323="yes" ARP="yes" EIGRP="yes" HTTP="yes" LACP="yes">
@@ -64104,6 +64112,10 @@ jXhHFivJeQ==
    <Filled OUTLINECOLOR="#000000" OUTLINED="true">0</Filled>
    <RECTCLUSTERID>1-1</RECTCLUSTERID>
    <MEM_ADDR>2699443959184</MEM_ADDR>
+   <DevicePlacement_ShapeName></DevicePlacement_ShapeName>
+   <DevicePlacement_ShapeX>850</DevicePlacement_ShapeX>
+   <DevicePlacement_ShapeY>339</DevicePlacement_ShapeY>
+   <DevicePlacement_ShapeZ>0.21</DevicePlacement_ShapeZ>
   </RECTANGLE>
   <RECTANGLE uuid="{45b086a8-1df4-4f8a-9768-22c5f6c897e8}">
    <TopLeftX>1003</TopLeftX>
