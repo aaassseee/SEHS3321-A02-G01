@@ -1,6 +1,6 @@
 #!/bin/bash
 
-date=$(date +"%Y%m%d")
+date=$(date +"%Y%m%d%H%M")
 name=$(git config user.name | tr '[:upper:]' '[:lower:]' | sed 's/ /-/g')
 tag="x2p/$name/$date"
 

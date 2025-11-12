@@ -1,4 +1,4 @@
-$date = Get-Date -format "yyyyMMdd"
+$date = Get-Date -format "yyyyMMddHHmm"
 $name = (git config user.name).Replace(' ', '-').ToLower()
 $tag = ("x2p", $name, $date) -Join "/"
 
