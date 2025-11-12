@@ -50,8 +50,8 @@ jobs:
           # If multiple branches contain the commit, you might need to handle this.
           # For simplicity, this example assumes a single primary branch.
           # You can add logic to select a specific branch if needed.
-          
           echo "branch_name=$branch_name" >> $GITHUB_OUTPUT
+          echo "Branch is $branch."
 
       - name: Push changes
         uses: ad-m/github-push-action@master
