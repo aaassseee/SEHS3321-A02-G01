@@ -29,11 +29,9 @@ jobs:
         run: ./build-linux.sh
 
       - name: Convert pkt to xml
-        working-directory: ./SEHS3321-A02-G01
         run: pka2xml/pka2xml -d deeptech.pkt deeptech.xml
 
       - name: Commit converted file to git
-        working-directory: ./SEHS3321-A02-G01
         run: |
           git config --local user.name  ${{ github.actor }}        
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
