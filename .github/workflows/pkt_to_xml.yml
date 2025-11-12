@@ -11,7 +11,7 @@ on:
       - 'p2x/**'
 
 jobs:
-  build:
+  convert:
     runs-on: ubuntu-latest
 
     steps:
@@ -40,8 +40,21 @@ jobs:
           git add deeptech.xml
           git commit -m "chore: generate new xml"
 
+      - name: Convert tag to branch
+        id: get_branch
+        run: |
+          # Get the branch name(s) containing the commit pointed to by the tag
+          # The --format="%(refname:lstrip=3)" extracts the branch name without "refs/remotes/origin/"
+          branch_name=$(git branch -r --contains ${{ github.ref }} --format="%(refname:lstrip=3)")
+          
+          # If multiple branches contain the commit, you might need to handle this.
+          # For simplicity, this example assumes a single primary branch.
+          # You can add logic to select a specific branch if needed.
+          
+          echo "branch_name=$branch_name" >> $GITHUB_OUTPUT
+
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref_name }}
+          branch: ${{ steps.get_branch.outputs.branch_name }}
