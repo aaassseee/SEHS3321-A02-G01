@@ -17,6 +17,8 @@ jobs:
     steps:
       - name: Checkout project
         uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref }}
 
       - name: Checkout pka2xml
         uses: actions/checkout@v5
@@ -42,3 +44,4 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
