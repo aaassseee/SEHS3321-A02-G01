@@ -51,7 +51,7 @@ jobs:
           # For simplicity, this example assumes a single primary branch.
           # You can add logic to select a specific branch if needed.
           echo "branch_name=$branch_name" >> $GITHUB_OUTPUT
-          echo "Branch is $branch."
+          echo "Branch is $branch_name."
 
       - name: Push changes
         uses: ad-m/github-push-action@master
