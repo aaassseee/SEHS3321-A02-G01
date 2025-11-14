@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
   <diagram name="Page-1" id="nEtCHljzPWbgRBMz3HW8">
-    <mxGraphModel dx="6730" dy="4738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3960" dy="3909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,9 +26,6 @@
               <mxPoint x="275" y="440" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="HfEsNrcY_xCIzGmtiXhy-738" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="HfEsNrcY_xCIzGmtiXhy-1" target="HfEsNrcY_xCIzGmtiXhy-732" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HfEsNrcY_xCIzGmtiXhy-1" value="DMZ-router" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="440" y="150" width="30" height="30" as="geometry" />
@@ -188,7 +185,7 @@
         <mxCell id="HfEsNrcY_xCIzGmtiXhy-450" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="HfEsNrcY_xCIzGmtiXhy-74" target="HfEsNrcY_xCIzGmtiXhy-449" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HfEsNrcY_xCIzGmtiXhy-455" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HfEsNrcY_xCIzGmtiXhy-74" target="HfEsNrcY_xCIzGmtiXhy-79" edge="1">
+        <mxCell id="HfEsNrcY_xCIzGmtiXhy-455" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="HfEsNrcY_xCIzGmtiXhy-74" target="HfEsNrcY_xCIzGmtiXhy-79" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="215" y="1790" />
@@ -1242,7 +1239,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="29AUdzS_BxXnC8OrOtL3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HfEsNrcY_xCIzGmtiXhy-448" target="HfEsNrcY_xCIzGmtiXhy-709">
+        <mxCell id="29AUdzS_BxXnC8OrOtL3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HfEsNrcY_xCIzGmtiXhy-448" target="HfEsNrcY_xCIzGmtiXhy-709" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="3460" y="1695" />
@@ -1253,7 +1250,7 @@
         <mxCell id="HfEsNrcY_xCIzGmtiXhy-448" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="560" y="1680" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HfEsNrcY_xCIzGmtiXhy-454" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HfEsNrcY_xCIzGmtiXhy-449" target="HfEsNrcY_xCIzGmtiXhy-79" edge="1">
+        <mxCell id="HfEsNrcY_xCIzGmtiXhy-454" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="HfEsNrcY_xCIzGmtiXhy-449" target="HfEsNrcY_xCIzGmtiXhy-79" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="335" y="1790" />
@@ -2132,7 +2129,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HfEsNrcY_xCIzGmtiXhy-793" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HfEsNrcY_xCIzGmtiXhy-732" target="HfEsNrcY_xCIzGmtiXhy-708" edge="1">
+        <mxCell id="HfEsNrcY_xCIzGmtiXhy-793" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="HfEsNrcY_xCIzGmtiXhy-732" target="HfEsNrcY_xCIzGmtiXhy-708" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="315" y="270" />
