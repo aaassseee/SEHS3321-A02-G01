@@ -78,3 +78,5 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 /pka2xml-master/
+
+/drawio/*.dtmp
