@@ -38,7 +38,7 @@ ip dh ex 112.119.63.90
 end
 
 
-## Beijiing Root Router setting
+## Beijing Root Router setting
 en
 conf t
 ho ROOT-ROUTER
@@ -101,3 +101,14 @@ inspect icmp
 !
 service-policy global_policy global
 !
+
+interface range f0/1, f1/1, f2/1, f3/1
+switchport mode access
+switchport access vlan 10
+spanning-tree portfast
+spanning-tree bpduguard enable
+
+
+dhcpd address 192.168.10.100-192.168.10.200 dmz2
+dhcpd dns 8.8.8.8
+dhcpd enable dmz2
