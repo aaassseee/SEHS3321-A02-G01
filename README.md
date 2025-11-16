@@ -13,6 +13,7 @@ end
 ## ISP Route setting
 en
 conf t
+ho ISP-ROUTER
 !
 int g0/2/0
 ip add 218.107.132.1 255.255.255.240
@@ -38,7 +39,9 @@ end
 
 
 ## Beijiing Root Router setting
-hostname ROOT_ROUTER
+en
+conf t
+ho ROOT-ROUTER
 !
 int g0/0
 ip address 218.107.132.2 255.255.255.252
@@ -64,8 +67,10 @@ end
 write m
 copy ru st
 
-## ASA Firewall setting
-hostname L4_FIREWALL
+## Firewall setting
+en
+conf t
+ho FIREWALL
 !
 int g1/1
 nameif outside
