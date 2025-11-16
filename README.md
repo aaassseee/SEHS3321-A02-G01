@@ -102,9 +102,9 @@ inspect icmp
 service-policy global_policy global
 !
 
-interface range f0/1, f1/1, f2/1, f3/1
+interface range f0/1, f1/1, f2/1, f3/1, f4/1, f5/1, f6/1, g7/1, g8/1, g9/1
 switchport mode access
-switchport access vlan 10
+switchport access vlan 26
 spanning-tree portfast
 spanning-tree bpduguard enable
 
