@@ -32619,7 +32619,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
     </ENGINE>
     <WORKSPACE>
      <LOGICAL>
-      <X>524</X>
+      <X>530</X>
       <Y>716</Y>
       <DEVCLUSTERID>1-1</DEVCLUSTERID>
       <CUSTOM_IMAGE_LOGICAL></CUSTOM_IMAGE_LOGICAL>
@@ -32629,7 +32629,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      </LOGICAL>
      <PHYSICAL>{7395c166-74a4-4746-9d9f-22e3f7d958cc},{763062a3-f6f5-4d54-ab83-8728d16677aa},{09ab234c-acdc-4d4d-a610-f780b74a4665},{442293e0-1edc-4a8b-ad97-2881dc7a05ad},{4a9abbee-23bd-492e-96c7-705249337237},{c16efae4-fe83-4867-823a-78965fec2209}</PHYSICAL>
      <PHYSICAL_CPUR>
-      <X_PN>0.138</X_PN>
+      <X_PN>0.1395</X_PN>
       <Y_PN>0.189</Y_PN>
       <X>56</X>
       <Y>0</Y>
@@ -32672,12 +32672,12 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <CHANNEL5GHZ>0</CHANNEL5GHZ>
          <COVERAGERANGE>0</COVERAGERANGE>
          <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
-         <UP_METHOD>5</UP_METHOD>
-         <IP>169.254.131.43</IP>
-         <SUBNET>255.255.0.0</SUBNET>
+         <UP_METHOD>1</UP_METHOD>
+         <IP/>
+         <SUBNET/>
          <PORT_GATEWAY/>
-         <PORT_DNS/>
-         <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+         <PORT_DNS>8.8.8.8</PORT_DNS>
+         <PORT_DHCP_ENABLE>true</PORT_DHCP_ENABLE>
          <ND_SUPPRESSED>false</ND_SUPPRESSED>
          <ND_IPV6_DNS_ADDRESSES/>
          <TIMEOUT>14400000</TIMEOUT>
@@ -32692,7 +32692,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <IPV6_PORT_DHCP_ENABLED>true</IPV6_PORT_DHCP_ENABLED>
          <IPV6_ADDRESSES/>
          <IP_UNNUMBERED/>
-         <DHCP_SERVER_IP>0.0.0.0</DHCP_SERVER_IP>
+         <DHCP_SERVER_IP>192.168.26.1</DHCP_SERVER_IP>
         </PORT>
        </MODULE>
       </SLOT>
@@ -32809,9 +32809,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      </BLUETOOTH_PORT>
      <SAVE_REF_ID>save-ref-id:9259297523323044936</SAVE_REF_ID>
      <SYS_NAME>PC</SYS_NAME>
-     <GATEWAY/>
+     <GATEWAY>192.168.26.1</GATEWAY>
      <DNS_CLIENT>
-      <SERVER_IP/>
+      <SERVER_IP>8.8.8.8</SERVER_IP>
       <SERVER_IPV6/>
      </DNS_CLIENT>
      <EMAIL_CLIENT>
@@ -32854,8 +32854,8 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
         <WPA_EAP_PASSWORD></WPA_EAP_PASSWORD>
         <DHCP_ENABLED>0</DHCP_ENABLED>
         <DHCPV6_ENABLED>1</DHCPV6_ENABLED>
-        <IP_ADDRESS>169.254.131.43</IP_ADDRESS>
-        <SUBNET_MASK>255.255.0.0</SUBNET_MASK>
+        <IP_ADDRESS>192.168.26.106</IP_ADDRESS>
+        <SUBNET_MASK>255.255.254.0</SUBNET_MASK>
         <DEFAULT_GATEWAY/>
         <DNS/>
         <CHANNEL>1</CHANNEL>
@@ -32873,10 +32873,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
         <WEP_KEY>12345678</WEP_KEY>
         <WPA_EAP_USERID></WPA_EAP_USERID>
         <WPA_EAP_PASSWORD></WPA_EAP_PASSWORD>
-        <DHCP_ENABLED>0</DHCP_ENABLED>
+        <DHCP_ENABLED>1</DHCP_ENABLED>
         <DHCPV6_ENABLED>1</DHCPV6_ENABLED>
-        <IP_ADDRESS/>
-        <SUBNET_MASK/>
+        <IP_ADDRESS>192.168.26.106</IP_ADDRESS>
+        <SUBNET_MASK>255.255.254.0</SUBNET_MASK>
         <DEFAULT_GATEWAY/>
         <DNS/>
         <CHANNEL>1</CHANNEL>
@@ -32948,6 +32948,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      <DHCP_CLIENT>
       <PORT_DATA_MAP>
        <PORT_DATA_ENTRY>
+        <PORT>Wireless0</PORT>
+       </PORT_DATA_ENTRY>
+       <PORT_DATA_ENTRY>
         <PORT>3G/4G Cell1</PORT>
        </PORT_DATA_ENTRY>
       </PORT_DATA_MAP>
@@ -32974,10 +32977,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 00:01:03 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:12 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -32994,10 +32997,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 02:42:12 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:00 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>33</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>5</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -33234,12 +33237,12 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <CHANNEL5GHZ>0</CHANNEL5GHZ>
          <COVERAGERANGE>0</COVERAGERANGE>
          <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
-         <UP_METHOD>5</UP_METHOD>
-         <IP>169.254.131.43</IP>
-         <SUBNET>255.255.0.0</SUBNET>
+         <UP_METHOD>1</UP_METHOD>
+         <IP/>
+         <SUBNET/>
          <PORT_GATEWAY/>
-         <PORT_DNS/>
-         <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+         <PORT_DNS>8.8.8.8</PORT_DNS>
+         <PORT_DHCP_ENABLE>true</PORT_DHCP_ENABLE>
          <ND_SUPPRESSED>false</ND_SUPPRESSED>
          <ND_IPV6_DNS_ADDRESSES/>
          <TIMEOUT>14400000</TIMEOUT>
@@ -33254,7 +33257,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <IPV6_PORT_DHCP_ENABLED>true</IPV6_PORT_DHCP_ENABLED>
          <IPV6_ADDRESSES/>
          <IP_UNNUMBERED/>
-         <DHCP_SERVER_IP>0.0.0.0</DHCP_SERVER_IP>
+         <DHCP_SERVER_IP>192.168.26.1</DHCP_SERVER_IP>
         </PORT>
        </MODULE>
       </SLOT>
@@ -33371,9 +33374,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      </BLUETOOTH_PORT>
      <SAVE_REF_ID>save-ref-id:2149360131436200328</SAVE_REF_ID>
      <SYS_NAME>PC</SYS_NAME>
-     <GATEWAY/>
+     <GATEWAY>192.168.26.1</GATEWAY>
      <DNS_CLIENT>
-      <SERVER_IP/>
+      <SERVER_IP>8.8.8.8</SERVER_IP>
       <SERVER_IPV6/>
      </DNS_CLIENT>
      <EMAIL_CLIENT>
@@ -33416,8 +33419,8 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
         <WPA_EAP_PASSWORD></WPA_EAP_PASSWORD>
         <DHCP_ENABLED>0</DHCP_ENABLED>
         <DHCPV6_ENABLED>1</DHCPV6_ENABLED>
-        <IP_ADDRESS>169.254.131.43</IP_ADDRESS>
-        <SUBNET_MASK>255.255.0.0</SUBNET_MASK>
+        <IP_ADDRESS>192.168.26.113</IP_ADDRESS>
+        <SUBNET_MASK>255.255.254.0</SUBNET_MASK>
         <DEFAULT_GATEWAY/>
         <DNS/>
         <CHANNEL>1</CHANNEL>
@@ -33435,10 +33438,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
         <WEP_KEY>12345678</WEP_KEY>
         <WPA_EAP_USERID></WPA_EAP_USERID>
         <WPA_EAP_PASSWORD></WPA_EAP_PASSWORD>
-        <DHCP_ENABLED>0</DHCP_ENABLED>
+        <DHCP_ENABLED>1</DHCP_ENABLED>
         <DHCPV6_ENABLED>1</DHCPV6_ENABLED>
-        <IP_ADDRESS/>
-        <SUBNET_MASK/>
+        <IP_ADDRESS>192.168.26.113</IP_ADDRESS>
+        <SUBNET_MASK>255.255.254.0</SUBNET_MASK>
         <DEFAULT_GATEWAY/>
         <DNS/>
         <CHANNEL>1</CHANNEL>
@@ -33510,6 +33513,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      <DHCP_CLIENT>
       <PORT_DATA_MAP>
        <PORT_DATA_ENTRY>
+        <PORT>Wireless0</PORT>
+       </PORT_DATA_ENTRY>
+       <PORT_DATA_ENTRY>
         <PORT>3G/4G Cell1</PORT>
        </PORT_DATA_ENTRY>
       </PORT_DATA_MAP>
@@ -33536,10 +33542,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 00:01:03 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:12 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -33556,10 +33562,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 02:42:12 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:00 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>33</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>5</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -33796,12 +33802,12 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <CHANNEL5GHZ>0</CHANNEL5GHZ>
          <COVERAGERANGE>0</COVERAGERANGE>
          <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
-         <UP_METHOD>5</UP_METHOD>
-         <IP>169.254.131.43</IP>
-         <SUBNET>255.255.0.0</SUBNET>
+         <UP_METHOD>1</UP_METHOD>
+         <IP/>
+         <SUBNET/>
          <PORT_GATEWAY/>
-         <PORT_DNS/>
-         <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+         <PORT_DNS>8.8.8.8</PORT_DNS>
+         <PORT_DHCP_ENABLE>true</PORT_DHCP_ENABLE>
          <ND_SUPPRESSED>false</ND_SUPPRESSED>
          <ND_IPV6_DNS_ADDRESSES/>
          <TIMEOUT>14400000</TIMEOUT>
@@ -33816,7 +33822,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <IPV6_PORT_DHCP_ENABLED>true</IPV6_PORT_DHCP_ENABLED>
          <IPV6_ADDRESSES/>
          <IP_UNNUMBERED/>
-         <DHCP_SERVER_IP>0.0.0.0</DHCP_SERVER_IP>
+         <DHCP_SERVER_IP>192.168.26.1</DHCP_SERVER_IP>
         </PORT>
        </MODULE>
       </SLOT>
@@ -33933,9 +33939,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      </BLUETOOTH_PORT>
      <SAVE_REF_ID>save-ref-id:5930113783410775760</SAVE_REF_ID>
      <SYS_NAME>PC</SYS_NAME>
-     <GATEWAY/>
+     <GATEWAY>192.168.26.1</GATEWAY>
      <DNS_CLIENT>
-      <SERVER_IP/>
+      <SERVER_IP>8.8.8.8</SERVER_IP>
       <SERVER_IPV6/>
      </DNS_CLIENT>
      <EMAIL_CLIENT>
@@ -33978,8 +33984,8 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
         <WPA_EAP_PASSWORD></WPA_EAP_PASSWORD>
         <DHCP_ENABLED>0</DHCP_ENABLED>
         <DHCPV6_ENABLED>1</DHCPV6_ENABLED>
-        <IP_ADDRESS>169.254.131.43</IP_ADDRESS>
-        <SUBNET_MASK>255.255.0.0</SUBNET_MASK>
+        <IP_ADDRESS>192.168.26.104</IP_ADDRESS>
+        <SUBNET_MASK>255.255.254.0</SUBNET_MASK>
         <DEFAULT_GATEWAY/>
         <DNS/>
         <CHANNEL>1</CHANNEL>
@@ -33997,10 +34003,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
         <WEP_KEY>12345678</WEP_KEY>
         <WPA_EAP_USERID></WPA_EAP_USERID>
         <WPA_EAP_PASSWORD></WPA_EAP_PASSWORD>
-        <DHCP_ENABLED>0</DHCP_ENABLED>
+        <DHCP_ENABLED>1</DHCP_ENABLED>
         <DHCPV6_ENABLED>1</DHCPV6_ENABLED>
-        <IP_ADDRESS/>
-        <SUBNET_MASK/>
+        <IP_ADDRESS>192.168.26.104</IP_ADDRESS>
+        <SUBNET_MASK>255.255.254.0</SUBNET_MASK>
         <DEFAULT_GATEWAY/>
         <DNS/>
         <CHANNEL>1</CHANNEL>
@@ -34072,6 +34078,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      <DHCP_CLIENT>
       <PORT_DATA_MAP>
        <PORT_DATA_ENTRY>
+        <PORT>Wireless0</PORT>
+       </PORT_DATA_ENTRY>
+       <PORT_DATA_ENTRY>
         <PORT>3G/4G Cell1</PORT>
        </PORT_DATA_ENTRY>
       </PORT_DATA_MAP>
@@ -34098,10 +34107,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 00:01:03 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:12 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -34118,10 +34127,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 02:42:12 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:00 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>33</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>5</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -34748,12 +34757,12 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <CHANNEL5GHZ>0</CHANNEL5GHZ>
          <COVERAGERANGE>0</COVERAGERANGE>
          <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
-         <UP_METHOD>5</UP_METHOD>
-         <IP>169.254.53.34</IP>
-         <SUBNET>255.255.0.0</SUBNET>
+         <UP_METHOD>1</UP_METHOD>
+         <IP/>
+         <SUBNET/>
          <PORT_GATEWAY/>
-         <PORT_DNS/>
-         <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+         <PORT_DNS>8.8.8.8</PORT_DNS>
+         <PORT_DHCP_ENABLE>true</PORT_DHCP_ENABLE>
          <ND_SUPPRESSED>false</ND_SUPPRESSED>
          <ND_IPV6_DNS_ADDRESSES/>
          <TIMEOUT>14400000</TIMEOUT>
@@ -34768,7 +34777,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <IPV6_PORT_DHCP_ENABLED>true</IPV6_PORT_DHCP_ENABLED>
          <IPV6_ADDRESSES/>
          <IP_UNNUMBERED/>
-         <DHCP_SERVER_IP>0.0.0.0</DHCP_SERVER_IP>
+         <DHCP_SERVER_IP>192.168.26.1</DHCP_SERVER_IP>
         </PORT>
        </MODULE>
       </SLOT>
@@ -34885,9 +34894,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      </BLUETOOTH_PORT>
      <SAVE_REF_ID>save-ref-id:16784870193085282251</SAVE_REF_ID>
      <SYS_NAME>PC</SYS_NAME>
-     <GATEWAY/>
+     <GATEWAY>192.168.26.1</GATEWAY>
      <DNS_CLIENT>
-      <SERVER_IP/>
+      <SERVER_IP>8.8.8.8</SERVER_IP>
       <SERVER_IPV6/>
      </DNS_CLIENT>
      <EMAIL_CLIENT>
@@ -34930,8 +34939,8 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
         <WPA_EAP_PASSWORD></WPA_EAP_PASSWORD>
         <DHCP_ENABLED>0</DHCP_ENABLED>
         <DHCPV6_ENABLED>1</DHCPV6_ENABLED>
-        <IP_ADDRESS>169.254.53.34</IP_ADDRESS>
-        <SUBNET_MASK>255.255.0.0</SUBNET_MASK>
+        <IP_ADDRESS>192.168.26.103</IP_ADDRESS>
+        <SUBNET_MASK>255.255.254.0</SUBNET_MASK>
         <DEFAULT_GATEWAY/>
         <DNS/>
         <CHANNEL>1</CHANNEL>
@@ -34949,10 +34958,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
         <WEP_KEY>12345678</WEP_KEY>
         <WPA_EAP_USERID></WPA_EAP_USERID>
         <WPA_EAP_PASSWORD></WPA_EAP_PASSWORD>
-        <DHCP_ENABLED>0</DHCP_ENABLED>
+        <DHCP_ENABLED>1</DHCP_ENABLED>
         <DHCPV6_ENABLED>1</DHCPV6_ENABLED>
-        <IP_ADDRESS/>
-        <SUBNET_MASK/>
+        <IP_ADDRESS>192.168.26.103</IP_ADDRESS>
+        <SUBNET_MASK>255.255.254.0</SUBNET_MASK>
         <DEFAULT_GATEWAY/>
         <DNS/>
         <CHANNEL>1</CHANNEL>
@@ -35024,6 +35033,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      <DHCP_CLIENT>
       <PORT_DATA_MAP>
        <PORT_DATA_ENTRY>
+        <PORT>Wireless0</PORT>
+       </PORT_DATA_ENTRY>
+       <PORT_DATA_ENTRY>
         <PORT>3G/4G Cell1</PORT>
        </PORT_DATA_ENTRY>
       </PORT_DATA_MAP>
@@ -35050,10 +35062,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 00:01:03 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:12 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -35070,10 +35082,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 02:42:12 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:00 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>33</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>5</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -35310,12 +35322,12 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <CHANNEL5GHZ>0</CHANNEL5GHZ>
          <COVERAGERANGE>0</COVERAGERANGE>
          <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
-         <UP_METHOD>5</UP_METHOD>
-         <IP>169.254.132.28</IP>
-         <SUBNET>255.255.0.0</SUBNET>
+         <UP_METHOD>1</UP_METHOD>
+         <IP/>
+         <SUBNET/>
          <PORT_GATEWAY/>
-         <PORT_DNS/>
-         <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+         <PORT_DNS>8.8.8.8</PORT_DNS>
+         <PORT_DHCP_ENABLE>true</PORT_DHCP_ENABLE>
          <ND_SUPPRESSED>false</ND_SUPPRESSED>
          <ND_IPV6_DNS_ADDRESSES/>
          <TIMEOUT>14400000</TIMEOUT>
@@ -35330,7 +35342,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <IPV6_PORT_DHCP_ENABLED>true</IPV6_PORT_DHCP_ENABLED>
          <IPV6_ADDRESSES/>
          <IP_UNNUMBERED/>
-         <DHCP_SERVER_IP>0.0.0.0</DHCP_SERVER_IP>
+         <DHCP_SERVER_IP>192.168.26.1</DHCP_SERVER_IP>
         </PORT>
        </MODULE>
       </SLOT>
@@ -35447,9 +35459,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      </BLUETOOTH_PORT>
      <SAVE_REF_ID>save-ref-id:358866458922070548</SAVE_REF_ID>
      <SYS_NAME>PC</SYS_NAME>
-     <GATEWAY/>
+     <GATEWAY>192.168.26.1</GATEWAY>
      <DNS_CLIENT>
-      <SERVER_IP/>
+      <SERVER_IP>8.8.8.8</SERVER_IP>
       <SERVER_IPV6/>
      </DNS_CLIENT>
      <EMAIL_CLIENT>
@@ -35492,8 +35504,8 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
         <WPA_EAP_PASSWORD></WPA_EAP_PASSWORD>
         <DHCP_ENABLED>0</DHCP_ENABLED>
         <DHCPV6_ENABLED>1</DHCPV6_ENABLED>
-        <IP_ADDRESS>169.254.132.28</IP_ADDRESS>
-        <SUBNET_MASK>255.255.0.0</SUBNET_MASK>
+        <IP_ADDRESS>192.168.26.107</IP_ADDRESS>
+        <SUBNET_MASK>255.255.254.0</SUBNET_MASK>
         <DEFAULT_GATEWAY/>
         <DNS/>
         <CHANNEL>1</CHANNEL>
@@ -35511,10 +35523,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
         <WEP_KEY>12345678</WEP_KEY>
         <WPA_EAP_USERID></WPA_EAP_USERID>
         <WPA_EAP_PASSWORD></WPA_EAP_PASSWORD>
-        <DHCP_ENABLED>0</DHCP_ENABLED>
+        <DHCP_ENABLED>1</DHCP_ENABLED>
         <DHCPV6_ENABLED>1</DHCPV6_ENABLED>
-        <IP_ADDRESS/>
-        <SUBNET_MASK/>
+        <IP_ADDRESS>192.168.26.107</IP_ADDRESS>
+        <SUBNET_MASK>255.255.254.0</SUBNET_MASK>
         <DEFAULT_GATEWAY/>
         <DNS/>
         <CHANNEL>1</CHANNEL>
@@ -35586,6 +35598,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      <DHCP_CLIENT>
       <PORT_DATA_MAP>
        <PORT_DATA_ENTRY>
+        <PORT>Wireless0</PORT>
+       </PORT_DATA_ENTRY>
+       <PORT_DATA_ENTRY>
         <PORT>3G/4G Cell1</PORT>
        </PORT_DATA_ENTRY>
       </PORT_DATA_MAP>
@@ -35612,10 +35627,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 00:01:03 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:12 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -35632,10 +35647,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 02:42:12 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:00 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>33</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>5</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -35872,12 +35887,12 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <CHANNEL5GHZ>0</CHANNEL5GHZ>
          <COVERAGERANGE>0</COVERAGERANGE>
          <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
-         <UP_METHOD>5</UP_METHOD>
-         <IP>169.254.132.28</IP>
-         <SUBNET>255.255.0.0</SUBNET>
+         <UP_METHOD>1</UP_METHOD>
+         <IP/>
+         <SUBNET/>
          <PORT_GATEWAY/>
-         <PORT_DNS/>
-         <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+         <PORT_DNS>8.8.8.8</PORT_DNS>
+         <PORT_DHCP_ENABLE>true</PORT_DHCP_ENABLE>
          <ND_SUPPRESSED>false</ND_SUPPRESSED>
          <ND_IPV6_DNS_ADDRESSES/>
          <TIMEOUT>14400000</TIMEOUT>
@@ -35892,7 +35907,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <IPV6_PORT_DHCP_ENABLED>true</IPV6_PORT_DHCP_ENABLED>
          <IPV6_ADDRESSES/>
          <IP_UNNUMBERED/>
-         <DHCP_SERVER_IP>0.0.0.0</DHCP_SERVER_IP>
+         <DHCP_SERVER_IP>192.168.26.1</DHCP_SERVER_IP>
         </PORT>
        </MODULE>
       </SLOT>
@@ -36009,9 +36024,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      </BLUETOOTH_PORT>
      <SAVE_REF_ID>save-ref-id:14142095827943767627</SAVE_REF_ID>
      <SYS_NAME>PC</SYS_NAME>
-     <GATEWAY/>
+     <GATEWAY>192.168.26.1</GATEWAY>
      <DNS_CLIENT>
-      <SERVER_IP/>
+      <SERVER_IP>8.8.8.8</SERVER_IP>
       <SERVER_IPV6/>
      </DNS_CLIENT>
      <EMAIL_CLIENT>
@@ -36054,8 +36069,8 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
         <WPA_EAP_PASSWORD></WPA_EAP_PASSWORD>
         <DHCP_ENABLED>0</DHCP_ENABLED>
         <DHCPV6_ENABLED>1</DHCPV6_ENABLED>
-        <IP_ADDRESS>169.254.132.28</IP_ADDRESS>
-        <SUBNET_MASK>255.255.0.0</SUBNET_MASK>
+        <IP_ADDRESS>192.168.26.108</IP_ADDRESS>
+        <SUBNET_MASK>255.255.254.0</SUBNET_MASK>
         <DEFAULT_GATEWAY/>
         <DNS/>
         <CHANNEL>1</CHANNEL>
@@ -36073,10 +36088,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
         <WEP_KEY>12345678</WEP_KEY>
         <WPA_EAP_USERID></WPA_EAP_USERID>
         <WPA_EAP_PASSWORD></WPA_EAP_PASSWORD>
-        <DHCP_ENABLED>0</DHCP_ENABLED>
+        <DHCP_ENABLED>1</DHCP_ENABLED>
         <DHCPV6_ENABLED>1</DHCPV6_ENABLED>
-        <IP_ADDRESS/>
-        <SUBNET_MASK/>
+        <IP_ADDRESS>192.168.26.108</IP_ADDRESS>
+        <SUBNET_MASK>255.255.254.0</SUBNET_MASK>
         <DEFAULT_GATEWAY/>
         <DNS/>
         <CHANNEL>1</CHANNEL>
@@ -36148,6 +36163,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      <DHCP_CLIENT>
       <PORT_DATA_MAP>
        <PORT_DATA_ENTRY>
+        <PORT>Wireless0</PORT>
+       </PORT_DATA_ENTRY>
+       <PORT_DATA_ENTRY>
         <PORT>3G/4G Cell1</PORT>
        </PORT_DATA_ENTRY>
       </PORT_DATA_MAP>
@@ -36174,10 +36192,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 00:01:03 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:12 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -36194,10 +36212,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 02:42:12 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:00 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>33</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>5</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -36434,12 +36452,12 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <CHANNEL5GHZ>0</CHANNEL5GHZ>
          <COVERAGERANGE>0</COVERAGERANGE>
          <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
-         <UP_METHOD>5</UP_METHOD>
-         <IP>169.254.132.28</IP>
-         <SUBNET>255.255.0.0</SUBNET>
+         <UP_METHOD>1</UP_METHOD>
+         <IP/>
+         <SUBNET/>
          <PORT_GATEWAY/>
-         <PORT_DNS/>
-         <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+         <PORT_DNS>8.8.8.8</PORT_DNS>
+         <PORT_DHCP_ENABLE>true</PORT_DHCP_ENABLE>
          <ND_SUPPRESSED>false</ND_SUPPRESSED>
          <ND_IPV6_DNS_ADDRESSES/>
          <TIMEOUT>14400000</TIMEOUT>
@@ -36454,7 +36472,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <IPV6_PORT_DHCP_ENABLED>true</IPV6_PORT_DHCP_ENABLED>
          <IPV6_ADDRESSES/>
          <IP_UNNUMBERED/>
-         <DHCP_SERVER_IP>0.0.0.0</DHCP_SERVER_IP>
+         <DHCP_SERVER_IP>192.168.26.1</DHCP_SERVER_IP>
         </PORT>
        </MODULE>
       </SLOT>
@@ -36571,9 +36589,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      </BLUETOOTH_PORT>
      <SAVE_REF_ID>save-ref-id:10071371354508913079</SAVE_REF_ID>
      <SYS_NAME>PC</SYS_NAME>
-     <GATEWAY/>
+     <GATEWAY>192.168.26.1</GATEWAY>
      <DNS_CLIENT>
-      <SERVER_IP/>
+      <SERVER_IP>8.8.8.8</SERVER_IP>
       <SERVER_IPV6/>
      </DNS_CLIENT>
      <EMAIL_CLIENT>
@@ -36616,8 +36634,8 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
         <WPA_EAP_PASSWORD></WPA_EAP_PASSWORD>
         <DHCP_ENABLED>0</DHCP_ENABLED>
         <DHCPV6_ENABLED>1</DHCPV6_ENABLED>
-        <IP_ADDRESS>169.254.132.28</IP_ADDRESS>
-        <SUBNET_MASK>255.255.0.0</SUBNET_MASK>
+        <IP_ADDRESS>192.168.26.110</IP_ADDRESS>
+        <SUBNET_MASK>255.255.254.0</SUBNET_MASK>
         <DEFAULT_GATEWAY/>
         <DNS/>
         <CHANNEL>1</CHANNEL>
@@ -36635,10 +36653,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
         <WEP_KEY>12345678</WEP_KEY>
         <WPA_EAP_USERID></WPA_EAP_USERID>
         <WPA_EAP_PASSWORD></WPA_EAP_PASSWORD>
-        <DHCP_ENABLED>0</DHCP_ENABLED>
+        <DHCP_ENABLED>1</DHCP_ENABLED>
         <DHCPV6_ENABLED>1</DHCPV6_ENABLED>
-        <IP_ADDRESS/>
-        <SUBNET_MASK/>
+        <IP_ADDRESS>192.168.26.110</IP_ADDRESS>
+        <SUBNET_MASK>255.255.254.0</SUBNET_MASK>
         <DEFAULT_GATEWAY/>
         <DNS/>
         <CHANNEL>1</CHANNEL>
@@ -36710,6 +36728,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      <DHCP_CLIENT>
       <PORT_DATA_MAP>
        <PORT_DATA_ENTRY>
+        <PORT>Wireless0</PORT>
+       </PORT_DATA_ENTRY>
+       <PORT_DATA_ENTRY>
         <PORT>3G/4G Cell1</PORT>
        </PORT_DATA_ENTRY>
       </PORT_DATA_MAP>
@@ -36736,10 +36757,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 00:01:03 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:12 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -36756,10 +36777,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 02:42:12 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:00 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>33</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>5</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -36996,12 +37017,12 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <CHANNEL5GHZ>0</CHANNEL5GHZ>
          <COVERAGERANGE>0</COVERAGERANGE>
          <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
-         <UP_METHOD>5</UP_METHOD>
-         <IP>169.254.53.34</IP>
-         <SUBNET>255.255.0.0</SUBNET>
+         <UP_METHOD>1</UP_METHOD>
+         <IP/>
+         <SUBNET/>
          <PORT_GATEWAY/>
-         <PORT_DNS/>
-         <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+         <PORT_DNS>8.8.8.8</PORT_DNS>
+         <PORT_DHCP_ENABLE>true</PORT_DHCP_ENABLE>
          <ND_SUPPRESSED>false</ND_SUPPRESSED>
          <ND_IPV6_DNS_ADDRESSES/>
          <TIMEOUT>14400000</TIMEOUT>
@@ -37016,7 +37037,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <IPV6_PORT_DHCP_ENABLED>true</IPV6_PORT_DHCP_ENABLED>
          <IPV6_ADDRESSES/>
          <IP_UNNUMBERED/>
-         <DHCP_SERVER_IP>0.0.0.0</DHCP_SERVER_IP>
+         <DHCP_SERVER_IP>192.168.26.1</DHCP_SERVER_IP>
         </PORT>
        </MODULE>
       </SLOT>
@@ -37133,9 +37154,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      </BLUETOOTH_PORT>
      <SAVE_REF_ID>save-ref-id:1019045405366501184</SAVE_REF_ID>
      <SYS_NAME>PC</SYS_NAME>
-     <GATEWAY/>
+     <GATEWAY>192.168.26.1</GATEWAY>
      <DNS_CLIENT>
-      <SERVER_IP/>
+      <SERVER_IP>8.8.8.8</SERVER_IP>
       <SERVER_IPV6/>
      </DNS_CLIENT>
      <EMAIL_CLIENT>
@@ -37178,8 +37199,8 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
         <WPA_EAP_PASSWORD></WPA_EAP_PASSWORD>
         <DHCP_ENABLED>0</DHCP_ENABLED>
         <DHCPV6_ENABLED>1</DHCPV6_ENABLED>
-        <IP_ADDRESS>169.254.53.34</IP_ADDRESS>
-        <SUBNET_MASK>255.255.0.0</SUBNET_MASK>
+        <IP_ADDRESS>192.168.26.109</IP_ADDRESS>
+        <SUBNET_MASK>255.255.254.0</SUBNET_MASK>
         <DEFAULT_GATEWAY/>
         <DNS/>
         <CHANNEL>1</CHANNEL>
@@ -37197,10 +37218,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
         <WEP_KEY>12345678</WEP_KEY>
         <WPA_EAP_USERID></WPA_EAP_USERID>
         <WPA_EAP_PASSWORD></WPA_EAP_PASSWORD>
-        <DHCP_ENABLED>0</DHCP_ENABLED>
+        <DHCP_ENABLED>1</DHCP_ENABLED>
         <DHCPV6_ENABLED>1</DHCPV6_ENABLED>
-        <IP_ADDRESS/>
-        <SUBNET_MASK/>
+        <IP_ADDRESS>192.168.26.109</IP_ADDRESS>
+        <SUBNET_MASK>255.255.254.0</SUBNET_MASK>
         <DEFAULT_GATEWAY/>
         <DNS/>
         <CHANNEL>1</CHANNEL>
@@ -37272,6 +37293,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      <DHCP_CLIENT>
       <PORT_DATA_MAP>
        <PORT_DATA_ENTRY>
+        <PORT>Wireless0</PORT>
+       </PORT_DATA_ENTRY>
+       <PORT_DATA_ENTRY>
         <PORT>3G/4G Cell1</PORT>
        </PORT_DATA_ENTRY>
       </PORT_DATA_MAP>
@@ -37298,10 +37322,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 00:01:03 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:12 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -37318,10 +37342,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 02:42:12 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:00 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>33</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>5</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -37558,12 +37582,12 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <CHANNEL5GHZ>0</CHANNEL5GHZ>
          <COVERAGERANGE>0</COVERAGERANGE>
          <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
-         <UP_METHOD>5</UP_METHOD>
-         <IP>169.254.112.234</IP>
-         <SUBNET>255.255.0.0</SUBNET>
+         <UP_METHOD>1</UP_METHOD>
+         <IP/>
+         <SUBNET/>
          <PORT_GATEWAY/>
-         <PORT_DNS/>
-         <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+         <PORT_DNS>8.8.8.8</PORT_DNS>
+         <PORT_DHCP_ENABLE>true</PORT_DHCP_ENABLE>
          <ND_SUPPRESSED>false</ND_SUPPRESSED>
          <ND_IPV6_DNS_ADDRESSES/>
          <TIMEOUT>14400000</TIMEOUT>
@@ -37578,7 +37602,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <IPV6_PORT_DHCP_ENABLED>false</IPV6_PORT_DHCP_ENABLED>
          <IPV6_ADDRESSES/>
          <IP_UNNUMBERED/>
-         <DHCP_SERVER_IP>0.0.0.0</DHCP_SERVER_IP>
+         <DHCP_SERVER_IP>192.168.26.1</DHCP_SERVER_IP>
         </PORT>
        </MODULE>
       </SLOT>
@@ -37659,9 +37683,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      </BLUETOOTH_PORT>
      <SAVE_REF_ID>save-ref-id:10676348851477403011</SAVE_REF_ID>
      <SYS_NAME>PC</SYS_NAME>
-     <GATEWAY/>
+     <GATEWAY>192.168.26.1</GATEWAY>
      <DNS_CLIENT>
-      <SERVER_IP/>
+      <SERVER_IP>8.8.8.8</SERVER_IP>
       <SERVER_IPV6/>
      </DNS_CLIENT>
      <EMAIL_CLIENT>
@@ -38103,8 +38127,8 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <FULLDUPLEX>true</FULLDUPLEX>
          <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
          <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
-         <MACADDRESS>0030.A316.6E18</MACADDRESS>
-         <BIA>0030.A316.6E18</BIA>
+         <MACADDRESS>000A.F3A1.B3DC</MACADDRESS>
+         <BIA>000A.F3A1.B3DC</BIA>
          <CLOCKRATE>2000000</CLOCKRATE>
          <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
          <DESCRIPTION/>
@@ -38120,9 +38144,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
        <TYPE>ePtSwitchModule</TYPE>
        <MODULE>
         <TYPE>ePtSwitchModule</TYPE>
-        <MODEL>PT-SWITCH-NM-1FFE</MODEL>
+        <MODEL>PT-SWITCH-NM-1CFE</MODEL>
         <PORT>
-         <TYPE>eFiberFastEthernet</TYPE>
+         <TYPE>eCopperFastEthernet</TYPE>
          <POWER>true</POWER>
          <MEDIATYPE>0</MEDIATYPE>
          <PINS>true</PINS>
@@ -38130,15 +38154,15 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <FULLDUPLEX>true</FULLDUPLEX>
          <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
          <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
-         <MACADDRESS>0005.5E43.2828</MACADDRESS>
-         <BIA>0005.5E43.2828</BIA>
+         <MACADDRESS>00E0.A334.4B44</MACADDRESS>
+         <BIA>00E0.A334.4B44</BIA>
          <CLOCKRATE>2000000</CLOCKRATE>
          <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
          <DESCRIPTION/>
          <CHANNEL>0</CHANNEL>
          <CHANNEL5GHZ>0</CHANNEL5GHZ>
          <COVERAGERANGE>0</COVERAGERANGE>
-         <SAVED_FULLDUPLEX>true</SAVED_FULLDUPLEX>
+         <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
          <UP_METHOD>5</UP_METHOD>
         </PORT>
        </MODULE>
@@ -38293,7 +38317,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      <USB_PORT_COUNT>0</USB_PORT_COUNT>
      <TEMPLATE_CREATION_TIME>0</TEMPLATE_CREATION_TIME>
      <STARTTIME>730915200000</STARTTIME>
-     <STARTSIMTIME>0</STARTSIMTIME>
+     <STARTSIMTIME>10480352</STARTSIMTIME>
      <USER_APPS>
       <RUNNING_APPS/>
       <DESKTOP_APPS/>
@@ -38318,24 +38342,64 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
       <LINE>spanning-tree extend system-id</LINE>
       <LINE>!</LINE>
       <LINE>interface FastEthernet0/1</LINE>
+      <LINE> switchport access vlan 26</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
       <LINE>!</LINE>
       <LINE>interface FastEthernet1/1</LINE>
+      <LINE> switchport access vlan 26</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
       <LINE>!</LINE>
       <LINE>interface FastEthernet2/1</LINE>
+      <LINE> switchport access vlan 26</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
       <LINE>!</LINE>
       <LINE>interface FastEthernet3/1</LINE>
+      <LINE> switchport access vlan 26</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
       <LINE>!</LINE>
       <LINE>interface FastEthernet4/1</LINE>
+      <LINE> switchport access vlan 26</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
       <LINE>!</LINE>
       <LINE>interface FastEthernet5/1</LINE>
+      <LINE> switchport access vlan 26</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
       <LINE>!</LINE>
       <LINE>interface FastEthernet6/1</LINE>
+      <LINE> switchport access vlan 26</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
       <LINE>!</LINE>
       <LINE>interface GigabitEthernet7/1</LINE>
+      <LINE> switchport access vlan 26</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
       <LINE>!</LINE>
       <LINE>interface GigabitEthernet8/1</LINE>
+      <LINE> switchport access vlan 26</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
       <LINE>!</LINE>
       <LINE>interface GigabitEthernet9/1</LINE>
+      <LINE> switchport access vlan 26</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
       <LINE>!</LINE>
       <LINE>interface Vlan1</LINE>
       <LINE> no ip address</LINE>
@@ -38356,7 +38420,102 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
       <LINE>!</LINE>
       <LINE>end</LINE>
      </RUNNINGCONFIG>
-     <STARTUPCONFIG/>
+     <STARTUPCONFIG>
+      <LINE>!</LINE>
+      <LINE>version 12.1</LINE>
+      <LINE>no service timestamps log datetime msec</LINE>
+      <LINE>no service timestamps debug datetime msec</LINE>
+      <LINE>no service password-encryption</LINE>
+      <LINE>!</LINE>
+      <LINE>hostname Switch</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>spanning-tree mode pvst</LINE>
+      <LINE>spanning-tree extend system-id</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/1</LINE>
+      <LINE> switchport access vlan 26</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet1/1</LINE>
+      <LINE> switchport access vlan 26</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet2/1</LINE>
+      <LINE> switchport access vlan 26</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet3/1</LINE>
+      <LINE> switchport access vlan 26</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet4/1</LINE>
+      <LINE> switchport access vlan 26</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet5/1</LINE>
+      <LINE> switchport access vlan 26</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet6/1</LINE>
+      <LINE> switchport access vlan 26</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
+      <LINE>!</LINE>
+      <LINE>interface GigabitEthernet7/1</LINE>
+      <LINE> switchport access vlan 26</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
+      <LINE>!</LINE>
+      <LINE>interface GigabitEthernet8/1</LINE>
+      <LINE> switchport access vlan 26</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
+      <LINE>!</LINE>
+      <LINE>interface GigabitEthernet9/1</LINE>
+      <LINE> switchport access vlan 26</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
+      <LINE>!</LINE>
+      <LINE>interface Vlan1</LINE>
+      <LINE> no ip address</LINE>
+      <LINE> shutdown</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>line con 0</LINE>
+      <LINE>!</LINE>
+      <LINE>line vty 0 4</LINE>
+      <LINE> login</LINE>
+      <LINE>line vty 5 15</LINE>
+      <LINE> login</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>end</LINE>
+     </STARTUPCONFIG>
      <CURRENT_COMMAND_SET>pt_12.1_EA4</CURRENT_COMMAND_SET>
      <FILE_MANAGER>
       <FILE class="CDirectory">
@@ -38380,6 +38539,110 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          </FILE_CONTENT>
          <FILES>
           <FILE class="CFile">
+           <FILE_NUMBER>10</FILE_NUMBER>
+           <NAME>config.text</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CConfigFileContent">
+            <CONFIG>
+             <LINE>!</LINE>
+             <LINE>version 12.1</LINE>
+             <LINE>no service timestamps log datetime msec</LINE>
+             <LINE>no service timestamps debug datetime msec</LINE>
+             <LINE>no service password-encryption</LINE>
+             <LINE>!</LINE>
+             <LINE>hostname Switch</LINE>
+             <LINE>!</LINE>
+             <LINE>!</LINE>
+             <LINE>!</LINE>
+             <LINE>!</LINE>
+             <LINE>!</LINE>
+             <LINE>!</LINE>
+             <LINE>spanning-tree mode pvst</LINE>
+             <LINE>spanning-tree extend system-id</LINE>
+             <LINE>!</LINE>
+             <LINE>interface FastEthernet0/1</LINE>
+             <LINE> switchport access vlan 26</LINE>
+             <LINE> switchport mode access</LINE>
+             <LINE> spanning-tree portfast</LINE>
+             <LINE> spanning-tree bpduguard enable</LINE>
+             <LINE>!</LINE>
+             <LINE>interface FastEthernet1/1</LINE>
+             <LINE> switchport access vlan 26</LINE>
+             <LINE> switchport mode access</LINE>
+             <LINE> spanning-tree portfast</LINE>
+             <LINE> spanning-tree bpduguard enable</LINE>
+             <LINE>!</LINE>
+             <LINE>interface FastEthernet2/1</LINE>
+             <LINE> switchport access vlan 26</LINE>
+             <LINE> switchport mode access</LINE>
+             <LINE> spanning-tree portfast</LINE>
+             <LINE> spanning-tree bpduguard enable</LINE>
+             <LINE>!</LINE>
+             <LINE>interface FastEthernet3/1</LINE>
+             <LINE> switchport access vlan 26</LINE>
+             <LINE> switchport mode access</LINE>
+             <LINE> spanning-tree portfast</LINE>
+             <LINE> spanning-tree bpduguard enable</LINE>
+             <LINE>!</LINE>
+             <LINE>interface FastEthernet4/1</LINE>
+             <LINE> switchport access vlan 26</LINE>
+             <LINE> switchport mode access</LINE>
+             <LINE> spanning-tree portfast</LINE>
+             <LINE> spanning-tree bpduguard enable</LINE>
+             <LINE>!</LINE>
+             <LINE>interface FastEthernet5/1</LINE>
+             <LINE> switchport access vlan 26</LINE>
+             <LINE> switchport mode access</LINE>
+             <LINE> spanning-tree portfast</LINE>
+             <LINE> spanning-tree bpduguard enable</LINE>
+             <LINE>!</LINE>
+             <LINE>interface FastEthernet6/1</LINE>
+             <LINE> switchport access vlan 26</LINE>
+             <LINE> switchport mode access</LINE>
+             <LINE> spanning-tree portfast</LINE>
+             <LINE> spanning-tree bpduguard enable</LINE>
+             <LINE>!</LINE>
+             <LINE>interface GigabitEthernet7/1</LINE>
+             <LINE> switchport access vlan 26</LINE>
+             <LINE> switchport mode access</LINE>
+             <LINE> spanning-tree portfast</LINE>
+             <LINE> spanning-tree bpduguard enable</LINE>
+             <LINE>!</LINE>
+             <LINE>interface GigabitEthernet8/1</LINE>
+             <LINE> switchport access vlan 26</LINE>
+             <LINE> switchport mode access</LINE>
+             <LINE> spanning-tree portfast</LINE>
+             <LINE> spanning-tree bpduguard enable</LINE>
+             <LINE>!</LINE>
+             <LINE>interface GigabitEthernet9/1</LINE>
+             <LINE> switchport access vlan 26</LINE>
+             <LINE> switchport mode access</LINE>
+             <LINE> spanning-tree portfast</LINE>
+             <LINE> spanning-tree bpduguard enable</LINE>
+             <LINE>!</LINE>
+             <LINE>interface Vlan1</LINE>
+             <LINE> no ip address</LINE>
+             <LINE> shutdown</LINE>
+             <LINE>!</LINE>
+             <LINE>!</LINE>
+             <LINE>!</LINE>
+             <LINE>!</LINE>
+             <LINE>line con 0</LINE>
+             <LINE>!</LINE>
+             <LINE>line vty 0 4</LINE>
+             <LINE> login</LINE>
+             <LINE>line vty 5 15</LINE>
+             <LINE> login</LINE>
+             <LINE>!</LINE>
+             <LINE>!</LINE>
+             <LINE>!</LINE>
+             <LINE>!</LINE>
+             <LINE>end</LINE>
+            </CONFIG>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
            <FILE_NUMBER>1</FILE_NUMBER>
            <NAME>pt3000-i6q4l2-mz.121-22.EA4.bin</NAME>
            <DATE_TIME>0</DATE_TIME>
@@ -38389,8 +38652,34 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
             <SET_NAME>pt_12.1_EA4</SET_NAME>
            </FILE_CONTENT>
           </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>9</FILE_NUMBER>
+           <NAME>vlan.dat</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CVlanDatFileContent">
+            <VLAN_COUNT>6</VLAN_COUNT>
+            <VLANS>
+             <VLAN number="1" name="default" rspan="0"/>
+             <VLAN number="26" name="VLAN0026" rspan="0"/>
+             <VLAN number="1002" name="fddi-default" rspan="0"/>
+             <VLAN number="1003" name="token-ring-default" rspan="0"/>
+             <VLAN number="1004" name="fddinet-default" rspan="0"/>
+             <VLAN number="1005" name="trnet-default" rspan="0"/>
+            </VLANS>
+            <VTP>
+             <DOMAIN_NAME></DOMAIN_NAME>
+             <MODE>0</MODE>
+             <VERSION>1</VERSION>
+             <PASSWORD></PASSWORD>
+             <CONFIG_REVISION>1</CONFIG_REVISION>
+             <UPDATER_IP>0.0.0.0</UPDATER_IP>
+             <UPDATE_TIMESTAMP>3-1-93 00:04:15</UPDATE_TIMESTAMP>
+            </VTP>
+           </FILE_CONTENT>
+          </FILE>
          </FILES>
-         <FILE_COUNTER>8</FILE_COUNTER>
+         <FILE_COUNTER>10</FILE_COUNTER>
          <CAPACITY>64016384</CAPACITY>
         </FILE>
        </FILES>
@@ -38423,6 +38712,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      <SCP_SERVER_ENABLED>false</SCP_SERVER_ENABLED>
      <VLANS>
       <VLAN number="1" name="default" rspan="0"/>
+      <VLAN number="26" name="VLAN0026" rspan="0"/>
       <VLAN number="1002" name="fddi-default" rspan="0"/>
       <VLAN number="1003" name="token-ring-default" rspan="0"/>
       <VLAN number="1004" name="fddinet-default" rspan="0"/>
@@ -38433,9 +38723,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
       <MODE>0</MODE>
       <VERSION>1</VERSION>
       <PASSWORD></PASSWORD>
-      <CONFIG_REVISION>0</CONFIG_REVISION>
+      <CONFIG_REVISION>1</CONFIG_REVISION>
       <UPDATER_IP>0.0.0.0</UPDATER_IP>
-      <UPDATE_TIMESTAMP>0-0-00 00:00:00</UPDATE_TIMESTAMP>
+      <UPDATE_TIMESTAMP>3-1-93 00:04:15</UPDATE_TIMESTAMP>
      </VTP>
      <DHCP_SNOOPING_BINDING_DB_AGENT>
       <CONFIGURED_FILENAME></CONFIGURED_FILENAME>
@@ -38501,12 +38791,12 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <CHANNEL5GHZ>0</CHANNEL5GHZ>
          <COVERAGERANGE>0</COVERAGERANGE>
          <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
-         <UP_METHOD>5</UP_METHOD>
-         <IP>169.254.171.110</IP>
-         <SUBNET>255.255.0.0</SUBNET>
+         <UP_METHOD>1</UP_METHOD>
+         <IP/>
+         <SUBNET/>
          <PORT_GATEWAY/>
-         <PORT_DNS/>
-         <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+         <PORT_DNS>8.8.8.8</PORT_DNS>
+         <PORT_DHCP_ENABLE>true</PORT_DHCP_ENABLE>
          <ND_SUPPRESSED>false</ND_SUPPRESSED>
          <ND_IPV6_DNS_ADDRESSES/>
          <TIMEOUT>14400000</TIMEOUT>
@@ -38521,7 +38811,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <IPV6_PORT_DHCP_ENABLED>false</IPV6_PORT_DHCP_ENABLED>
          <IPV6_ADDRESSES/>
          <IP_UNNUMBERED/>
-         <DHCP_SERVER_IP>0.0.0.0</DHCP_SERVER_IP>
+         <DHCP_SERVER_IP>192.168.26.1</DHCP_SERVER_IP>
         </PORT>
        </MODULE>
       </SLOT>
@@ -38602,9 +38892,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      </BLUETOOTH_PORT>
      <SAVE_REF_ID>save-ref-id:373635235367468211</SAVE_REF_ID>
      <SYS_NAME>PC</SYS_NAME>
-     <GATEWAY/>
+     <GATEWAY>192.168.26.1</GATEWAY>
      <DNS_CLIENT>
-      <SERVER_IP/>
+      <SERVER_IP>8.8.8.8</SERVER_IP>
       <SERVER_IPV6/>
      </DNS_CLIENT>
      <EMAIL_CLIENT>
@@ -38974,12 +39264,12 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <CHANNEL5GHZ>0</CHANNEL5GHZ>
          <COVERAGERANGE>0</COVERAGERANGE>
          <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
-         <UP_METHOD>5</UP_METHOD>
-         <IP>169.254.64.226</IP>
-         <SUBNET>255.255.0.0</SUBNET>
+         <UP_METHOD>1</UP_METHOD>
+         <IP/>
+         <SUBNET/>
          <PORT_GATEWAY/>
-         <PORT_DNS/>
-         <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+         <PORT_DNS>8.8.8.8</PORT_DNS>
+         <PORT_DHCP_ENABLE>true</PORT_DHCP_ENABLE>
          <ND_SUPPRESSED>false</ND_SUPPRESSED>
          <ND_IPV6_DNS_ADDRESSES/>
          <TIMEOUT>14400000</TIMEOUT>
@@ -38994,7 +39284,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <IPV6_PORT_DHCP_ENABLED>false</IPV6_PORT_DHCP_ENABLED>
          <IPV6_ADDRESSES/>
          <IP_UNNUMBERED/>
-         <DHCP_SERVER_IP>0.0.0.0</DHCP_SERVER_IP>
+         <DHCP_SERVER_IP>192.168.26.1</DHCP_SERVER_IP>
         </PORT>
        </MODULE>
       </SLOT>
@@ -39075,9 +39365,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      </BLUETOOTH_PORT>
      <SAVE_REF_ID>save-ref-id:13817394824428623748</SAVE_REF_ID>
      <SYS_NAME>PC</SYS_NAME>
-     <GATEWAY/>
+     <GATEWAY>192.168.26.1</GATEWAY>
      <DNS_CLIENT>
-      <SERVER_IP/>
+      <SERVER_IP>8.8.8.8</SERVER_IP>
       <SERVER_IPV6/>
      </DNS_CLIENT>
      <EMAIL_CLIENT>
@@ -39915,12 +40205,12 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <CHANNEL5GHZ>0</CHANNEL5GHZ>
          <COVERAGERANGE>0</COVERAGERANGE>
          <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
-         <UP_METHOD>5</UP_METHOD>
-         <IP>169.254.53.34</IP>
-         <SUBNET>255.255.0.0</SUBNET>
+         <UP_METHOD>1</UP_METHOD>
+         <IP/>
+         <SUBNET/>
          <PORT_GATEWAY/>
-         <PORT_DNS/>
-         <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+         <PORT_DNS>8.8.8.8</PORT_DNS>
+         <PORT_DHCP_ENABLE>true</PORT_DHCP_ENABLE>
          <ND_SUPPRESSED>false</ND_SUPPRESSED>
          <ND_IPV6_DNS_ADDRESSES/>
          <TIMEOUT>14400000</TIMEOUT>
@@ -39935,7 +40225,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <IPV6_PORT_DHCP_ENABLED>true</IPV6_PORT_DHCP_ENABLED>
          <IPV6_ADDRESSES/>
          <IP_UNNUMBERED/>
-         <DHCP_SERVER_IP>0.0.0.0</DHCP_SERVER_IP>
+         <DHCP_SERVER_IP>192.168.26.1</DHCP_SERVER_IP>
         </PORT>
        </MODULE>
       </SLOT>
@@ -40052,9 +40342,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      </BLUETOOTH_PORT>
      <SAVE_REF_ID>save-ref-id:1791558292107978232</SAVE_REF_ID>
      <SYS_NAME>PC</SYS_NAME>
-     <GATEWAY/>
+     <GATEWAY>192.168.26.1</GATEWAY>
      <DNS_CLIENT>
-      <SERVER_IP/>
+      <SERVER_IP>8.8.8.8</SERVER_IP>
       <SERVER_IPV6/>
      </DNS_CLIENT>
      <EMAIL_CLIENT>
@@ -40097,8 +40387,8 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
         <WPA_EAP_PASSWORD></WPA_EAP_PASSWORD>
         <DHCP_ENABLED>0</DHCP_ENABLED>
         <DHCPV6_ENABLED>1</DHCPV6_ENABLED>
-        <IP_ADDRESS>169.254.53.34</IP_ADDRESS>
-        <SUBNET_MASK>255.255.0.0</SUBNET_MASK>
+        <IP_ADDRESS>192.168.26.105</IP_ADDRESS>
+        <SUBNET_MASK>255.255.254.0</SUBNET_MASK>
         <DEFAULT_GATEWAY/>
         <DNS/>
         <CHANNEL>1</CHANNEL>
@@ -40116,10 +40406,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
         <WEP_KEY>12345678</WEP_KEY>
         <WPA_EAP_USERID></WPA_EAP_USERID>
         <WPA_EAP_PASSWORD></WPA_EAP_PASSWORD>
-        <DHCP_ENABLED>0</DHCP_ENABLED>
+        <DHCP_ENABLED>1</DHCP_ENABLED>
         <DHCPV6_ENABLED>1</DHCPV6_ENABLED>
-        <IP_ADDRESS/>
-        <SUBNET_MASK/>
+        <IP_ADDRESS>192.168.26.105</IP_ADDRESS>
+        <SUBNET_MASK>255.255.254.0</SUBNET_MASK>
         <DEFAULT_GATEWAY/>
         <DNS/>
         <CHANNEL>1</CHANNEL>
@@ -40191,6 +40481,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      <DHCP_CLIENT>
       <PORT_DATA_MAP>
        <PORT_DATA_ENTRY>
+        <PORT>Wireless0</PORT>
+       </PORT_DATA_ENTRY>
+       <PORT_DATA_ENTRY>
         <PORT>3G/4G Cell1</PORT>
        </PORT_DATA_ENTRY>
       </PORT_DATA_MAP>
@@ -40217,10 +40510,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 00:01:03 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:12 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -40237,10 +40530,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 02:42:12 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:00 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>33</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>5</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -40644,8 +40937,8 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <POWER>true</POWER>
          <MEDIATYPE>0</MEDIATYPE>
          <PINS>false</PINS>
-         <BANDWIDTH>1000000</BANDWIDTH>
-         <FULLDUPLEX>false</FULLDUPLEX>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>true</FULLDUPLEX>
          <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
          <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
          <MACADDRESS>000C.CFA6.1BC7</MACADDRESS>
@@ -40767,8 +41060,8 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <POWER>true</POWER>
          <MEDIATYPE>0</MEDIATYPE>
          <PINS>false</PINS>
-         <BANDWIDTH>1000000</BANDWIDTH>
-         <FULLDUPLEX>false</FULLDUPLEX>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>true</FULLDUPLEX>
          <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
          <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
          <MACADDRESS>0050.0F7D.6B1E</MACADDRESS>
@@ -41009,6 +41302,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
       <LINE>dhcpd address 192.168.10.100-192.168.10.200 dmz2</LINE>
       <LINE>dhcpd enable dmz2</LINE>
       <LINE>!</LINE>
+      <LINE>dhcpd address 192.168.26.100-192.168.27.200 factory</LINE>
+      <LINE>dhcpd enable factory</LINE>
+      <LINE>!</LINE>
       <LINE>!</LINE>
       <LINE>!</LINE>
      </RUNNINGCONFIG>
@@ -41220,6 +41516,116 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
              <HOST_PORT>GigabitEthernet1/3</HOST_PORT>
              <LEASE_TIME>86400000</LEASE_TIME>
              <CLIENT_ID>0001.C917.426A</CLIENT_ID>
+            </DHCP_POOL_LEASE>
+           </DHCP_POOL_LEASES>
+           <LEASE_TIME>3600000</LEASE_TIME>
+           <WLC_ADDRESS>0.0.0.0</WLC_ADDRESS>
+          </POOL>
+         </POOLS>
+         <DHCP_RESERVATIONS/>
+         <AUTOCONFIG></AUTOCONFIG>
+        </DHCP_SERVER>
+       </ASSOCIATED_PORT>
+       <ASSOCIATED_PORT>
+        <NAME>GigabitEthernet1/7</NAME>
+        <DHCP_SERVER>
+         <ENABLED>1</ENABLED>
+         <POOLS>
+          <POOL>
+           <NAME>serverPool</NAME>
+           <NETWORK>192.168.26.0</NETWORK>
+           <MASK>255.255.254.0</MASK>
+           <DEFAULT_ROUTER>0.0.0.0</DEFAULT_ROUTER>
+           <TFTP_ADDRESS>0.0.0.0</TFTP_ADDRESS>
+           <START_IP>192.168.26.100</START_IP>
+           <END_IP>192.168.27.200</END_IP>
+           <DNS_SERVER>0.0.0.0</DNS_SERVER>
+           <MAX_USERS>357</MAX_USERS>
+           <DOMAIN_NAME></DOMAIN_NAME>
+           <DHCP_POOL_LEASES>
+            <DHCP_POOL_LEASE>
+             <IP_ADDRESS>192.168.26.100</IP_ADDRESS>
+             <MAC_ADDRESS>0002.1698.40E2</MAC_ADDRESS>
+             <HOST_PORT>GigabitEthernet1/7</HOST_PORT>
+             <LEASE_TIME>86400000</LEASE_TIME>
+             <CLIENT_ID>0002.1698.40E2</CLIENT_ID>
+            </DHCP_POOL_LEASE>
+            <DHCP_POOL_LEASE>
+             <IP_ADDRESS>192.168.26.101</IP_ADDRESS>
+             <MAC_ADDRESS>0060.5C75.70EA</MAC_ADDRESS>
+             <HOST_PORT>GigabitEthernet1/7</HOST_PORT>
+             <LEASE_TIME>86400000</LEASE_TIME>
+             <CLIENT_ID>0060.5C75.70EA</CLIENT_ID>
+            </DHCP_POOL_LEASE>
+            <DHCP_POOL_LEASE>
+             <IP_ADDRESS>192.168.26.102</IP_ADDRESS>
+             <MAC_ADDRESS>0001.4346.AB6E</MAC_ADDRESS>
+             <HOST_PORT>GigabitEthernet1/7</HOST_PORT>
+             <LEASE_TIME>86400000</LEASE_TIME>
+             <CLIENT_ID>0001.4346.AB6E</CLIENT_ID>
+            </DHCP_POOL_LEASE>
+            <DHCP_POOL_LEASE>
+             <IP_ADDRESS>192.168.26.105</IP_ADDRESS>
+             <MAC_ADDRESS>0010.11D6.8567</MAC_ADDRESS>
+             <HOST_PORT>GigabitEthernet1/7</HOST_PORT>
+             <LEASE_TIME>86400000</LEASE_TIME>
+             <CLIENT_ID>0010.11D6.8567</CLIENT_ID>
+            </DHCP_POOL_LEASE>
+            <DHCP_POOL_LEASE>
+             <IP_ADDRESS>192.168.26.104</IP_ADDRESS>
+             <MAC_ADDRESS>00E0.F98E.C8C8</MAC_ADDRESS>
+             <HOST_PORT>GigabitEthernet1/7</HOST_PORT>
+             <LEASE_TIME>86400000</LEASE_TIME>
+             <CLIENT_ID>00E0.F98E.C8C8</CLIENT_ID>
+            </DHCP_POOL_LEASE>
+            <DHCP_POOL_LEASE>
+             <IP_ADDRESS>192.168.26.103</IP_ADDRESS>
+             <MAC_ADDRESS>00D0.BCB1.966B</MAC_ADDRESS>
+             <HOST_PORT>GigabitEthernet1/7</HOST_PORT>
+             <LEASE_TIME>86400000</LEASE_TIME>
+             <CLIENT_ID>00D0.BCB1.966B</CLIENT_ID>
+            </DHCP_POOL_LEASE>
+            <DHCP_POOL_LEASE>
+             <IP_ADDRESS>192.168.26.108</IP_ADDRESS>
+             <MAC_ADDRESS>0060.3E5C.C179</MAC_ADDRESS>
+             <HOST_PORT>GigabitEthernet1/7</HOST_PORT>
+             <LEASE_TIME>86400000</LEASE_TIME>
+             <CLIENT_ID>0060.3E5C.C179</CLIENT_ID>
+            </DHCP_POOL_LEASE>
+            <DHCP_POOL_LEASE>
+             <IP_ADDRESS>192.168.26.112</IP_ADDRESS>
+             <MAC_ADDRESS>00D0.D3AC.EDB1</MAC_ADDRESS>
+             <HOST_PORT>GigabitEthernet1/7</HOST_PORT>
+             <LEASE_TIME>86400000</LEASE_TIME>
+             <CLIENT_ID>00D0.D3AC.EDB1</CLIENT_ID>
+            </DHCP_POOL_LEASE>
+            <DHCP_POOL_LEASE>
+             <IP_ADDRESS>192.168.26.117</IP_ADDRESS>
+             <MAC_ADDRESS>00D0.D3D2.E7C2</MAC_ADDRESS>
+             <HOST_PORT>GigabitEthernet1/7</HOST_PORT>
+             <LEASE_TIME>86400000</LEASE_TIME>
+             <CLIENT_ID>00D0.D3D2.E7C2</CLIENT_ID>
+            </DHCP_POOL_LEASE>
+            <DHCP_POOL_LEASE>
+             <IP_ADDRESS>192.168.26.119</IP_ADDRESS>
+             <MAC_ADDRESS>0090.0CBA.8814</MAC_ADDRESS>
+             <HOST_PORT>GigabitEthernet1/7</HOST_PORT>
+             <LEASE_TIME>86400000</LEASE_TIME>
+             <CLIENT_ID>0090.0CBA.8814</CLIENT_ID>
+            </DHCP_POOL_LEASE>
+            <DHCP_POOL_LEASE>
+             <IP_ADDRESS>192.168.26.116</IP_ADDRESS>
+             <MAC_ADDRESS>0090.2134.3611</MAC_ADDRESS>
+             <HOST_PORT>GigabitEthernet1/7</HOST_PORT>
+             <LEASE_TIME>86400000</LEASE_TIME>
+             <CLIENT_ID>0090.2134.3611</CLIENT_ID>
+            </DHCP_POOL_LEASE>
+            <DHCP_POOL_LEASE>
+             <IP_ADDRESS>192.168.26.118</IP_ADDRESS>
+             <MAC_ADDRESS>00E0.F95E.20A4</MAC_ADDRESS>
+             <HOST_PORT>GigabitEthernet1/7</HOST_PORT>
+             <LEASE_TIME>86400000</LEASE_TIME>
+             <CLIENT_ID>00E0.F95E.20A4</CLIENT_ID>
             </DHCP_POOL_LEASE>
            </DHCP_POOL_LEASES>
            <LEASE_TIME>3600000</LEASE_TIME>
@@ -61469,10 +61875,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 00:46:42 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 01:06:30 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>33</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>5</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -61665,6 +62071,715 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
       <SUBSLOT>0</SUBSLOT>
       <PARENT_PATH>{7395c166-74a4-4746-9d9f-22e3f7d958cc},{763062a3-f6f5-4d54-ab83-8728d16677aa},{09ab234c-acdc-4d4d-a610-f780b74a4665}</PARENT_PATH>
       <CONTAINER_ID>{09ab234c-acdc-4d4d-a610-f780b74a4665}</CONTAINER_ID>
+     </PHYSICAL_CPUR>
+    </WORKSPACE>
+   </DEVICE>
+   <DEVICE>
+    <ENGINE>
+     <TYPE customModel="" model="2950-24">Switch</TYPE>
+     <NAME translate="true">Tier 2 Switch</NAME>
+     <POWER>true</POWER>
+     <DESCRIPTION></DESCRIPTION>
+     <MODULE>
+      <TYPE>eNonRemovableModule</TYPE>
+      <MODEL/>
+      <SLOT>
+       <TYPE>eNonRemovableModule</TYPE>
+       <MODULE>
+        <TYPE>eNonRemovableModule</TYPE>
+        <MODEL/>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <MEDIATYPE>0</MEDIATYPE>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>true</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0001.644A.2301</MACADDRESS>
+         <BIA>0001.644A.2301</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <CHANNEL5GHZ>0</CHANNEL5GHZ>
+         <COVERAGERANGE>0</COVERAGERANGE>
+         <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
+         <UP_METHOD>5</UP_METHOD>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <MEDIATYPE>0</MEDIATYPE>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0001.644A.2302</MACADDRESS>
+         <BIA>0001.644A.2302</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <CHANNEL5GHZ>0</CHANNEL5GHZ>
+         <COVERAGERANGE>0</COVERAGERANGE>
+         <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
+         <UP_METHOD>5</UP_METHOD>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <MEDIATYPE>0</MEDIATYPE>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0001.644A.2303</MACADDRESS>
+         <BIA>0001.644A.2303</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <CHANNEL5GHZ>0</CHANNEL5GHZ>
+         <COVERAGERANGE>0</COVERAGERANGE>
+         <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
+         <UP_METHOD>5</UP_METHOD>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <MEDIATYPE>0</MEDIATYPE>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0001.644A.2304</MACADDRESS>
+         <BIA>0001.644A.2304</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <CHANNEL5GHZ>0</CHANNEL5GHZ>
+         <COVERAGERANGE>0</COVERAGERANGE>
+         <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
+         <UP_METHOD>5</UP_METHOD>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <MEDIATYPE>0</MEDIATYPE>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0001.644A.2305</MACADDRESS>
+         <BIA>0001.644A.2305</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <CHANNEL5GHZ>0</CHANNEL5GHZ>
+         <COVERAGERANGE>0</COVERAGERANGE>
+         <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
+         <UP_METHOD>5</UP_METHOD>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <MEDIATYPE>0</MEDIATYPE>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0001.644A.2306</MACADDRESS>
+         <BIA>0001.644A.2306</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <CHANNEL5GHZ>0</CHANNEL5GHZ>
+         <COVERAGERANGE>0</COVERAGERANGE>
+         <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
+         <UP_METHOD>5</UP_METHOD>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <MEDIATYPE>0</MEDIATYPE>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0001.644A.2307</MACADDRESS>
+         <BIA>0001.644A.2307</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <CHANNEL5GHZ>0</CHANNEL5GHZ>
+         <COVERAGERANGE>0</COVERAGERANGE>
+         <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
+         <UP_METHOD>5</UP_METHOD>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <MEDIATYPE>0</MEDIATYPE>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0001.644A.2308</MACADDRESS>
+         <BIA>0001.644A.2308</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <CHANNEL5GHZ>0</CHANNEL5GHZ>
+         <COVERAGERANGE>0</COVERAGERANGE>
+         <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
+         <UP_METHOD>5</UP_METHOD>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <MEDIATYPE>0</MEDIATYPE>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0001.644A.2309</MACADDRESS>
+         <BIA>0001.644A.2309</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <CHANNEL5GHZ>0</CHANNEL5GHZ>
+         <COVERAGERANGE>0</COVERAGERANGE>
+         <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
+         <UP_METHOD>5</UP_METHOD>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <MEDIATYPE>0</MEDIATYPE>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0001.644A.230A</MACADDRESS>
+         <BIA>0001.644A.230A</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <CHANNEL5GHZ>0</CHANNEL5GHZ>
+         <COVERAGERANGE>0</COVERAGERANGE>
+         <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
+         <UP_METHOD>5</UP_METHOD>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <MEDIATYPE>0</MEDIATYPE>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0001.644A.230B</MACADDRESS>
+         <BIA>0001.644A.230B</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <CHANNEL5GHZ>0</CHANNEL5GHZ>
+         <COVERAGERANGE>0</COVERAGERANGE>
+         <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
+         <UP_METHOD>5</UP_METHOD>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <MEDIATYPE>0</MEDIATYPE>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0001.644A.230C</MACADDRESS>
+         <BIA>0001.644A.230C</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <CHANNEL5GHZ>0</CHANNEL5GHZ>
+         <COVERAGERANGE>0</COVERAGERANGE>
+         <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
+         <UP_METHOD>5</UP_METHOD>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <MEDIATYPE>0</MEDIATYPE>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0001.644A.230D</MACADDRESS>
+         <BIA>0001.644A.230D</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <CHANNEL5GHZ>0</CHANNEL5GHZ>
+         <COVERAGERANGE>0</COVERAGERANGE>
+         <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
+         <UP_METHOD>5</UP_METHOD>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <MEDIATYPE>0</MEDIATYPE>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0001.644A.230E</MACADDRESS>
+         <BIA>0001.644A.230E</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <CHANNEL5GHZ>0</CHANNEL5GHZ>
+         <COVERAGERANGE>0</COVERAGERANGE>
+         <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
+         <UP_METHOD>5</UP_METHOD>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <MEDIATYPE>0</MEDIATYPE>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0001.644A.230F</MACADDRESS>
+         <BIA>0001.644A.230F</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <CHANNEL5GHZ>0</CHANNEL5GHZ>
+         <COVERAGERANGE>0</COVERAGERANGE>
+         <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
+         <UP_METHOD>5</UP_METHOD>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <MEDIATYPE>0</MEDIATYPE>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0001.644A.2310</MACADDRESS>
+         <BIA>0001.644A.2310</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <CHANNEL5GHZ>0</CHANNEL5GHZ>
+         <COVERAGERANGE>0</COVERAGERANGE>
+         <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
+         <UP_METHOD>5</UP_METHOD>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <MEDIATYPE>0</MEDIATYPE>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0001.644A.2311</MACADDRESS>
+         <BIA>0001.644A.2311</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <CHANNEL5GHZ>0</CHANNEL5GHZ>
+         <COVERAGERANGE>0</COVERAGERANGE>
+         <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
+         <UP_METHOD>5</UP_METHOD>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <MEDIATYPE>0</MEDIATYPE>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0001.644A.2312</MACADDRESS>
+         <BIA>0001.644A.2312</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <CHANNEL5GHZ>0</CHANNEL5GHZ>
+         <COVERAGERANGE>0</COVERAGERANGE>
+         <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
+         <UP_METHOD>5</UP_METHOD>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <MEDIATYPE>0</MEDIATYPE>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0001.644A.2313</MACADDRESS>
+         <BIA>0001.644A.2313</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <CHANNEL5GHZ>0</CHANNEL5GHZ>
+         <COVERAGERANGE>0</COVERAGERANGE>
+         <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
+         <UP_METHOD>5</UP_METHOD>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <MEDIATYPE>0</MEDIATYPE>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0001.644A.2314</MACADDRESS>
+         <BIA>0001.644A.2314</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <CHANNEL5GHZ>0</CHANNEL5GHZ>
+         <COVERAGERANGE>0</COVERAGERANGE>
+         <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
+         <UP_METHOD>5</UP_METHOD>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <MEDIATYPE>0</MEDIATYPE>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0001.644A.2315</MACADDRESS>
+         <BIA>0001.644A.2315</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <CHANNEL5GHZ>0</CHANNEL5GHZ>
+         <COVERAGERANGE>0</COVERAGERANGE>
+         <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
+         <UP_METHOD>5</UP_METHOD>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <MEDIATYPE>0</MEDIATYPE>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0001.644A.2316</MACADDRESS>
+         <BIA>0001.644A.2316</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <CHANNEL5GHZ>0</CHANNEL5GHZ>
+         <COVERAGERANGE>0</COVERAGERANGE>
+         <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
+         <UP_METHOD>5</UP_METHOD>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <MEDIATYPE>0</MEDIATYPE>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0001.644A.2317</MACADDRESS>
+         <BIA>0001.644A.2317</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <CHANNEL5GHZ>0</CHANNEL5GHZ>
+         <COVERAGERANGE>0</COVERAGERANGE>
+         <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
+         <UP_METHOD>5</UP_METHOD>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <MEDIATYPE>0</MEDIATYPE>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0001.644A.2318</MACADDRESS>
+         <BIA>0001.644A.2318</BIA>
+         <CLOCKRATE>2000000</CLOCKRATE>
+         <CLOCKRATEFLAG>false</CLOCKRATEFLAG>
+         <DESCRIPTION/>
+         <CHANNEL>0</CHANNEL>
+         <CHANNEL5GHZ>0</CHANNEL5GHZ>
+         <COVERAGERANGE>0</COVERAGERANGE>
+         <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
+         <UP_METHOD>5</UP_METHOD>
+        </PORT>
+       </MODULE>
+      </SLOT>
+     </MODULE>
+     <CUSTOM_VARS>AAAAAA==</CUSTOM_VARS>
+     <CUSTOM_INTERFACE></CUSTOM_INTERFACE>
+     <SYS_CONTACT></SYS_CONTACT>
+     <SYS_LOCATION></SYS_LOCATION>
+     <COORD_SETTINGS>
+      <X_COORD>3.04631e+07</X_COORD>
+      <Y_COORD>5.24661e+06</Y_COORD>
+      <Z_COORD>0</Z_COORD>
+     </COORD_SETTINGS>
+     <SERIALNUMBER>PTT0810R4E1-</SERIALNUMBER>
+     <EXT_ATTRIBUTES>MTBF:300000;cost:350;power source:0;rack units:1;wattage:50;</EXT_ATTRIBUTES>
+     <USB_PORT_COUNT>0</USB_PORT_COUNT>
+     <TEMPLATE_CREATION_TIME>0</TEMPLATE_CREATION_TIME>
+     <STARTTIME>730915200000</STARTTIME>
+     <STARTSIMTIME>10133131</STARTSIMTIME>
+     <USER_APPS>
+      <RUNNING_APPS/>
+      <DESKTOP_APPS/>
+     </USER_APPS>
+     <SAVE_REF_ID>save-ref-id:9715090994453748810</SAVE_REF_ID>
+     <SYS_NAME>Switch</SYS_NAME>
+     <RUNNINGCONFIG>
+      <LINE>!</LINE>
+      <LINE>version 12.1</LINE>
+      <LINE>no service timestamps log datetime msec</LINE>
+      <LINE>no service timestamps debug datetime msec</LINE>
+      <LINE>no service password-encryption</LINE>
+      <LINE>!</LINE>
+      <LINE>hostname Switch</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>spanning-tree mode pvst</LINE>
+      <LINE>spanning-tree extend system-id</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/1</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/2</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/3</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/4</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/5</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/6</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/7</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/8</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/9</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/10</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/11</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/12</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/13</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/14</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/15</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/16</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/17</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/18</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/19</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/20</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/21</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/22</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/23</LINE>
+      <LINE>!</LINE>
+      <LINE>interface FastEthernet0/24</LINE>
+      <LINE>!</LINE>
+      <LINE>interface Vlan1</LINE>
+      <LINE> no ip address</LINE>
+      <LINE> shutdown</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>line con 0</LINE>
+      <LINE>!</LINE>
+      <LINE>line vty 0 4</LINE>
+      <LINE> login</LINE>
+      <LINE>line vty 5 15</LINE>
+      <LINE> login</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>!</LINE>
+      <LINE>end</LINE>
+     </RUNNINGCONFIG>
+     <STARTUPCONFIG/>
+     <CURRENT_COMMAND_SET>2950_12.1_EA4</CURRENT_COMMAND_SET>
+     <FILE_MANAGER>
+      <FILE class="CDirectory">
+       <FILE_NUMBER>0</FILE_NUMBER>
+       <NAME></NAME>
+       <DATE_TIME>0</DATE_TIME>
+       <PERMISSION>6</PERMISSION>
+       <FILE_CONTENT/>
+       <FILES>
+        <FILE class="CFileSystem">
+         <FILE_NUMBER>0</FILE_NUMBER>
+         <NAME>flash:</NAME>
+         <DATE_TIME>0</DATE_TIME>
+         <PERMISSION>6</PERMISSION>
+         <FILE_CONTENT/>
+         <FILES>
+          <FILE class="CFile">
+           <FILE_NUMBER>1</FILE_NUMBER>
+           <NAME>c2950-i6q4l2-mz.121-22.EA4.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Switch</DEVICE_TYPE>
+            <SET_NAME>2950_12.1_EA4</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+         </FILES>
+         <FILE_COUNTER>1</FILE_COUNTER>
+         <CAPACITY>64016384</CAPACITY>
+        </FILE>
+       </FILES>
+      </FILE>
+     </FILE_MANAGER>
+     <CONFIG_REGISTER>15</CONFIG_REGISTER>
+     <NEXT_CONFIG_REGISTER>15</NEXT_CONFIG_REGISTER>
+     <CURRENT_BOOT_FILE>flash:/c2950-i6q4l2-mz.121-22.EA4.bin</CURRENT_BOOT_FILE>
+     <CONFIG_BOOT_FILES></CONFIG_BOOT_FILES>
+     <BUILD_IN_ADDR>0060.47E5.C568</BUILD_IN_ADDR>
+     <BIOS_VERSION></BIOS_VERSION>
+     <SECURITY>
+      <KEY_NAME></KEY_NAME>
+      <TEMP_KEY_NAME></TEMP_KEY_NAME>
+      <RSA_KEY></RSA_KEY>
+      <TEMP_RSA_KEY></TEMP_RSA_KEY>
+      <TIME_DATE></TIME_DATE>
+      <ENABLED>0</ENABLED>
+      <MODULUS_BITS>0</MODULUS_BITS>
+     </SECURITY>
+     <ALGORITHM_SETTINGS>
+      <USE_GLOBAL>true</USE_GLOBAL>
+      <CBAC_HALF_OPEN_SESSION_MULTIPLIER>1</CBAC_HALF_OPEN_SESSION_MULTIPLIER>
+      <TCP_MAX_CONNECTING_SESSIONS>100</TCP_MAX_CONNECTING_SESSIONS>
+      <TCP_MAX_OPENED_SESSIONS>1000</TCP_MAX_OPENED_SESSIONS>
+      <INTERFACE_QUEUE_SIZE>10</INTERFACE_QUEUE_SIZE>
+      <STORM_CONTROL_MULTIPLIER>10</STORM_CONTROL_MULTIPLIER>
+      <TCP_MAX_RETRANSMISSION_TIMEOUT>1000</TCP_MAX_RETRANSMISSION_TIMEOUT>
+     </ALGORITHM_SETTINGS>
+     <SCP_SERVER_ENABLED>false</SCP_SERVER_ENABLED>
+     <VLANS>
+      <VLAN number="1" name="default" rspan="0"/>
+      <VLAN number="1002" name="fddi-default" rspan="0"/>
+      <VLAN number="1003" name="token-ring-default" rspan="0"/>
+      <VLAN number="1004" name="fddinet-default" rspan="0"/>
+      <VLAN number="1005" name="trnet-default" rspan="0"/>
+     </VLANS>
+     <VTP>
+      <DOMAIN_NAME></DOMAIN_NAME>
+      <MODE>0</MODE>
+      <VERSION>1</VERSION>
+      <PASSWORD></PASSWORD>
+      <CONFIG_REVISION>0</CONFIG_REVISION>
+      <UPDATER_IP>0.0.0.0</UPDATER_IP>
+      <UPDATE_TIMESTAMP>0-0-00 00:00:00</UPDATE_TIMESTAMP>
+     </VTP>
+     <DHCP_SNOOPING_BINDING_DB_AGENT>
+      <CONFIGURED_FILENAME></CONFIGURED_FILENAME>
+      <TMP_FILENAME></TMP_FILENAME>
+     </DHCP_SNOOPING_BINDING_DB_AGENT>
+     <SDM>
+      <ACTIVE_TEMPLATE>0</ACTIVE_TEMPLATE>
+      <NEXT_TEMPLATE>0</NEXT_TEMPLATE>
+     </SDM>
+    </ENGINE>
+    <WORKSPACE>
+     <LOGICAL>
+      <X>1385</X>
+      <Y>1249</Y>
+      <DEVCLUSTERID>1-1</DEVCLUSTERID>
+      <CUSTOM_IMAGE_LOGICAL></CUSTOM_IMAGE_LOGICAL>
+      <CUSTOM_IMAGE_PHYSICAL></CUSTOM_IMAGE_PHYSICAL>
+      <MEM_ADDR>1488790214064</MEM_ADDR>
+      <DEV_ADDR>1490282787080</DEV_ADDR>
+     </LOGICAL>
+     <PHYSICAL>{7395c166-74a4-4746-9d9f-22e3f7d958cc},{763062a3-f6f5-4d54-ab83-8728d16677aa},{09ab234c-acdc-4d4d-a610-f780b74a4665},{33a7b515-19bd-46f2-a3b4-61936a40de93},{91d9ba04-233f-406b-b3e5-2440b09597c0},{c349f173-bacc-4fb6-9c2d-e1f3dfec2def}</PHYSICAL>
+     <PHYSICAL_CPUR>
+      <X_PN>0.3525</X_PN>
+      <Y_PN>0.32225</Y_PN>
+      <X>120</X>
+      <Y>0</Y>
+      <SLOT>0</SLOT>
+      <SUBSLOT>0</SUBSLOT>
+      <PARENT_PATH>{7395c166-74a4-4746-9d9f-22e3f7d958cc},{763062a3-f6f5-4d54-ab83-8728d16677aa},{09ab234c-acdc-4d4d-a610-f780b74a4665},{33a7b515-19bd-46f2-a3b4-61936a40de93}</PARENT_PATH>
+      <CONTAINER_ID>{91d9ba04-233f-406b-b3e5-2440b09597c0}</CONTAINER_ID>
      </PHYSICAL_CPUR>
     </WORKSPACE>
    </DEVICE>
@@ -62589,24 +63704,6 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
    <LINK>
     <TYPE>eCopper</TYPE>
     <CABLE>
-     <LENGTH>31.0626</LENGTH>
-     <FUNCTIONAL>true</FUNCTIONAL>
-     <FROM>save-ref-id:9706339153929033405</FROM>
-     <PORT>FastEthernet3/1</PORT>
-     <TO>save-ref-id:373635235367468211</TO>
-     <PORT>FastEthernet0</PORT>
-     <FROM_DEVICE_MEM_ADDR>1488395601880</FROM_DEVICE_MEM_ADDR>
-     <TO_DEVICE_MEM_ADDR>1488230798192</TO_DEVICE_MEM_ADDR>
-     <FROM_PORT_MEM_ADDR>1488395229176</FROM_PORT_MEM_ADDR>
-     <TO_PORT_MEM_ADDR>1488393708784</TO_PORT_MEM_ADDR>
-     <GEO_VIEW_COLOR>#6ba72e</GEO_VIEW_COLOR>
-     <IS_MANAGED_IN_RACK_VIEW>false</IS_MANAGED_IN_RACK_VIEW>
-     <TYPE>eStraightThrough</TYPE>
-    </CABLE>
-   </LINK>
-   <LINK>
-    <TYPE>eCopper</TYPE>
-    <CABLE>
      <LENGTH>1</LENGTH>
      <FUNCTIONAL>true</FUNCTIONAL>
      <FROM>save-ref-id:264913969876007994</FROM>
@@ -63016,6 +64113,60 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      <TYPE>eStraightThrough</TYPE>
     </CABLE>
    </LINK>
+   <LINK>
+    <TYPE>eCopper</TYPE>
+    <CABLE>
+     <LENGTH>48.6258</LENGTH>
+     <FUNCTIONAL>true</FUNCTIONAL>
+     <FROM>save-ref-id:264913969876007994</FROM>
+     <PORT>GigabitEthernet1/4</PORT>
+     <TO>save-ref-id:9715090994453748810</TO>
+     <PORT>FastEthernet0/1</PORT>
+     <FROM_DEVICE_MEM_ADDR>1488399567328</FROM_DEVICE_MEM_ADDR>
+     <TO_DEVICE_MEM_ADDR>1490282787080</TO_DEVICE_MEM_ADDR>
+     <FROM_PORT_MEM_ADDR>1488397960936</FROM_PORT_MEM_ADDR>
+     <TO_PORT_MEM_ADDR>1488408151000</TO_PORT_MEM_ADDR>
+     <GEO_VIEW_COLOR>#6ba72e</GEO_VIEW_COLOR>
+     <IS_MANAGED_IN_RACK_VIEW>false</IS_MANAGED_IN_RACK_VIEW>
+     <TYPE>eStraightThrough</TYPE>
+    </CABLE>
+   </LINK>
+   <LINK>
+    <TYPE>eCopper</TYPE>
+    <CABLE>
+     <LENGTH>31.0626</LENGTH>
+     <FUNCTIONAL>true</FUNCTIONAL>
+     <FROM>save-ref-id:373635235367468211</FROM>
+     <PORT>FastEthernet0</PORT>
+     <TO>save-ref-id:9706339153929033405</TO>
+     <PORT>FastEthernet3/1</PORT>
+     <FROM_DEVICE_MEM_ADDR>1488230798192</FROM_DEVICE_MEM_ADDR>
+     <TO_DEVICE_MEM_ADDR>1488395601880</TO_DEVICE_MEM_ADDR>
+     <FROM_PORT_MEM_ADDR>1488393708784</FROM_PORT_MEM_ADDR>
+     <TO_PORT_MEM_ADDR>1488398128936</TO_PORT_MEM_ADDR>
+     <GEO_VIEW_COLOR>#6ba72e</GEO_VIEW_COLOR>
+     <IS_MANAGED_IN_RACK_VIEW>false</IS_MANAGED_IN_RACK_VIEW>
+     <TYPE>eStraightThrough</TYPE>
+    </CABLE>
+   </LINK>
+   <LINK>
+    <TYPE>eCopper</TYPE>
+    <CABLE>
+     <LENGTH>1</LENGTH>
+     <FUNCTIONAL>true</FUNCTIONAL>
+     <FROM>save-ref-id:9706339153929033405</FROM>
+     <PORT>FastEthernet4/1</PORT>
+     <TO>save-ref-id:264913969876007994</TO>
+     <PORT>GigabitEthernet1/7</PORT>
+     <FROM_DEVICE_MEM_ADDR>1488395601880</FROM_DEVICE_MEM_ADDR>
+     <TO_DEVICE_MEM_ADDR>1488399567328</TO_DEVICE_MEM_ADDR>
+     <FROM_PORT_MEM_ADDR>1488398132024</FROM_PORT_MEM_ADDR>
+     <TO_PORT_MEM_ADDR>1488397993016</TO_PORT_MEM_ADDR>
+     <GEO_VIEW_COLOR>#6ba72e</GEO_VIEW_COLOR>
+     <IS_MANAGED_IN_RACK_VIEW>false</IS_MANAGED_IN_RACK_VIEW>
+     <TYPE>eStraightThrough</TYPE>
+    </CABLE>
+   </LINK>
   </LINKS>
   <SHAPETESTS/>
   <DESCRIPTION translate="true"></DESCRIPTION>
@@ -63024,6 +64175,34 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
   <SCENARIO>
    <NAME translate="true">Scenario 0</NAME>
    <DESCRIPTION translate="true"/>
+   <PDU>
+    <TYPE patterned="no">0</TYPE>
+    <CUSTOM_TYPE></CUSTOM_TYPE>
+    <SOURCE>save-ref-id:13817394824428623748</SOURCE>
+    <PORT/>
+    <DESTINATION device="save-ref-id:5763164974530018746"></DESTINATION>
+    <COLOR>-10787025</COLOR>
+    <PDU>
+     <TYPE>CIpHeader</TYPE>
+     <SRCADDR/>
+     <DSTADDR>8.8.8.8</DSTADDR>
+     <PROTOCOL/>
+     <TTL>255</TTL>
+     <PDU>
+      <TYPE>CIcmpMessage</TYPE>
+      <ICMPTYPE>8</ICMPTYPE>
+      <CODE>0</CODE>
+      <ID>0</ID>
+      <SEQ>0</SEQ>
+      <CHK>0</CHK>
+     </PDU>
+     <TOS>0</TOS>
+    </PDU>
+    <TEST_CONDITION>0</TEST_CONDITION>
+    <POINTS>1</POINTS>
+    <PDU_SIZE>0</PDU_SIZE>
+    <START>0</START>
+   </PDU>
   </SCENARIO>
  </SCENARIOSET>
  <OPTIONS>
@@ -64635,7 +65814,7 @@ jXhHFivJeQ==
          <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
          <SCALE_FACTOR>1</SCALE_FACTOR>
          <ENVIRONMENT>
-          <TIME_IN_SECONDS>66900</TIME_IN_SECONDS>
+          <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
           <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
           <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
           <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -66812,7 +67991,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.0248934</VALUE>
+            <VALUE>17.0555</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-0.00138889</MIN_RATE>
@@ -66926,7 +68105,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>7.34253</VALUE>
+            <VALUE>9.27659</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -66983,7 +68162,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.103722</VALUE>
+            <VALUE>71.0648</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -67116,7 +68295,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>75.3149</VALUE>
+            <VALUE>71.4467</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -67154,7 +68333,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.0570473</VALUE>
+            <VALUE>39.0856</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -67420,7 +68599,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.103722</VALUE>
+            <VALUE>71.0648</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -67458,7 +68637,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.468506</VALUE>
+            <VALUE>0.85532</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -67572,7 +68751,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0</VALUE>
+            <VALUE>67.6389</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -67610,7 +68789,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.00311167</VALUE>
+            <VALUE>2.13194</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -67629,7 +68808,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.0435633</VALUE>
+            <VALUE>29.8472</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -67800,7 +68979,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>42.1656</VALUE>
+            <VALUE>76.9788</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -67819,7 +68998,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>9.37012</VALUE>
+            <VALUE>17.1064</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -67838,7 +69017,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>2.65747</VALUE>
+            <VALUE>0.723397</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -69618,6 +70797,35 @@ jXhHFivJeQ==
              <SLOT>0</SLOT>
              <SUB_SLOT>0</SUB_SLOT>
             </NODE>
+            <NODE>
+             <X>120</X>
+             <Y>0</Y>
+             <TYPE>6</TYPE>
+             <NAME translate="true">Tier 2 Switch</NAME>
+             <SX>1</SX>
+             <SY>1</SY>
+             <W>0</W>
+             <H>0</H>
+             <D>0</D>
+             <PATH isanim="false">../art/Background/grid_100x100.png</PATH>
+             <CHILDREN/>
+             <MANUAL_SCALING>false</MANUAL_SCALING>
+             <SCALED_PIXMAP_WIDTH>0</SCALED_PIXMAP_WIDTH>
+             <SCALED_PIXMAP_HEIGHT>0</SCALED_PIXMAP_HEIGHT>
+             <INIT_WIDTH>0</INIT_WIDTH>
+             <INIT_HEIGHT>0</INIT_HEIGHT>
+             <INIT_DEPTH>0</INIT_DEPTH>
+             <INIT_SX>1</INIT_SX>
+             <INIT_SY>1</INIT_SY>
+             <INIT_SZ>1</INIT_SZ>
+             <BG_TILED>false</BG_TILED>
+             <CUSTOM_IMAGE_WIDTH>-1</CUSTOM_IMAGE_WIDTH>
+             <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
+             <SCALE_FACTOR>1</SCALE_FACTOR>
+             <UUID_STR>{c349f173-bacc-4fb6-9c2d-e1f3dfec2def}</UUID_STR>
+             <SLOT>0</SLOT>
+             <SUB_SLOT>0</SUB_SLOT>
+            </NODE>
            </CHILDREN>
            <MANUAL_SCALING>false</MANUAL_SCALING>
            <SCALED_PIXMAP_WIDTH>0</SCALED_PIXMAP_WIDTH>
@@ -69739,7 +70947,7 @@ jXhHFivJeQ==
          <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
          <SCALE_FACTOR>1</SCALE_FACTOR>
          <ENVIRONMENT>
-          <TIME_IN_SECONDS>66900</TIME_IN_SECONDS>
+          <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
           <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
           <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
           <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -71916,7 +73124,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.0248934</VALUE>
+            <VALUE>17.0555</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-0.00138889</MIN_RATE>
@@ -72030,7 +73238,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>7.34253</VALUE>
+            <VALUE>9.27659</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -72087,7 +73295,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.103722</VALUE>
+            <VALUE>71.0648</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -72220,7 +73428,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>75.3149</VALUE>
+            <VALUE>71.4467</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -72258,7 +73466,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.0570473</VALUE>
+            <VALUE>39.0856</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -72524,7 +73732,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.103722</VALUE>
+            <VALUE>71.0648</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -72562,7 +73770,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.468506</VALUE>
+            <VALUE>0.85532</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -72676,7 +73884,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0</VALUE>
+            <VALUE>67.6389</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -72714,7 +73922,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.00311167</VALUE>
+            <VALUE>2.13194</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -72733,7 +73941,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.0435633</VALUE>
+            <VALUE>29.8472</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -72904,7 +74112,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>42.1656</VALUE>
+            <VALUE>76.9788</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -72923,7 +74131,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>9.37012</VALUE>
+            <VALUE>17.1064</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -72942,7 +74150,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>2.65747</VALUE>
+            <VALUE>0.723397</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -73002,7 +74210,7 @@ jXhHFivJeQ==
        <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
        <SCALE_FACTOR>0.296296</SCALE_FACTOR>
        <ENVIRONMENT>
-        <TIME_IN_SECONDS>66900</TIME_IN_SECONDS>
+        <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
         <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
         <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
         <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -75179,7 +76387,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>2.16537e-06</VALUE>
+          <VALUE>16.4222</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-0.00138889</MIN_RATE>
@@ -75293,7 +76501,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>7.27656</VALUE>
+          <VALUE>9.21063</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -75350,7 +76558,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>9.02236e-06</VALUE>
+          <VALUE>68.4259</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -75483,7 +76691,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>75.4469</VALUE>
+          <VALUE>71.5787</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -75521,7 +76729,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>4.9623e-06</VALUE>
+          <VALUE>37.6343</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -75787,7 +76995,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>9.02236e-06</VALUE>
+          <VALUE>68.4259</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -75825,7 +77033,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>0.455312</VALUE>
+          <VALUE>0.842126</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -75939,7 +77147,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>0</VALUE>
+          <VALUE>67.6389</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -75977,7 +77185,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>2.70671e-07</VALUE>
+          <VALUE>2.05278</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -75996,7 +77204,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>3.78939e-06</VALUE>
+          <VALUE>28.7389</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -76167,7 +77375,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>40.978</VALUE>
+          <VALUE>75.7914</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -76186,7 +77394,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>9.10623</VALUE>
+          <VALUE>16.8425</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -76205,7 +77413,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>2.72344</VALUE>
+          <VALUE>0.78937</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -76236,7 +77444,7 @@ jXhHFivJeQ==
      <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
      <SCALE_FACTOR>1</SCALE_FACTOR>
      <ENVIRONMENT>
-      <TIME_IN_SECONDS>66900</TIME_IN_SECONDS>
+      <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
       <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
       <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
       <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -78413,7 +79621,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>16.2333</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-0.00138889</MIN_RATE>
@@ -78527,7 +79735,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>7.25688</VALUE>
+        <VALUE>9.19095</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -78584,7 +79792,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>67.6389</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -78717,7 +79925,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>75.4862</VALUE>
+        <VALUE>71.6181</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -78755,7 +79963,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>37.2014</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -79021,7 +80229,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>67.6389</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -79059,7 +80267,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0.451376</VALUE>
+        <VALUE>0.838191</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -79173,7 +80381,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>67.6389</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -79211,7 +80419,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>2.02917</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -79230,7 +80438,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>28.4083</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -79401,7 +80609,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>40.6239</VALUE>
+        <VALUE>75.4372</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -79420,7 +80628,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>9.02752</VALUE>
+        <VALUE>16.7638</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -79439,7 +80647,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>2.74312</VALUE>
+        <VALUE>0.809047</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -79505,7 +80713,7 @@ jXhHFivJeQ==
          <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
          <SCALE_FACTOR>1</SCALE_FACTOR>
          <ENVIRONMENT>
-          <TIME_IN_SECONDS>66900</TIME_IN_SECONDS>
+          <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
           <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
           <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
           <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -81682,7 +82890,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.0248934</VALUE>
+            <VALUE>17.0555</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-0.00138889</MIN_RATE>
@@ -81796,7 +83004,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>7.34253</VALUE>
+            <VALUE>9.27659</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -81853,7 +83061,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.103722</VALUE>
+            <VALUE>71.0648</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -81986,7 +83194,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>75.3149</VALUE>
+            <VALUE>71.4467</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -82024,7 +83232,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.0570473</VALUE>
+            <VALUE>39.0856</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -82290,7 +83498,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.103722</VALUE>
+            <VALUE>71.0648</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -82328,7 +83536,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.468506</VALUE>
+            <VALUE>0.85532</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -82442,7 +83650,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0</VALUE>
+            <VALUE>67.6389</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -82480,7 +83688,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.00311167</VALUE>
+            <VALUE>2.13194</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -82499,7 +83707,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.0435633</VALUE>
+            <VALUE>29.8472</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -82670,7 +83878,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>42.1656</VALUE>
+            <VALUE>76.9788</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -82689,7 +83897,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>9.37012</VALUE>
+            <VALUE>17.1064</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -82708,7 +83916,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>2.65747</VALUE>
+            <VALUE>0.723397</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -82739,7 +83947,7 @@ jXhHFivJeQ==
        <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
        <SCALE_FACTOR>1</SCALE_FACTOR>
        <ENVIRONMENT>
-        <TIME_IN_SECONDS>66900</TIME_IN_SECONDS>
+        <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
         <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
         <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
         <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -84916,7 +86124,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>2.16537e-06</VALUE>
+          <VALUE>16.4222</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-0.00138889</MIN_RATE>
@@ -85030,7 +86238,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>7.27656</VALUE>
+          <VALUE>9.21063</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -85087,7 +86295,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>9.02236e-06</VALUE>
+          <VALUE>68.4259</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -85220,7 +86428,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>75.4469</VALUE>
+          <VALUE>71.5787</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -85258,7 +86466,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>4.9623e-06</VALUE>
+          <VALUE>37.6343</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -85524,7 +86732,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>9.02236e-06</VALUE>
+          <VALUE>68.4259</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -85562,7 +86770,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>0.455312</VALUE>
+          <VALUE>0.842126</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -85676,7 +86884,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>0</VALUE>
+          <VALUE>67.6389</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -85714,7 +86922,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>2.70671e-07</VALUE>
+          <VALUE>2.05278</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -85733,7 +86941,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>3.78939e-06</VALUE>
+          <VALUE>28.7389</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -85904,7 +87112,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>40.978</VALUE>
+          <VALUE>75.7914</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -85923,7 +87131,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>9.10623</VALUE>
+          <VALUE>16.8425</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -85942,7 +87150,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>2.72344</VALUE>
+          <VALUE>0.78937</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -85973,7 +87181,7 @@ jXhHFivJeQ==
      <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
      <SCALE_FACTOR>1</SCALE_FACTOR>
      <ENVIRONMENT>
-      <TIME_IN_SECONDS>66900</TIME_IN_SECONDS>
+      <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
       <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
       <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
       <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -88150,7 +89358,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>16.2333</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-0.00138889</MIN_RATE>
@@ -88264,7 +89472,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>7.25688</VALUE>
+        <VALUE>9.19095</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -88321,7 +89529,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>67.6389</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -88454,7 +89662,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>75.4862</VALUE>
+        <VALUE>71.6181</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -88492,7 +89700,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>37.2014</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -88758,7 +89966,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>67.6389</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -88796,7 +90004,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0.451376</VALUE>
+        <VALUE>0.838191</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -88910,7 +90118,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>67.6389</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -88948,7 +90156,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>2.02917</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -88967,7 +90175,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>28.4083</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -89138,7 +90346,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>40.6239</VALUE>
+        <VALUE>75.4372</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -89157,7 +90365,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>9.02752</VALUE>
+        <VALUE>16.7638</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -89176,7 +90384,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>2.74312</VALUE>
+        <VALUE>0.809047</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -89242,7 +90450,7 @@ jXhHFivJeQ==
          <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
          <SCALE_FACTOR>1</SCALE_FACTOR>
          <ENVIRONMENT>
-          <TIME_IN_SECONDS>66900</TIME_IN_SECONDS>
+          <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
           <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
           <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
           <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -91419,7 +92627,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.0248934</VALUE>
+            <VALUE>17.0555</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-0.00138889</MIN_RATE>
@@ -91533,7 +92741,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>7.34253</VALUE>
+            <VALUE>9.27659</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -91590,7 +92798,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.103722</VALUE>
+            <VALUE>71.0648</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -91723,7 +92931,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>75.3149</VALUE>
+            <VALUE>71.4467</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -91761,7 +92969,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.0570473</VALUE>
+            <VALUE>39.0856</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -92027,7 +93235,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.103722</VALUE>
+            <VALUE>71.0648</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -92065,7 +93273,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.468506</VALUE>
+            <VALUE>0.85532</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -92179,7 +93387,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0</VALUE>
+            <VALUE>67.6389</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -92217,7 +93425,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.00311167</VALUE>
+            <VALUE>2.13194</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -92236,7 +93444,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.0435633</VALUE>
+            <VALUE>29.8472</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -92407,7 +93615,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>42.1656</VALUE>
+            <VALUE>76.9788</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -92426,7 +93634,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>9.37012</VALUE>
+            <VALUE>17.1064</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -92445,7 +93653,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>2.65747</VALUE>
+            <VALUE>0.723397</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -92476,7 +93684,7 @@ jXhHFivJeQ==
        <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
        <SCALE_FACTOR>1</SCALE_FACTOR>
        <ENVIRONMENT>
-        <TIME_IN_SECONDS>66900</TIME_IN_SECONDS>
+        <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
         <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
         <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
         <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -94653,7 +95861,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>2.16537e-06</VALUE>
+          <VALUE>16.4222</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-0.00138889</MIN_RATE>
@@ -94767,7 +95975,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>7.27656</VALUE>
+          <VALUE>9.21063</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -94824,7 +96032,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>9.02236e-06</VALUE>
+          <VALUE>68.4259</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -94957,7 +96165,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>75.4469</VALUE>
+          <VALUE>71.5787</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -94995,7 +96203,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>4.9623e-06</VALUE>
+          <VALUE>37.6343</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -95261,7 +96469,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>9.02236e-06</VALUE>
+          <VALUE>68.4259</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -95299,7 +96507,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>0.455312</VALUE>
+          <VALUE>0.842126</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -95413,7 +96621,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>0</VALUE>
+          <VALUE>67.6389</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -95451,7 +96659,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>2.70671e-07</VALUE>
+          <VALUE>2.05278</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -95470,7 +96678,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>3.78939e-06</VALUE>
+          <VALUE>28.7389</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -95641,7 +96849,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>40.978</VALUE>
+          <VALUE>75.7914</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -95660,7 +96868,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>9.10623</VALUE>
+          <VALUE>16.8425</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -95679,7 +96887,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>2.72344</VALUE>
+          <VALUE>0.78937</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -95710,7 +96918,7 @@ jXhHFivJeQ==
      <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
      <SCALE_FACTOR>1</SCALE_FACTOR>
      <ENVIRONMENT>
-      <TIME_IN_SECONDS>66900</TIME_IN_SECONDS>
+      <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
       <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
       <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
       <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -97887,7 +99095,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>16.2333</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-0.00138889</MIN_RATE>
@@ -98001,7 +99209,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>7.25688</VALUE>
+        <VALUE>9.19095</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -98058,7 +99266,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>67.6389</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -98191,7 +99399,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>75.4862</VALUE>
+        <VALUE>71.6181</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -98229,7 +99437,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>37.2014</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -98495,7 +99703,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>67.6389</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -98533,7 +99741,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0.451376</VALUE>
+        <VALUE>0.838191</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -98647,7 +99855,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>67.6389</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -98685,7 +99893,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>2.02917</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -98704,7 +99912,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>28.4083</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -98875,7 +100083,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>40.6239</VALUE>
+        <VALUE>75.4372</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -98894,7 +100102,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>9.02752</VALUE>
+        <VALUE>16.7638</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -98913,7 +100121,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>2.74312</VALUE>
+        <VALUE>0.809047</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -98979,7 +100187,7 @@ jXhHFivJeQ==
          <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
          <SCALE_FACTOR>1</SCALE_FACTOR>
          <ENVIRONMENT>
-          <TIME_IN_SECONDS>66900</TIME_IN_SECONDS>
+          <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
           <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
           <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
           <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -101156,7 +102364,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.0248934</VALUE>
+            <VALUE>17.0555</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-0.00138889</MIN_RATE>
@@ -101270,7 +102478,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>7.34253</VALUE>
+            <VALUE>9.27659</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -101327,7 +102535,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.103722</VALUE>
+            <VALUE>71.0648</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -101460,7 +102668,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>75.3149</VALUE>
+            <VALUE>71.4467</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -101498,7 +102706,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.0570473</VALUE>
+            <VALUE>39.0856</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -101764,7 +102972,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.103722</VALUE>
+            <VALUE>71.0648</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -101802,7 +103010,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.468506</VALUE>
+            <VALUE>0.85532</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -101916,7 +103124,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0</VALUE>
+            <VALUE>67.6389</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -101954,7 +103162,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.00311167</VALUE>
+            <VALUE>2.13194</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -101973,7 +103181,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.0435633</VALUE>
+            <VALUE>29.8472</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -102144,7 +103352,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>42.1656</VALUE>
+            <VALUE>76.9788</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -102163,7 +103371,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>9.37012</VALUE>
+            <VALUE>17.1064</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -102182,7 +103390,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>2.65747</VALUE>
+            <VALUE>0.723397</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -102213,7 +103421,7 @@ jXhHFivJeQ==
        <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
        <SCALE_FACTOR>1</SCALE_FACTOR>
        <ENVIRONMENT>
-        <TIME_IN_SECONDS>66900</TIME_IN_SECONDS>
+        <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
         <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
         <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
         <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -104390,7 +105598,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>2.16537e-06</VALUE>
+          <VALUE>16.4222</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-0.00138889</MIN_RATE>
@@ -104504,7 +105712,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>7.27656</VALUE>
+          <VALUE>9.21063</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -104561,7 +105769,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>9.02236e-06</VALUE>
+          <VALUE>68.4259</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -104694,7 +105902,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>75.4469</VALUE>
+          <VALUE>71.5787</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -104732,7 +105940,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>4.9623e-06</VALUE>
+          <VALUE>37.6343</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -104998,7 +106206,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>9.02236e-06</VALUE>
+          <VALUE>68.4259</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -105036,7 +106244,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>0.455312</VALUE>
+          <VALUE>0.842126</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -105150,7 +106358,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>0</VALUE>
+          <VALUE>67.6389</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -105188,7 +106396,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>2.70671e-07</VALUE>
+          <VALUE>2.05278</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -105207,7 +106415,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>3.78939e-06</VALUE>
+          <VALUE>28.7389</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -105378,7 +106586,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>40.978</VALUE>
+          <VALUE>75.7914</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -105397,7 +106605,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>9.10623</VALUE>
+          <VALUE>16.8425</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -105416,7 +106624,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>2.72344</VALUE>
+          <VALUE>0.78937</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -105447,7 +106655,7 @@ jXhHFivJeQ==
      <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
      <SCALE_FACTOR>1</SCALE_FACTOR>
      <ENVIRONMENT>
-      <TIME_IN_SECONDS>66900</TIME_IN_SECONDS>
+      <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
       <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
       <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
       <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -107624,7 +108832,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>16.2333</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-0.00138889</MIN_RATE>
@@ -107738,7 +108946,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>7.25688</VALUE>
+        <VALUE>9.19095</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -107795,7 +109003,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>67.6389</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -107928,7 +109136,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>75.4862</VALUE>
+        <VALUE>71.6181</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -107966,7 +109174,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>37.2014</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -108232,7 +109440,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>67.6389</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -108270,7 +109478,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0.451376</VALUE>
+        <VALUE>0.838191</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -108384,7 +109592,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>67.6389</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -108422,7 +109630,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>2.02917</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -108441,7 +109649,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>28.4083</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -108612,7 +109820,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>40.6239</VALUE>
+        <VALUE>75.4372</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -108631,7 +109839,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>9.02752</VALUE>
+        <VALUE>16.7638</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -108650,7 +109858,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>2.74312</VALUE>
+        <VALUE>0.809047</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -108897,7 +110105,7 @@ jXhHFivJeQ==
      <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
      <SCALE_FACTOR>1</SCALE_FACTOR>
      <ENVIRONMENT>
-      <TIME_IN_SECONDS>66900</TIME_IN_SECONDS>
+      <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
       <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
       <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
       <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -111074,7 +112282,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0.0174697</VALUE>
+        <VALUE>16.8667</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-0.00138889</MIN_RATE>
@@ -111188,7 +112396,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>7.32285</VALUE>
+        <VALUE>9.25692</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -111245,7 +112453,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0.0727903</VALUE>
+        <VALUE>70.2777</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -111378,7 +112586,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>75.3542</VALUE>
+        <VALUE>71.4861</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -111416,7 +112624,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0.0400347</VALUE>
+        <VALUE>38.6528</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -111682,7 +112890,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0.0727903</VALUE>
+        <VALUE>70.2777</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -111720,7 +112928,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0.464571</VALUE>
+        <VALUE>0.851385</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -111834,7 +113042,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0</VALUE>
+        <VALUE>67.6389</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -111872,7 +113080,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0.00218371</VALUE>
+        <VALUE>2.10833</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -111891,7 +113099,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0.0305719</VALUE>
+        <VALUE>29.5166</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -112062,7 +113270,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>41.8114</VALUE>
+        <VALUE>76.6246</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -112081,7 +113289,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>9.29141</VALUE>
+        <VALUE>17.0277</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -112100,7 +113308,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>2.67715</VALUE>
+        <VALUE>0.743073</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -112131,7 +113339,7 @@ jXhHFivJeQ==
    <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
    <SCALE_FACTOR>1</SCALE_FACTOR>
    <ENVIRONMENT>
-    <TIME_IN_SECONDS>66900</TIME_IN_SECONDS>
+    <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
     <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
     <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
     <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -117515,7 +118723,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>0</VALUE>
+      <VALUE>16.2333</VALUE>
       <MIN>-100</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-0.00138889</MIN_RATE>
@@ -117629,7 +118837,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>7.25688</VALUE>
+      <VALUE>9.19095</VALUE>
       <MIN>0</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -117686,7 +118894,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>0</VALUE>
+      <VALUE>67.6389</VALUE>
       <MIN>0</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -117819,7 +119027,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>75.4862</VALUE>
+      <VALUE>71.6181</VALUE>
       <MIN>0</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -117857,7 +119065,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>0</VALUE>
+      <VALUE>37.2014</VALUE>
       <MIN>0</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -118123,7 +119331,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>0</VALUE>
+      <VALUE>67.6389</VALUE>
       <MIN>0</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -118161,7 +119369,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>0.451376</VALUE>
+      <VALUE>0.838191</VALUE>
       <MIN>-100</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -118275,7 +119483,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>0</VALUE>
+      <VALUE>67.6389</VALUE>
       <MIN>0</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -118313,7 +119521,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>0</VALUE>
+      <VALUE>2.02917</VALUE>
       <MIN>0</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -118332,7 +119540,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>0</VALUE>
+      <VALUE>28.4083</VALUE>
       <MIN>0</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -118503,7 +119711,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>40.6239</VALUE>
+      <VALUE>75.4372</VALUE>
       <MIN>-100</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -118522,7 +119730,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>9.02752</VALUE>
+      <VALUE>16.7638</VALUE>
       <MIN>0</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -118541,7 +119749,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>2.74312</VALUE>
+      <VALUE>0.809047</VALUE>
       <MIN>0</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -118852,8 +120060,8 @@ jXhHFivJeQ==
     <MEM_ADDR>1490291186112</MEM_ADDR>
    </NOTE>
    <NOTE uuid="{1a04c6a1-e110-444d-8a48-b0b22fbea5d9}">
-    <X>439</X>
-    <Y>2834</Y>
+    <X>476</X>
+    <Y>2848.5</Y>
     <Z>0.21</Z>
     <TEXT translate="true"></TEXT>
     <NOTECLUSTERID></NOTECLUSTERID>
@@ -119293,8 +120501,8 @@ jXhHFivJeQ==
    <RECTCLUSTERID>1-1</RECTCLUSTERID>
    <MEM_ADDR>1490132396944</MEM_ADDR>
    <DevicePlacement_ShapeName></DevicePlacement_ShapeName>
-   <DevicePlacement_ShapeX>439</DevicePlacement_ShapeX>
-   <DevicePlacement_ShapeY>2834</DevicePlacement_ShapeY>
+   <DevicePlacement_ShapeX>476</DevicePlacement_ShapeX>
+   <DevicePlacement_ShapeY>2848.5</DevicePlacement_ShapeY>
    <DevicePlacement_ShapeZ>0.21</DevicePlacement_ShapeZ>
   </RECTANGLE>
   <RECTANGLE uuid="{61a758dc-5065-46bc-85b1-b8bea6f45949}">
@@ -119660,7 +120868,7 @@ jXhHFivJeQ==
      <IsStartCable>true</IsStartCable>
      <IsEndCable>true</IsEndCable>
      <GroupPoints>0</GroupPoints>
-     <Link>86</Link>
+     <Link>85</Link>
     </GEOCONNECTIONITEM>
    </GeoConnectionItems>
    <BreakPointItems/>
@@ -121552,6 +122760,117 @@ jXhHFivJeQ==
   <LOG_ENTRY>3f3f203f3f3f2031372030333a32393a32362032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e66696729230065780065786974</LOG_ENTRY>
   <LOG_ENTRY>3f3f203f3f3f2031372030333a32393a32382032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c23007772206d007772697465206d656d6f7279</LOG_ENTRY>
   <LOG_ENTRY>3f3f203f3f3f2031372030333a32393a33342032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c2300636f7020727520737400636f70792072756e6e696e672d636f6e66696720737461727475702d636f6e666967</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a33353a32372032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c230073682072756e0073686f772072756e6e696e672d636f6e666967</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a33393a30312032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c2300636f6e66207400636f6e666967757265207465726d696e616c</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a33393a30362032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672923006163636573732d6c697374204f5554534944455f494e20657874656e646564207065726d69742075647020616e7920696e74657266616365206f757473696465206571203533006163636573732d6c697374204f5554534944455f494e20657874656e646564207065726d69742075647020616e79</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a33393a31352032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672923006163636573732d6c697374204f5554534944455f494e20657874656e646564207065726d69742075647020616e79206f757473696465206571203533006163636573732d6c697374204f5554534944455f494e20657874656e646564207065726d69742075647020616e79</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a33393a32302032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672923006163636573732d6c697374204f5554534944455f494e20657874656e646564207065726d69742075647020616e79203f00</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a34313a31302032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672923006163636573732d6c697374204f5554534944455f494e20657874656e646564207065726d69742075647020616e7920616e7920646f6d61696e006163636573732d6c697374204f5554534944455f494e20657874656e646564207065726d69742075647020616e7920616e79</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a34313a31342032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672923006163636573732d6c697374204f5554534944455f494e20657874656e646564207065726d69742075647020616e7920616e79203f00</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a34313a32362032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672923006163636573732d6c697374204f5554534944455f494e20657874656e646564207065726d69742075647020616e7920616e79206571203533006163636573732d6c697374204f5554534944455f494e20657874656e646564207065726d69742075647020616e7920616e79206571203533</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a34333a34302032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672923006163636573732d6c697374204f5554534944455f494e20657874656e646564207065726d69742075647020616e7920686f7374203139322e3136382e3235352e32203f00</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a34333a35342032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672923006163636573732d6c697374204f5554534944455f494e20657874656e646564207065726d69742075647020616e7920686f7374203139322e3136382e3235352e32203533006163636573732d6c697374204f5554534944455f494e20657874656e646564207065726d69742075647020616e7920686f7374203139322e3136382e3235352e32</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a34343a31352032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672923006163636573732d6c697374204f5554534944455f494e20657874656e646564207065726d69742075647020616e7920686f7374203139322e3136382e3235352e3220646f6d61696e006163636573732d6c697374204f5554534944455f494e20657874656e646564207065726d69742075647020616e7920686f7374203139322e3136382e3235352e32</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a34343a32382032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672923006163636573732d6c697374204f5554534944455f494e20657874656e646564207065726d69742075647020616e7920686f7374203139322e3136382e3235352e32206563686f2d7265706c79006163636573732d6c697374204f5554534944455f494e20657874656e646564207065726d69742075647020616e7920686f7374203139322e3136382e3235352e32</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a34343a33312032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672923006163636573732d6c697374204f5554534944455f494e20657874656e646564207065726d69742075647020616e7920686f7374203139322e3136382e3235352e32206563686f2d7265706c793f00</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a34343a33342032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672923006163636573732d6c697374204f5554534944455f494e20657874656e646564207065726d69742075647020616e7920686f7374203139322e3136382e3235352e32203f00</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a34343a34372032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672923006163636573732d6c697374204f5554534944455f494e20657874656e646564207065726d69742075647020616e7920686f7374203139322e3136382e3235352e32206571203533006163636573732d6c697374204f5554534944455f494e20657874656e646564207065726d69742075647020616e7920686f7374203139322e3136382e3235352e32206571203533</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a34343a35342032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e66696729230065780065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a34343a35362032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c230073682072750073686f772072756e6e696e672d636f6e666967</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a34363a34362032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c2300636f6e66207400636f6e666967757265207465726d696e616c</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a34363a34392032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672923006163636573732d6c697374204f5554534944455f494e20657874656e646564207065726d69742075647020616e7920686f7374203139322e3136382e3235352e3220657120646f6d61696e006163636573732d6c697374204f5554534944455f494e20657874656e646564207065726d69742075647020616e7920686f7374203139322e3136382e3235352e3220657120646f6d61696e</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a34363a35362032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672923006e6f206163636573732d6c697374204f5554534944455f494e20657874656e646564207065726d69742075647020616e7920686f7374203139322e3136382e3235352e3220657120646f6d61696e006e6f206163636573732d6c697374204f5554534944455f494e20657874656e646564207065726d69742075647020616e7920686f7374203139322e3136382e3235352e3220657120646f6d61696e</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a34363a35382032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e66696729230065780065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35313a30332032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c2300636f6e666967757265207465726d696e616c00636f6e666967757265207465726d696e616c</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35313a30332032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e666967292300696e74657266616365204769676162697445746865726e6574312f3600696e74657266616365204769676162697445746865726e6574312f2036</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35313a30342032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35313a30342032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e666967292300696e74657266616365204769676162697445746865726e6574312f3700696e74657266616365204769676162697445746865726e6574312f2037</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35313a30362032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35313a30362032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e666967292300696e74657266616365204769676162697445746865726e6574312f3800696e74657266616365204769676162697445746865726e6574312f2038</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35313a30362032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35313a30362032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e666967292300696e74657266616365204769676162697445746865726e6574312f3700696e74657266616365204769676162697445746865726e6574312f2037</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35313a32352032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35313a32352032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e666967292300696e74657266616365204769676162697445746865726e6574312f3300696e74657266616365204769676162697445746865726e6574312f2033</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35313a32362032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35313a32362032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e666967292300696e74657266616365204769676162697445746865726e6574312f3400696e74657266616365204769676162697445746865726e6574312f2034</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35313a32362032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35313a32362032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e666967292300696e74657266616365204769676162697445746865726e6574312f3600696e74657266616365204769676162697445746865726e6574312f2036</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35313a32372032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35313a32372032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e666967292300696e74657266616365204769676162697445746865726e6574312f3700696e74657266616365204769676162697445746865726e6574312f2037</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35313a33302032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35313a33302032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e666967292300696e74657266616365204769676162697445746865726e6574312f3800696e74657266616365204769676162697445746865726e6574312f2038</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35313a33312032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35313a33312032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e666967292300696e74657266616365204769676162697445746865726e6574312f3700696e74657266616365204769676162697445746865726e6574312f2037</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35313a33312032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35313a33312032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e666967292300696e74657266616365204769676162697445746865726e6574312f3600696e74657266616365204769676162697445746865726e6574312f2036</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35313a33322032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35313a33322032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e666967292300696e74657266616365204769676162697445746865726e6574312f3500696e74657266616365204769676162697445746865726e6574312f2035</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35323a35322032303235004661746f727920537769746368005377697463683e00656e61626c6500656e61626c65</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35323a35322032303235004661746f727920537769746368005377697463682300636f6e666967757265207465726d696e616c00636f6e666967757265207465726d696e616c</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35323a35322032303235004661746f7279205377697463680053776974636828636f6e666967292300696e74657266616365204661737445746865726e6574312f3100696e74657266616365204661737445746865726e6574312f2031</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35323a35332032303235004661746f7279205377697463680053776974636828636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35323a35332032303235004661746f7279205377697463680053776974636828636f6e666967292300696e74657266616365204661737445746865726e6574302f3100696e74657266616365204661737445746865726e6574302f2031</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35323a35342032303235004661746f7279205377697463680053776974636828636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35323a35342032303235004661746f7279205377697463680053776974636828636f6e666967292300696e74657266616365204661737445746865726e6574312f3100696e74657266616365204661737445746865726e6574312f2031</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35323a35342032303235004661746f7279205377697463680053776974636828636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35323a35342032303235004661746f7279205377697463680053776974636828636f6e666967292300696e74657266616365204661737445746865726e6574322f3100696e74657266616365204661737445746865726e6574322f2031</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35323a35352032303235004661746f7279205377697463680053776974636828636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35323a35352032303235004661746f7279205377697463680053776974636828636f6e666967292300696e74657266616365204661737445746865726e6574332f3100696e74657266616365204661737445746865726e6574332f2031</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35323a35362032303235004661746f7279205377697463680053776974636828636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35323a35362032303235004661746f7279205377697463680053776974636828636f6e666967292300696e74657266616365204661737445746865726e6574352f3100696e74657266616365204661737445746865726e6574352f2031</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35323a35362032303235004661746f7279205377697463680053776974636828636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35323a35362032303235004661746f7279205377697463680053776974636828636f6e666967292300696e74657266616365204769676162697445746865726e6574372f3100696e74657266616365204769676162697445746865726e6574372f2031</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35323a35372032303235004661746f7279205377697463680053776974636828636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35323a35372032303235004661746f7279205377697463680053776974636828636f6e666967292300696e74657266616365204769676162697445746865726e6574382f3100696e74657266616365204769676162697445746865726e6574382f2031</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35323a35372032303235004661746f7279205377697463680053776974636828636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35323a35372032303235004661746f7279205377697463680053776974636828636f6e666967292300696e74657266616365204769676162697445746865726e6574392f3100696e74657266616365204769676162697445746865726e6574392f2031</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35333a30302032303235004661746f7279205377697463680053776974636828636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35333a30302032303235004661746f7279205377697463680053776974636828636f6e666967292300696e74657266616365204769676162697445746865726e6574382f3100696e74657266616365204769676162697445746865726e6574382f2031</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35333a30302032303235004661746f7279205377697463680053776974636828636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35333a30302032303235004661746f7279205377697463680053776974636828636f6e666967292300696e74657266616365204769676162697445746865726e6574382f3100696e74657266616365204769676162697445746865726e6574382f2031</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35333a30302032303235004661746f7279205377697463680053776974636828636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35333a30302032303235004661746f7279205377697463680053776974636828636f6e666967292300696e74657266616365204769676162697445746865726e6574372f3100696e74657266616365204769676162697445746865726e6574372f2031</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35333a30342032303235004661746f7279205377697463680053776974636828636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35333a30342032303235004661746f7279205377697463680053776974636828636f6e666967292300696e74657266616365204661737445746865726e6574362f3100696e74657266616365204661737445746865726e6574362f2031</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35333a30342032303235004661746f7279205377697463680053776974636828636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35333a30342032303235004661746f7279205377697463680053776974636828636f6e666967292300696e74657266616365204661737445746865726e6574342f3100696e74657266616365204661737445746865726e6574342f2031</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35333a30342032303235004661746f7279205377697463680053776974636828636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35333a30342032303235004661746f7279205377697463680053776974636828636f6e666967292300696e74657266616365204661737445746865726e6574332f3100696e74657266616365204661737445746865726e6574332f2031</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35333a30352032303235004661746f7279205377697463680053776974636828636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35333a30352032303235004661746f7279205377697463680053776974636828636f6e666967292300696e74657266616365204661737445746865726e6574302f3100696e74657266616365204661737445746865726e6574302f2031</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35333a33312032303235004661746f7279205377697463680053776974636828636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35333a33312032303235004661746f7279205377697463680053776974636828636f6e666967292300696e74657266616365204661737445746865726e6574342f3100696e74657266616365204661737445746865726e6574342f2031</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35353a33362032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672d696629230065780065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35353a33382032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e66696729230065780065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35353a34312032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c2300636f6e66207400636f6e666967757265207465726d696e616c</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35363a34322032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e66696729230064686370642061646472657373203139322e3136382e32362e3130302d3139322e3136382e32372e32303020666163746f72790064686370642061646472657373203139322e3136382e32362e3130302d3139322e3136382e32372e32303020666163746f7279</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35363a35312032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e666967292300646863706420646e7320382e382e382e3800646863706420646e7320382e382e382e38</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35373a30332032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e666967292300646863706420656e61626c6520666163746f727900646863706420656e61626c6520666163746f7279</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35373a30342032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e66696729230065780065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35373a30382032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c2300636f6e66206600636f6e666967757265</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35373a31312032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c230073682072756e0073686f772072756e6e696e672d636f6e666967</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35373a34392032303235004661746f727920537769746368005377697463683e00656e61626c6500656e61626c65</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35373a34392032303235004661746f727920537769746368005377697463682300636f6e666967757265207465726d696e616c00636f6e666967757265207465726d696e616c</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35373a34392032303235004661746f7279205377697463680053776974636828636f6e666967292300696e74657266616365204661737445746865726e6574302f3100696e74657266616365204661737445746865726e6574302f2031</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35373a35372032303235004661746f7279205377697463680053776974636828636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35373a35372032303235004661746f7279205377697463680053776974636828636f6e666967292300696e74657266616365204661737445746865726e6574302f3100696e74657266616365204661737445746865726e6574302f2031</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35383a35352032303235004661746f7279205377697463680053776974636828636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35383a35352032303235004661746f7279205377697463680053776974636828636f6e666967292300696e74657266616365204661737445746865726e6574302f3100696e74657266616365204661737445746865726e6574302f2031</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35393a32342032303235004661746f7279205377697463680053776974636828636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35393a32342032303235004661746f7279205377697463680053776974636828636f6e666967292300696e74657266616365204661737445746865726e6574342f3100696e74657266616365204661737445746865726e6574342f2031</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35393a34352032303235004661746f7279205377697463680053776974636828636f6e6669672d696629230065780065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35393a34362032303235004661746f7279205377697463680053776974636828636f6e666967292300696e746572666163652072616e67652066302f312c2066312f312c2066322f312c2066332f312c2066342f312c2066352f312c2066362f312c2067372f312c2067382f312c2067392f3100696e746572666163652072616e67654661737445746865726e6574302f312e2030202c204661737445746865726e6574312f312e2030202c204661737445746865726e6574322f312e2030202c204661737445746865726e6574332f312e2030202c204661737445746865726e6574342f312e2030202c204661737445746865726e6574352f312e2030202c204661737445746865726e6574362f312e2030202c204769676162697445746865726e6574372f31202c204769676162697445746865726e6574382f31202c204769676162697445746865726e6574392f31</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35393a34362032303235004661746f7279205377697463680053776974636828636f6e6669672d69662d72616e6765292300737769746368706f7274206d6f64652061636365737300737769746368706f7274206d6f646520616363657373</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35393a34362032303235004661746f7279205377697463680053776974636828636f6e6669672d69662d72616e6765292300737769746368706f72742061636365737320766c616e20323600737769746368706f72742061636365737320766c616e203236</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35393a34362032303235004661746f7279205377697463680053776974636828636f6e6669672d69662d72616e67652923007370616e6e696e672d7472656520706f727466617374007370616e6e696e672d7472656520706f727466617374</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35393a34382032303235004661746f7279205377697463680053776974636828636f6e6669672d69662d72616e67652923007370616e6e696e672d747265652062706475677561726420656e61626c65007370616e6e696e672d747265652062706475677561726420656e61626c65</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35393a35332032303235004661746f7279205377697463680053776974636828636f6e6669672d69662d72616e676529230065780065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35393a35372032303235004661746f7279205377697463680053776974636828636f6e6669672923007772206d00</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030333a35393a35392032303235004661746f7279205377697463680053776974636828636f6e66696729230065780065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030343a30303a30312032303235004661746f727920537769746368005377697463682300777220007772697465</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030343a30303a30362032303235004661746f727920537769746368005377697463682300636f7020727520737400636f70792072756e6e696e672d636f6e66696720737461727475702d636f6e666967</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030343a30303a31302032303235004661746f727920537769746368005377697463682300636f6e666967757265207465726d696e616c00636f6e666967757265207465726d696e616c</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030343a30303a31302032303235004661746f7279205377697463680053776974636828636f6e666967292300696e74657266616365204661737445746865726e6574342f3100696e74657266616365204661737445746865726e6574342f2031</LOG_ENTRY>
  </COMMAND_LOGS>
  <CEPS/>
  <EXT_PORT_MGR/>
