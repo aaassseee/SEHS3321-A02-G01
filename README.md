@@ -117,9 +117,29 @@ ip dhcp pool VLAN64
 network 192.168.64.0 255.255.254.0
 default-router 192.168.64.1
 dns 8.8.8.8
+no shut
 exit
 
 ip dhcp excluded-address 192.168.64.1 192.168.64.99
 ip dhcp excluded-address 192.168.64.201 192.168.64.245
 exit
 sh ip dhcp pool
+
+conf t
+int vlan 72
+ip add 192.168.72.1 255.255.255.0
+no shut
+exit
+
+int f0/3
+sw t e d
+sw m t
+sw t a v 72
+no shut
+
+conf t
+ip dhcp pool VLAN72
+network 192.168.72.0 255.255.255.0
+default-router 192.168.72.1
+dns 8.8.8.8
+exit
