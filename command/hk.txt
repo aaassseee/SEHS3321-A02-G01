@@ -1,0 +1,123 @@
+: Saved
+:
+ASA Version 9.6(1)
+!
+hostname OUTSIDE-FIREWALL
+names
+!
+interface GigabitEthernet1/1
+ nameif outside
+ security-level 0
+ ip address 192.168.191.250 255.255.255.248
+!
+interface GigabitEthernet1/2
+ nameif dmz1
+ security-level 50
+ ip address 192.168.128.1 255.255.255.0
+!
+interface GigabitEthernet1/3
+ nameif dmz2
+ security-level 50
+ ip address 192.168.129.1 255.255.255.0
+!
+interface GigabitEthernet1/4
+ nameif tier1
+ security-level 70
+ ip address 192.168.130.1 255.255.240.0
+!
+interface GigabitEthernet1/5
+ nameif tier2
+ security-level 80
+ ip address 192.168.144.1 255.255.252.0
+!
+interface GigabitEthernet1/6
+ nameif tier3
+ security-level 90
+ ip address 192.168.148.1 255.255.255.0
+!
+interface GigabitEthernet1/8
+ no nameif
+ no security-level
+ no ip address
+ shutdown
+!
+interface Management1/1
+ management-only
+ no nameif
+ no security-level
+ no ip address
+ shutdown
+!
+object network DMZ1
+ subnet 192.168.128.0 255.255.255.0
+ nat (dmz1,outside) dynamic interface
+object network DMZ2
+ subnet 192.168.129.0 255.255.255.0
+ nat (dmz2,outside) dynamic interface
+ end
+
+ conf t
+object network TIER1
+ subnet 192.168.130.0 255.255.240.0
+ nat (tier1,outside) dynamic interface
+ end
+conf t
+ object network TIER2
+ subnet 192.168.144.0 255.255.252.0
+ nat (tier2,outside) dynamic interface
+  object network TIER3
+ subnet 192.168.148.0 255.255.255.0
+ nat (tier3,outside) dynamic interface
+!
+route outside 0.0.0.0 0.0.0.0 192.168.191.251 1
+!
+access-list OUTSIDE_IN extended permit tcp any any eq domain
+access-list OUTSIDE_IN extended permit udp any any eq domain
+access-list OUTSIDE_IN extended permit icmp any host 192.168.255.2 echo-reply
+!
+!
+access-group OUTSIDE_IN in interface outside
+!
+!
+class-map inspection_default
+ match default-inspection-traffic
+!
+policy-map type inspect dns preset_dns_map
+ parameters
+  message-length maximum 512
+policy-map global_policy
+ class inspection_default
+  inspect dns preset_dns_map
+  inspect ftp
+  inspect http
+  inspect icmp
+  inspect tftp
+!
+service-policy global_policy global
+!
+telnet timeout 5
+ssh timeout 5
+!
+dhcpd dns 8.8.8.8
+!
+dhcpd address 192.168.10.100-192.168.10.200 dmz2
+dhcpd enable dmz2
+!
+dhcpd address 192.168.26.100-192.168.27.200 factory
+dhcpd enable factory
+!
+!
+!
+!
+
+
+
+
+
+
+
+
+
+
+wr m
+cop ru st
