@@ -102,34 +102,27 @@ inspect icmp
 service-policy global_policy global
 !
 
-interface range f1/1, f2/1, f3/1, f4/1, f5/1, f6/1, f7/1, f8/1, g9/1
-switchport mode access
-switchport access vlan 64
-spanning-tree portfast
-spanning-tree bpduguard enable
+object network FACTORY
+subnet 192.168.26.0 255.255.254.0
+nat (factory,outside) dynamic interface
 
+## ASA dhcpd
 dhcpd address 192.168.10.100-192.168.10.200 dmz2
 dhcpd dns 8.8.8.8
 dhcpd enable dmz2
 
-conf t
-ip dhcp pool VLAN64
-network 192.168.64.0 255.255.254.0
-default-router 192.168.64.1
-dns 8.8.8.8
-no shut
-exit
 
-ip dhcp excluded-address 192.168.64.1 192.168.64.99
-ip dhcp excluded-address 192.168.64.201 192.168.64.245
-exit
-sh ip dhcp pool
-
+## VLAN Trunk
 conf t
+
+vlan 72
+name GAO
+ex
+
 int vlan 72
 ip add 192.168.72.1 255.255.255.0
 no shut
-exit
+ex
 
 int f0/3
 sw t e d
@@ -138,8 +131,28 @@ sw t a v 72
 no shut
 
 conf t
-ip dhcp pool VLAN72
-network 192.168.72.0 255.255.255.0
-default-router 192.168.72.1
+ip dh po VLAN72
+net 192.168.72.0 255.255.255.0
+default-r 192.168.72.1
 dns 8.8.8.8
-exit
+ex
+
+ip dh ex 192.168.72.1 192.168.72.99
+ip dh ex 192.168.72.201 192.168.72.245
+ex
+
+## Sub Switch
+conf t
+int f0/1
+sw m t
+sw t a v 72
+no shut
+ex
+
+conf t
+int ran f1/1, f2/1, f3/1, f4/1, f5/1, f6/1, f7/1, f8/1, g9/1
+sw m a
+sw a v 72
+spa p
+spa b e
+ex
