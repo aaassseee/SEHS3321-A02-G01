@@ -18628,7 +18628,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
       <DESKTOP_APPS/>
      </USER_APPS>
      <SAVE_REF_ID>save-ref-id:1200494193525822699</SAVE_REF_ID>
-     <SYS_NAME>Switch</SYS_NAME>
+     <SYS_NAME>HRD-SWITCH</SYS_NAME>
      <RUNNINGCONFIG>
       <LINE>!</LINE>
       <LINE>version 12.1</LINE>
@@ -18636,7 +18636,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
       <LINE>no service timestamps debug datetime msec</LINE>
       <LINE>no service password-encryption</LINE>
       <LINE>!</LINE>
-      <LINE>hostname Switch</LINE>
+      <LINE>hostname HRD-SWITCH</LINE>
       <LINE>!</LINE>
       <LINE>!</LINE>
       <LINE>!</LINE>
@@ -18647,24 +18647,62 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
       <LINE>spanning-tree extend system-id</LINE>
       <LINE>!</LINE>
       <LINE>interface FastEthernet0/1</LINE>
+      <LINE> switchport trunk allowed vlan 75</LINE>
+      <LINE> switchport mode trunk</LINE>
       <LINE>!</LINE>
       <LINE>interface FastEthernet1/1</LINE>
+      <LINE> switchport access vlan 75</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
       <LINE>!</LINE>
       <LINE>interface FastEthernet2/1</LINE>
+      <LINE> switchport access vlan 75</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
       <LINE>!</LINE>
       <LINE>interface FastEthernet3/1</LINE>
+      <LINE> switchport access vlan 75</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
       <LINE>!</LINE>
       <LINE>interface FastEthernet4/1</LINE>
+      <LINE> switchport access vlan 75</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
       <LINE>!</LINE>
       <LINE>interface FastEthernet5/1</LINE>
+      <LINE> switchport access vlan 75</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
       <LINE>!</LINE>
       <LINE>interface FastEthernet6/1</LINE>
+      <LINE> switchport access vlan 75</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
       <LINE>!</LINE>
       <LINE>interface FastEthernet7/1</LINE>
+      <LINE> switchport access vlan 75</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
       <LINE>!</LINE>
       <LINE>interface FastEthernet8/1</LINE>
+      <LINE> switchport access vlan 75</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
       <LINE>!</LINE>
       <LINE>interface FastEthernet9/1</LINE>
+      <LINE> switchport access vlan 75</LINE>
+      <LINE> switchport mode access</LINE>
+      <LINE> spanning-tree portfast</LINE>
+      <LINE> spanning-tree bpduguard enable</LINE>
       <LINE>!</LINE>
       <LINE>interface Vlan1</LINE>
       <LINE> no ip address</LINE>
@@ -18718,8 +18756,34 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
             <SET_NAME>pt_12.1_EA4</SET_NAME>
            </FILE_CONTENT>
           </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>17</FILE_NUMBER>
+           <NAME>vlan.dat</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CVlanDatFileContent">
+            <VLAN_COUNT>6</VLAN_COUNT>
+            <VLANS>
+             <VLAN name="default" rspan="0" number="1"/>
+             <VLAN name="VLAN0075" rspan="0" number="75"/>
+             <VLAN name="fddi-default" rspan="0" number="1002"/>
+             <VLAN name="token-ring-default" rspan="0" number="1003"/>
+             <VLAN name="fddinet-default" rspan="0" number="1004"/>
+             <VLAN name="trnet-default" rspan="0" number="1005"/>
+            </VLANS>
+            <VTP>
+             <DOMAIN_NAME></DOMAIN_NAME>
+             <MODE>0</MODE>
+             <VERSION>1</VERSION>
+             <PASSWORD></PASSWORD>
+             <CONFIG_REVISION>1</CONFIG_REVISION>
+             <UPDATER_IP>0.0.0.0</UPDATER_IP>
+             <UPDATE_TIMESTAMP>3-1-93 00:44:41</UPDATE_TIMESTAMP>
+            </VTP>
+           </FILE_CONTENT>
+          </FILE>
          </FILES>
-         <FILE_COUNTER>16</FILE_COUNTER>
+         <FILE_COUNTER>17</FILE_COUNTER>
          <CAPACITY>64016384</CAPACITY>
         </FILE>
        </FILES>
@@ -18752,6 +18816,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      <SCP_SERVER_ENABLED>false</SCP_SERVER_ENABLED>
      <VLANS>
       <VLAN name="default" rspan="0" number="1"/>
+      <VLAN name="VLAN0075" rspan="0" number="75"/>
       <VLAN name="fddi-default" rspan="0" number="1002"/>
       <VLAN name="token-ring-default" rspan="0" number="1003"/>
       <VLAN name="fddinet-default" rspan="0" number="1004"/>
@@ -18762,9 +18827,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
       <MODE>0</MODE>
       <VERSION>1</VERSION>
       <PASSWORD></PASSWORD>
-      <CONFIG_REVISION>0</CONFIG_REVISION>
+      <CONFIG_REVISION>1</CONFIG_REVISION>
       <UPDATER_IP>0.0.0.0</UPDATER_IP>
-      <UPDATE_TIMESTAMP>0-0-00 00:00:00</UPDATE_TIMESTAMP>
+      <UPDATE_TIMESTAMP>3-1-93 00:44:41</UPDATE_TIMESTAMP>
      </VTP>
      <DHCP_SNOOPING_BINDING_DB_AGENT>
       <CONFIGURED_FILENAME></CONFIGURED_FILENAME>
@@ -18830,12 +18895,12 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <CHANNEL5GHZ>0</CHANNEL5GHZ>
          <COVERAGERANGE>0</COVERAGERANGE>
          <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
-         <UP_METHOD>5</UP_METHOD>
+         <UP_METHOD>1</UP_METHOD>
          <IP/>
          <SUBNET/>
          <PORT_GATEWAY/>
-         <PORT_DNS/>
-         <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+         <PORT_DNS>8.8.8.8</PORT_DNS>
+         <PORT_DHCP_ENABLE>true</PORT_DHCP_ENABLE>
          <ND_SUPPRESSED>false</ND_SUPPRESSED>
          <ND_IPV6_DNS_ADDRESSES/>
          <TIMEOUT>14400000</TIMEOUT>
@@ -18850,7 +18915,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <IPV6_PORT_DHCP_ENABLED>false</IPV6_PORT_DHCP_ENABLED>
          <IPV6_ADDRESSES/>
          <IP_UNNUMBERED/>
-         <DHCP_SERVER_IP>0.0.0.0</DHCP_SERVER_IP>
+         <DHCP_SERVER_IP>192.168.75.1</DHCP_SERVER_IP>
         </PORT>
        </MODULE>
       </SLOT>
@@ -18876,9 +18941,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      </USER_APPS>
      <SAVE_REF_ID>save-ref-id:4357457844498061485</SAVE_REF_ID>
      <SYS_NAME>PC</SYS_NAME>
-     <GATEWAY/>
+     <GATEWAY>192.168.75.1</GATEWAY>
      <DNS_CLIENT>
-      <SERVER_IP/>
+      <SERVER_IP>8.8.8.8</SERVER_IP>
       <SERVER_IPV6/>
      </DNS_CLIENT>
      <EMAIL_CLIENT>
@@ -19007,7 +19072,11 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
       <ACTIVATED>0</ACTIVATED>
      </CELLULAR_CLIENT>
      <DHCP_CLIENT>
-      <PORT_DATA_MAP/>
+      <PORT_DATA_MAP>
+       <PORT_DATA_ENTRY>
+        <PORT>FastEthernet0</PORT>
+       </PORT_DATA_ENTRY>
+      </PORT_DATA_MAP>
      </DHCP_CLIENT>
      <ACL_PROCESS>
       <ACLS/>
@@ -19234,12 +19303,12 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <CHANNEL5GHZ>0</CHANNEL5GHZ>
          <COVERAGERANGE>0</COVERAGERANGE>
          <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
-         <UP_METHOD>5</UP_METHOD>
-         <IP>169.254.82.19</IP>
-         <SUBNET>255.255.0.0</SUBNET>
+         <UP_METHOD>1</UP_METHOD>
+         <IP/>
+         <SUBNET/>
          <PORT_GATEWAY/>
-         <PORT_DNS/>
-         <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+         <PORT_DNS>8.8.8.8</PORT_DNS>
+         <PORT_DHCP_ENABLE>true</PORT_DHCP_ENABLE>
          <ND_SUPPRESSED>false</ND_SUPPRESSED>
          <ND_IPV6_DNS_ADDRESSES/>
          <TIMEOUT>14400000</TIMEOUT>
@@ -19254,7 +19323,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <IPV6_PORT_DHCP_ENABLED>false</IPV6_PORT_DHCP_ENABLED>
          <IPV6_ADDRESSES/>
          <IP_UNNUMBERED/>
-         <DHCP_SERVER_IP>0.0.0.0</DHCP_SERVER_IP>
+         <DHCP_SERVER_IP>192.168.75.1</DHCP_SERVER_IP>
         </PORT>
        </MODULE>
       </SLOT>
@@ -19335,9 +19404,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      </BLUETOOTH_PORT>
      <SAVE_REF_ID>save-ref-id:1815547281950520778</SAVE_REF_ID>
      <SYS_NAME>PC</SYS_NAME>
-     <GATEWAY/>
+     <GATEWAY>192.168.75.1</GATEWAY>
      <DNS_CLIENT>
-      <SERVER_IP/>
+      <SERVER_IP>8.8.8.8</SERVER_IP>
       <SERVER_IPV6/>
      </DNS_CLIENT>
      <EMAIL_CLIENT>
@@ -19707,12 +19776,12 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <CHANNEL5GHZ>0</CHANNEL5GHZ>
          <COVERAGERANGE>0</COVERAGERANGE>
          <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
-         <UP_METHOD>5</UP_METHOD>
-         <IP>169.254.136.122</IP>
-         <SUBNET>255.255.0.0</SUBNET>
+         <UP_METHOD>1</UP_METHOD>
+         <IP/>
+         <SUBNET/>
          <PORT_GATEWAY/>
-         <PORT_DNS/>
-         <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+         <PORT_DNS>8.8.8.8</PORT_DNS>
+         <PORT_DHCP_ENABLE>true</PORT_DHCP_ENABLE>
          <ND_SUPPRESSED>false</ND_SUPPRESSED>
          <ND_IPV6_DNS_ADDRESSES/>
          <TIMEOUT>14400000</TIMEOUT>
@@ -19727,7 +19796,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <IPV6_PORT_DHCP_ENABLED>false</IPV6_PORT_DHCP_ENABLED>
          <IPV6_ADDRESSES/>
          <IP_UNNUMBERED/>
-         <DHCP_SERVER_IP>0.0.0.0</DHCP_SERVER_IP>
+         <DHCP_SERVER_IP>192.168.75.1</DHCP_SERVER_IP>
         </PORT>
        </MODULE>
       </SLOT>
@@ -19808,9 +19877,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      </BLUETOOTH_PORT>
      <SAVE_REF_ID>save-ref-id:6365909861211354293</SAVE_REF_ID>
      <SYS_NAME>PC</SYS_NAME>
-     <GATEWAY/>
+     <GATEWAY>192.168.75.1</GATEWAY>
      <DNS_CLIENT>
-      <SERVER_IP/>
+      <SERVER_IP>8.8.8.8</SERVER_IP>
       <SERVER_IPV6/>
      </DNS_CLIENT>
      <EMAIL_CLIENT>
@@ -20180,12 +20249,12 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <CHANNEL5GHZ>0</CHANNEL5GHZ>
          <COVERAGERANGE>0</COVERAGERANGE>
          <SAVED_FULLDUPLEX>false</SAVED_FULLDUPLEX>
-         <UP_METHOD>5</UP_METHOD>
-         <IP>169.254.9.51</IP>
-         <SUBNET>255.255.0.0</SUBNET>
+         <UP_METHOD>1</UP_METHOD>
+         <IP/>
+         <SUBNET/>
          <PORT_GATEWAY/>
-         <PORT_DNS/>
-         <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
+         <PORT_DNS>8.8.8.8</PORT_DNS>
+         <PORT_DHCP_ENABLE>true</PORT_DHCP_ENABLE>
          <ND_SUPPRESSED>false</ND_SUPPRESSED>
          <ND_IPV6_DNS_ADDRESSES/>
          <TIMEOUT>14400000</TIMEOUT>
@@ -20200,7 +20269,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <IPV6_PORT_DHCP_ENABLED>false</IPV6_PORT_DHCP_ENABLED>
          <IPV6_ADDRESSES/>
          <IP_UNNUMBERED/>
-         <DHCP_SERVER_IP>0.0.0.0</DHCP_SERVER_IP>
+         <DHCP_SERVER_IP>192.168.75.1</DHCP_SERVER_IP>
         </PORT>
        </MODULE>
       </SLOT>
@@ -20281,9 +20350,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      </BLUETOOTH_PORT>
      <SAVE_REF_ID>save-ref-id:564678381445720581</SAVE_REF_ID>
      <SYS_NAME>PC</SYS_NAME>
-     <GATEWAY/>
+     <GATEWAY>192.168.75.1</GATEWAY>
      <DNS_CLIENT>
-      <SERVER_IP/>
+      <SERVER_IP>8.8.8.8</SERVER_IP>
       <SERVER_IPV6/>
      </DNS_CLIENT>
      <EMAIL_CLIENT>
@@ -33414,7 +33483,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 00:39:33 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 00:51:06 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
           <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
           <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
@@ -33979,7 +34048,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 00:39:33 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 00:51:06 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
           <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
           <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
@@ -34544,7 +34613,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 00:39:33 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 00:51:06 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
           <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
           <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
@@ -35499,7 +35568,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 00:39:33 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 00:51:06 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
           <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
           <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
@@ -36064,7 +36133,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 00:39:33 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 00:51:06 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
           <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
           <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
@@ -36629,7 +36698,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 00:39:33 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 00:51:06 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
           <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
           <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
@@ -37194,7 +37263,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 00:39:33 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 00:51:06 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
           <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
           <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
@@ -37759,7 +37828,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 00:39:33 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 00:51:06 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
           <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
           <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
@@ -40982,7 +41051,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 00:39:33 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 00:51:06 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
           <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
           <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
@@ -62373,7 +62442,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 00:39:33 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 00:51:06 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
           <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
           <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
@@ -62765,7 +62834,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <MEDIATYPE>0</MEDIATYPE>
          <PINS>true</PINS>
          <BANDWIDTH>100000</BANDWIDTH>
-         <FULLDUPLEX>false</FULLDUPLEX>
+         <FULLDUPLEX>true</FULLDUPLEX>
          <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
          <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
          <MACADDRESS>0005.5E88.3305</MACADDRESS>
@@ -63704,6 +63773,8 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
       <LINE>ip dhcp excluded-address 192.168.72.201 192.168.72.245</LINE>
       <LINE>ip dhcp excluded-address 192.168.74.1 192.168.74.99</LINE>
       <LINE>ip dhcp excluded-address 192.168.74.201 192.168.74.245</LINE>
+      <LINE>ip dhcp excluded-address 192.168.75.1 192.168.75.99</LINE>
+      <LINE>ip dhcp excluded-address 192.168.75.201 192.168.75.245</LINE>
       <LINE>!</LINE>
       <LINE>ip dhcp pool VLAN64</LINE>
       <LINE> network 192.168.64.0 255.255.254.0</LINE>
@@ -63713,9 +63784,13 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
       <LINE> network 192.168.72.0 255.255.255.0</LINE>
       <LINE> default-router 192.168.72.1</LINE>
       <LINE> dns-server 8.8.8.8</LINE>
-      <LINE>ip dhcp pool VLAN77</LINE>
+      <LINE>ip dhcp pool VLAN74</LINE>
       <LINE> network 192.168.74.0 255.255.255.0</LINE>
       <LINE> default-router 192.168.74.1</LINE>
+      <LINE> dns-server 8.8.8.8</LINE>
+      <LINE>ip dhcp pool VLAN75</LINE>
+      <LINE> network 192.168.75.0 255.255.255.0</LINE>
+      <LINE> default-router 192.168.75.1</LINE>
       <LINE> dns-server 8.8.8.8</LINE>
       <LINE>!</LINE>
       <LINE>!</LINE>
@@ -63762,6 +63837,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
       <LINE> switchport mode trunk</LINE>
       <LINE>!</LINE>
       <LINE>interface FastEthernet0/5</LINE>
+      <LINE> switchport trunk allowed vlan 75</LINE>
+      <LINE> switchport trunk encapsulation dot1q</LINE>
+      <LINE> switchport mode trunk</LINE>
       <LINE>!</LINE>
       <LINE>interface FastEthernet0/6</LINE>
       <LINE>!</LINE>
@@ -63820,6 +63898,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
       <LINE>interface Vlan74</LINE>
       <LINE> mac-address 000a.f3d9.ba03</LINE>
       <LINE> ip address 192.168.74.1 255.255.255.0</LINE>
+      <LINE>!</LINE>
+      <LINE>interface Vlan75</LINE>
+      <LINE> mac-address 000a.f3d9.ba04</LINE>
+      <LINE> ip address 192.168.75.1 255.255.255.0</LINE>
       <LINE>!</LINE>
       <LINE>ip default-gateway 192.168.64.1</LINE>
       <LINE>ip classless</LINE>
@@ -64076,12 +64158,13 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
            <DATE_TIME>0</DATE_TIME>
            <PERMISSION>6</PERMISSION>
            <FILE_CONTENT class="CVlanDatFileContent">
-            <VLAN_COUNT>8</VLAN_COUNT>
+            <VLAN_COUNT>9</VLAN_COUNT>
             <VLANS>
              <VLAN name="default" rspan="0" number="1"/>
              <VLAN name="ITD" rspan="0" number="64"/>
              <VLAN name="GAO" rspan="0" number="72"/>
              <VLAN name="FLD" rspan="0" number="74"/>
+             <VLAN name="HRD" rspan="0" number="75"/>
              <VLAN name="fddi-default" rspan="0" number="1002"/>
              <VLAN name="token-ring-default" rspan="0" number="1003"/>
              <VLAN name="fddinet-default" rspan="0" number="1004"/>
@@ -64092,9 +64175,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
              <MODE>0</MODE>
              <VERSION>1</VERSION>
              <PASSWORD></PASSWORD>
-             <CONFIG_REVISION>14</CONFIG_REVISION>
+             <CONFIG_REVISION>16</CONFIG_REVISION>
              <UPDATER_IP>192.168.64.2</UPDATER_IP>
-             <UPDATE_TIMESTAMP>3-1-93 00:35:24</UPDATE_TIMESTAMP>
+             <UPDATE_TIMESTAMP>3-1-93 00:43:45</UPDATE_TIMESTAMP>
             </VTP>
            </FILE_CONTENT>
           </FILE>
@@ -64135,6 +64218,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
       <VLAN name="ITD" rspan="0" number="64"/>
       <VLAN name="GAO" rspan="0" number="72"/>
       <VLAN name="FLD" rspan="0" number="74"/>
+      <VLAN name="HRD" rspan="0" number="75"/>
       <VLAN name="fddi-default" rspan="0" number="1002"/>
       <VLAN name="token-ring-default" rspan="0" number="1003"/>
       <VLAN name="fddinet-default" rspan="0" number="1004"/>
@@ -64145,9 +64229,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
       <MODE>0</MODE>
       <VERSION>1</VERSION>
       <PASSWORD></PASSWORD>
-      <CONFIG_REVISION>14</CONFIG_REVISION>
+      <CONFIG_REVISION>16</CONFIG_REVISION>
       <UPDATER_IP>192.168.64.2</UPDATER_IP>
-      <UPDATE_TIMESTAMP>3-1-93 00:35:24</UPDATE_TIMESTAMP>
+      <UPDATE_TIMESTAMP>3-1-93 00:43:45</UPDATE_TIMESTAMP>
      </VTP>
      <SIG_IPSPROCESS>
       <SIGNATURE>
@@ -65640,6 +65724,24 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      <TYPE>eCrossOver</TYPE>
     </CABLE>
    </LINK>
+   <LINK>
+    <TYPE>eCopper</TYPE>
+    <CABLE>
+     <LENGTH>48.6258</LENGTH>
+     <FUNCTIONAL>true</FUNCTIONAL>
+     <FROM>save-ref-id:7251433544616883449</FROM>
+     <PORT>FastEthernet0/5</PORT>
+     <TO>save-ref-id:1200494193525822699</TO>
+     <PORT>FastEthernet0/1</PORT>
+     <FROM_DEVICE_MEM_ADDR>2352800530096</FROM_DEVICE_MEM_ADDR>
+     <TO_DEVICE_MEM_ADDR>2353044798056</TO_DEVICE_MEM_ADDR>
+     <FROM_PORT_MEM_ADDR>2353064383080</FROM_PORT_MEM_ADDR>
+     <TO_PORT_MEM_ADDR>2353043966232</TO_PORT_MEM_ADDR>
+     <GEO_VIEW_COLOR>#f7990d</GEO_VIEW_COLOR>
+     <IS_MANAGED_IN_RACK_VIEW>false</IS_MANAGED_IN_RACK_VIEW>
+     <TYPE>eCrossOver</TYPE>
+    </CABLE>
+   </LINK>
   </LINKS>
   <SHAPETESTS/>
   <DESCRIPTION translate="true"></DESCRIPTION>
@@ -65648,34 +65750,6 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
   <SCENARIO>
    <NAME translate="true">Scenario 0</NAME>
    <DESCRIPTION translate="true"/>
-   <PDU>
-    <TYPE patterned="no">0</TYPE>
-    <CUSTOM_TYPE></CUSTOM_TYPE>
-    <SOURCE>save-ref-id:1642152723613026433</SOURCE>
-    <PORT/>
-    <DESTINATION device="save-ref-id:2229741420324129820"></DESTINATION>
-    <COLOR>-1409338</COLOR>
-    <PDU>
-     <TYPE>CIpHeader</TYPE>
-     <SRCADDR/>
-     <DSTADDR>192.168.64.102</DSTADDR>
-     <PROTOCOL/>
-     <TTL>255</TTL>
-     <PDU>
-      <TYPE>CIcmpMessage</TYPE>
-      <ICMPTYPE>8</ICMPTYPE>
-      <CODE>0</CODE>
-      <ID>0</ID>
-      <SEQ>0</SEQ>
-      <CHK>0</CHK>
-     </PDU>
-     <TOS>0</TOS>
-    </PDU>
-    <TEST_CONDITION>0</TEST_CONDITION>
-    <POINTS>1</POINTS>
-    <PDU_SIZE>0</PDU_SIZE>
-    <START>0</START>
-   </PDU>
   </SCENARIO>
  </SCENARIOSET>
  <OPTIONS>
@@ -67287,7 +67361,7 @@ jXhHFivJeQ==
          <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
          <SCALE_FACTOR>1</SCALE_FACTOR>
          <ENVIRONMENT>
-          <TIME_IN_SECONDS>83430</TIME_IN_SECONDS>
+          <TIME_IN_SECONDS>20940</TIME_IN_SECONDS>
           <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
           <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
           <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -69464,7 +69538,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>1.32375e-14</VALUE>
+            <VALUE>2.33088e-32</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-0.00138889</MIN_RATE>
@@ -69578,7 +69652,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>5.42929</VALUE>
+            <VALUE>7.33797</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -69635,7 +69709,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>5.51563e-14</VALUE>
+            <VALUE>9.712e-32</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -69768,7 +69842,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>79.1414</VALUE>
+            <VALUE>75.3241</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -69806,7 +69880,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>3.0336e-14</VALUE>
+            <VALUE>5.3416e-32</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -70072,7 +70146,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>5.51563e-14</VALUE>
+            <VALUE>9.712e-32</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -70110,7 +70184,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.0858584</VALUE>
+            <VALUE>0.467593</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -70262,7 +70336,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>1.65469e-15</VALUE>
+            <VALUE>2.9136e-33</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -70281,7 +70355,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>2.31656e-14</VALUE>
+            <VALUE>4.07903e-32</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -70452,7 +70526,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>7.72726</VALUE>
+            <VALUE>44.7454</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -70471,7 +70545,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>1.71717</VALUE>
+            <VALUE>9.35185</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -70490,7 +70564,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>4.57071</VALUE>
+            <VALUE>1.88591e-15</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -72420,7 +72494,7 @@ jXhHFivJeQ==
          <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
          <SCALE_FACTOR>1</SCALE_FACTOR>
          <ENVIRONMENT>
-          <TIME_IN_SECONDS>83430</TIME_IN_SECONDS>
+          <TIME_IN_SECONDS>20940</TIME_IN_SECONDS>
           <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
           <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
           <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -74597,7 +74671,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>1.32375e-14</VALUE>
+            <VALUE>2.33088e-32</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-0.00138889</MIN_RATE>
@@ -74711,7 +74785,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>5.42929</VALUE>
+            <VALUE>7.33797</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -74768,7 +74842,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>5.51563e-14</VALUE>
+            <VALUE>9.712e-32</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -74901,7 +74975,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>79.1414</VALUE>
+            <VALUE>75.3241</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -74939,7 +75013,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>3.0336e-14</VALUE>
+            <VALUE>5.3416e-32</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -75205,7 +75279,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>5.51563e-14</VALUE>
+            <VALUE>9.712e-32</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -75243,7 +75317,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.0858584</VALUE>
+            <VALUE>0.467593</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -75395,7 +75469,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>1.65469e-15</VALUE>
+            <VALUE>2.9136e-33</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -75414,7 +75488,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>2.31656e-14</VALUE>
+            <VALUE>4.07903e-32</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -75585,7 +75659,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>7.72726</VALUE>
+            <VALUE>44.7454</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -75604,7 +75678,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>1.71717</VALUE>
+            <VALUE>9.35185</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -75623,7 +75697,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>4.57071</VALUE>
+            <VALUE>1.88591e-15</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -75683,7 +75757,7 @@ jXhHFivJeQ==
        <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
        <SCALE_FACTOR>0.296296</SCALE_FACTOR>
        <ENVIRONMENT>
-        <TIME_IN_SECONDS>83430</TIME_IN_SECONDS>
+        <TIME_IN_SECONDS>20940</TIME_IN_SECONDS>
         <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
         <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
         <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -77974,7 +78048,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>5.36332</VALUE>
+          <VALUE>7.40394</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -78031,7 +78105,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>1.12104e-44</VALUE>
+          <VALUE>4.2039e-45</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -78164,7 +78238,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>79.2733</VALUE>
+          <VALUE>75.1921</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -78202,7 +78276,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>5.60519e-45</VALUE>
+          <VALUE>4.2039e-45</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -78468,7 +78542,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>1.12104e-44</VALUE>
+          <VALUE>4.2039e-45</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -78506,7 +78580,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>0.0726637</VALUE>
+          <VALUE>0.480787</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -78848,7 +78922,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>6.53973</VALUE>
+          <VALUE>45.8669</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -78867,7 +78941,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>1.45327</VALUE>
+          <VALUE>9.61574</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -78886,7 +78960,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>4.63668</VALUE>
+          <VALUE>4.2039e-45</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -78917,7 +78991,7 @@ jXhHFivJeQ==
      <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
      <SCALE_FACTOR>1</SCALE_FACTOR>
      <ENVIRONMENT>
-      <TIME_IN_SECONDS>83430</TIME_IN_SECONDS>
+      <TIME_IN_SECONDS>20940</TIME_IN_SECONDS>
       <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
       <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
       <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -81208,7 +81282,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>5.34364</VALUE>
+        <VALUE>7.42361</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -81398,7 +81472,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>79.3127</VALUE>
+        <VALUE>75.1528</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -81740,7 +81814,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0.0687284</VALUE>
+        <VALUE>0.484722</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -82082,7 +82156,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>6.18556</VALUE>
+        <VALUE>46.2014</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -82101,7 +82175,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>1.37457</VALUE>
+        <VALUE>9.69444</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -82120,7 +82194,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>4.65636</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -82186,7 +82260,7 @@ jXhHFivJeQ==
          <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
          <SCALE_FACTOR>1</SCALE_FACTOR>
          <ENVIRONMENT>
-          <TIME_IN_SECONDS>83430</TIME_IN_SECONDS>
+          <TIME_IN_SECONDS>20940</TIME_IN_SECONDS>
           <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
           <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
           <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -84363,7 +84437,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>1.32375e-14</VALUE>
+            <VALUE>2.33088e-32</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-0.00138889</MIN_RATE>
@@ -84477,7 +84551,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>5.42929</VALUE>
+            <VALUE>7.33797</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -84534,7 +84608,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>5.51563e-14</VALUE>
+            <VALUE>9.712e-32</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -84667,7 +84741,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>79.1414</VALUE>
+            <VALUE>75.3241</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -84705,7 +84779,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>3.0336e-14</VALUE>
+            <VALUE>5.3416e-32</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -84971,7 +85045,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>5.51563e-14</VALUE>
+            <VALUE>9.712e-32</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -85009,7 +85083,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.0858584</VALUE>
+            <VALUE>0.467593</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -85161,7 +85235,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>1.65469e-15</VALUE>
+            <VALUE>2.9136e-33</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -85180,7 +85254,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>2.31656e-14</VALUE>
+            <VALUE>4.07903e-32</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -85351,7 +85425,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>7.72726</VALUE>
+            <VALUE>44.7454</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -85370,7 +85444,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>1.71717</VALUE>
+            <VALUE>9.35185</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -85389,7 +85463,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>4.57071</VALUE>
+            <VALUE>1.88591e-15</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -85420,7 +85494,7 @@ jXhHFivJeQ==
        <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
        <SCALE_FACTOR>1</SCALE_FACTOR>
        <ENVIRONMENT>
-        <TIME_IN_SECONDS>83430</TIME_IN_SECONDS>
+        <TIME_IN_SECONDS>20940</TIME_IN_SECONDS>
         <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
         <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
         <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -87711,7 +87785,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>5.36332</VALUE>
+          <VALUE>7.40394</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -87768,7 +87842,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>1.12104e-44</VALUE>
+          <VALUE>4.2039e-45</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -87901,7 +87975,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>79.2733</VALUE>
+          <VALUE>75.1921</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -87939,7 +88013,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>5.60519e-45</VALUE>
+          <VALUE>4.2039e-45</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -88205,7 +88279,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>1.12104e-44</VALUE>
+          <VALUE>4.2039e-45</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -88243,7 +88317,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>0.0726637</VALUE>
+          <VALUE>0.480787</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -88585,7 +88659,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>6.53973</VALUE>
+          <VALUE>45.8669</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -88604,7 +88678,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>1.45327</VALUE>
+          <VALUE>9.61574</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -88623,7 +88697,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>4.63668</VALUE>
+          <VALUE>4.2039e-45</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -88654,7 +88728,7 @@ jXhHFivJeQ==
      <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
      <SCALE_FACTOR>1</SCALE_FACTOR>
      <ENVIRONMENT>
-      <TIME_IN_SECONDS>83430</TIME_IN_SECONDS>
+      <TIME_IN_SECONDS>20940</TIME_IN_SECONDS>
       <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
       <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
       <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -90945,7 +91019,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>5.34364</VALUE>
+        <VALUE>7.42361</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -91135,7 +91209,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>79.3127</VALUE>
+        <VALUE>75.1528</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -91477,7 +91551,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0.0687284</VALUE>
+        <VALUE>0.484722</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -91819,7 +91893,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>6.18556</VALUE>
+        <VALUE>46.2014</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -91838,7 +91912,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>1.37457</VALUE>
+        <VALUE>9.69444</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -91857,7 +91931,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>4.65636</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -91923,7 +91997,7 @@ jXhHFivJeQ==
          <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
          <SCALE_FACTOR>1</SCALE_FACTOR>
          <ENVIRONMENT>
-          <TIME_IN_SECONDS>83430</TIME_IN_SECONDS>
+          <TIME_IN_SECONDS>20940</TIME_IN_SECONDS>
           <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
           <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
           <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -94100,7 +94174,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>1.32375e-14</VALUE>
+            <VALUE>2.33088e-32</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-0.00138889</MIN_RATE>
@@ -94214,7 +94288,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>5.42929</VALUE>
+            <VALUE>7.33797</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -94271,7 +94345,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>5.51563e-14</VALUE>
+            <VALUE>9.712e-32</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -94404,7 +94478,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>79.1414</VALUE>
+            <VALUE>75.3241</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -94442,7 +94516,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>3.0336e-14</VALUE>
+            <VALUE>5.3416e-32</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -94708,7 +94782,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>5.51563e-14</VALUE>
+            <VALUE>9.712e-32</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -94746,7 +94820,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.0858584</VALUE>
+            <VALUE>0.467593</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -94898,7 +94972,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>1.65469e-15</VALUE>
+            <VALUE>2.9136e-33</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -94917,7 +94991,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>2.31656e-14</VALUE>
+            <VALUE>4.07903e-32</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -95088,7 +95162,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>7.72726</VALUE>
+            <VALUE>44.7454</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -95107,7 +95181,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>1.71717</VALUE>
+            <VALUE>9.35185</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -95126,7 +95200,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>4.57071</VALUE>
+            <VALUE>1.88591e-15</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -95157,7 +95231,7 @@ jXhHFivJeQ==
        <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
        <SCALE_FACTOR>1</SCALE_FACTOR>
        <ENVIRONMENT>
-        <TIME_IN_SECONDS>83430</TIME_IN_SECONDS>
+        <TIME_IN_SECONDS>20940</TIME_IN_SECONDS>
         <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
         <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
         <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -97448,7 +97522,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>5.36332</VALUE>
+          <VALUE>7.40394</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -97505,7 +97579,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>1.12104e-44</VALUE>
+          <VALUE>4.2039e-45</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -97638,7 +97712,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>79.2733</VALUE>
+          <VALUE>75.1921</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -97676,7 +97750,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>5.60519e-45</VALUE>
+          <VALUE>4.2039e-45</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -97942,7 +98016,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>1.12104e-44</VALUE>
+          <VALUE>4.2039e-45</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -97980,7 +98054,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>0.0726637</VALUE>
+          <VALUE>0.480787</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -98322,7 +98396,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>6.53973</VALUE>
+          <VALUE>45.8669</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -98341,7 +98415,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>1.45327</VALUE>
+          <VALUE>9.61574</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -98360,7 +98434,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>4.63668</VALUE>
+          <VALUE>4.2039e-45</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -98391,7 +98465,7 @@ jXhHFivJeQ==
      <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
      <SCALE_FACTOR>1</SCALE_FACTOR>
      <ENVIRONMENT>
-      <TIME_IN_SECONDS>83430</TIME_IN_SECONDS>
+      <TIME_IN_SECONDS>20940</TIME_IN_SECONDS>
       <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
       <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
       <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -100682,7 +100756,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>5.34364</VALUE>
+        <VALUE>7.42361</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -100872,7 +100946,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>79.3127</VALUE>
+        <VALUE>75.1528</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -101214,7 +101288,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0.0687284</VALUE>
+        <VALUE>0.484722</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -101556,7 +101630,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>6.18556</VALUE>
+        <VALUE>46.2014</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -101575,7 +101649,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>1.37457</VALUE>
+        <VALUE>9.69444</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -101594,7 +101668,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>4.65636</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -101660,7 +101734,7 @@ jXhHFivJeQ==
          <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
          <SCALE_FACTOR>1</SCALE_FACTOR>
          <ENVIRONMENT>
-          <TIME_IN_SECONDS>83430</TIME_IN_SECONDS>
+          <TIME_IN_SECONDS>20940</TIME_IN_SECONDS>
           <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
           <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
           <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -103837,7 +103911,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>1.32375e-14</VALUE>
+            <VALUE>2.33088e-32</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-0.00138889</MIN_RATE>
@@ -103951,7 +104025,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>5.42929</VALUE>
+            <VALUE>7.33797</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -104008,7 +104082,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>5.51563e-14</VALUE>
+            <VALUE>9.712e-32</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -104141,7 +104215,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>79.1414</VALUE>
+            <VALUE>75.3241</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -104179,7 +104253,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>3.0336e-14</VALUE>
+            <VALUE>5.3416e-32</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -104445,7 +104519,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>5.51563e-14</VALUE>
+            <VALUE>9.712e-32</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -104483,7 +104557,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.0858584</VALUE>
+            <VALUE>0.467593</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -104635,7 +104709,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>1.65469e-15</VALUE>
+            <VALUE>2.9136e-33</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -104654,7 +104728,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>2.31656e-14</VALUE>
+            <VALUE>4.07903e-32</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -104825,7 +104899,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>7.72726</VALUE>
+            <VALUE>44.7454</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -104844,7 +104918,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>1.71717</VALUE>
+            <VALUE>9.35185</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -104863,7 +104937,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>4.57071</VALUE>
+            <VALUE>1.88591e-15</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -104894,7 +104968,7 @@ jXhHFivJeQ==
        <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
        <SCALE_FACTOR>1</SCALE_FACTOR>
        <ENVIRONMENT>
-        <TIME_IN_SECONDS>83430</TIME_IN_SECONDS>
+        <TIME_IN_SECONDS>20940</TIME_IN_SECONDS>
         <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
         <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
         <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -107185,7 +107259,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>5.36332</VALUE>
+          <VALUE>7.40394</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -107242,7 +107316,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>1.12104e-44</VALUE>
+          <VALUE>4.2039e-45</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -107375,7 +107449,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>79.2733</VALUE>
+          <VALUE>75.1921</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -107413,7 +107487,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>5.60519e-45</VALUE>
+          <VALUE>4.2039e-45</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -107679,7 +107753,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>1.12104e-44</VALUE>
+          <VALUE>4.2039e-45</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -107717,7 +107791,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>0.0726637</VALUE>
+          <VALUE>0.480787</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -108059,7 +108133,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>6.53973</VALUE>
+          <VALUE>45.8669</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -108078,7 +108152,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>1.45327</VALUE>
+          <VALUE>9.61574</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -108097,7 +108171,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>4.63668</VALUE>
+          <VALUE>4.2039e-45</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -108128,7 +108202,7 @@ jXhHFivJeQ==
      <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
      <SCALE_FACTOR>1</SCALE_FACTOR>
      <ENVIRONMENT>
-      <TIME_IN_SECONDS>83430</TIME_IN_SECONDS>
+      <TIME_IN_SECONDS>20940</TIME_IN_SECONDS>
       <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
       <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
       <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -110419,7 +110493,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>5.34364</VALUE>
+        <VALUE>7.42361</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -110609,7 +110683,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>79.3127</VALUE>
+        <VALUE>75.1528</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -110951,7 +111025,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0.0687284</VALUE>
+        <VALUE>0.484722</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -111293,7 +111367,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>6.18556</VALUE>
+        <VALUE>46.2014</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -111312,7 +111386,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>1.37457</VALUE>
+        <VALUE>9.69444</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -111331,7 +111405,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>4.65636</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -111578,7 +111652,7 @@ jXhHFivJeQ==
      <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
      <SCALE_FACTOR>1</SCALE_FACTOR>
      <ENVIRONMENT>
-      <TIME_IN_SECONDS>83430</TIME_IN_SECONDS>
+      <TIME_IN_SECONDS>20940</TIME_IN_SECONDS>
       <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
       <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
       <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -113755,7 +113829,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>9.28947e-15</VALUE>
+        <VALUE>1.6357e-32</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-0.00138889</MIN_RATE>
@@ -113869,7 +113943,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>5.40961</VALUE>
+        <VALUE>7.35764</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -113926,7 +114000,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>3.87062e-14</VALUE>
+        <VALUE>6.81543e-32</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -114059,7 +114133,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>79.1807</VALUE>
+        <VALUE>75.2848</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -114097,7 +114171,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>2.12884e-14</VALUE>
+        <VALUE>3.74849e-32</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -114363,7 +114437,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>3.87062e-14</VALUE>
+        <VALUE>6.81543e-32</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -114401,7 +114475,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0.0819232</VALUE>
+        <VALUE>0.471528</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -114553,7 +114627,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>1.16118e-15</VALUE>
+        <VALUE>2.04463e-33</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -114572,7 +114646,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>1.62566e-14</VALUE>
+        <VALUE>2.86248e-32</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -114743,7 +114817,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>7.37309</VALUE>
+        <VALUE>45.0799</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -114762,7 +114836,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>1.63846</VALUE>
+        <VALUE>9.43056</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -114781,7 +114855,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>4.59039</VALUE>
+        <VALUE>1.32345e-15</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -114812,7 +114886,7 @@ jXhHFivJeQ==
    <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
    <SCALE_FACTOR>1</SCALE_FACTOR>
    <ENVIRONMENT>
-    <TIME_IN_SECONDS>83430</TIME_IN_SECONDS>
+    <TIME_IN_SECONDS>20940</TIME_IN_SECONDS>
     <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
     <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
     <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -120310,7 +120384,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>5.34364</VALUE>
+      <VALUE>7.42361</VALUE>
       <MIN>0</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -120500,7 +120574,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>79.3127</VALUE>
+      <VALUE>75.1528</VALUE>
       <MIN>0</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -120842,7 +120916,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>0.0687284</VALUE>
+      <VALUE>0.484722</VALUE>
       <MIN>-100</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -121184,7 +121258,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>6.18556</VALUE>
+      <VALUE>46.2014</VALUE>
       <MIN>-100</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -121203,7 +121277,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>1.37457</VALUE>
+      <VALUE>9.69444</VALUE>
       <MIN>0</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -121222,7 +121296,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>4.65636</VALUE>
+      <VALUE>0</VALUE>
       <MIN>0</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -121278,8 +121352,8 @@ jXhHFivJeQ==
     <MEM_ADDR>2352349213808</MEM_ADDR>
    </NOTE>
    <NOTE uuid="{69e39471-38af-455c-beb4-937f3e6f4cfb}">
-    <X>2647</X>
-    <Y>1601</Y>
+    <X>2639</X>
+    <Y>1608</Y>
     <Z>0.21</Z>
     <TEXT translate="true">Human Resource Department (HRD)
 192.168.75.0/24
@@ -122370,8 +122444,8 @@ jXhHFivJeQ==
    <DevicePlacement_ShapeName>Human Resource Department (HRD)
 192.168.75.0/24
 255.255.255.0</DevicePlacement_ShapeName>
-   <DevicePlacement_ShapeX>2647</DevicePlacement_ShapeX>
-   <DevicePlacement_ShapeY>1601</DevicePlacement_ShapeY>
+   <DevicePlacement_ShapeX>2639</DevicePlacement_ShapeX>
+   <DevicePlacement_ShapeY>1608</DevicePlacement_ShapeY>
    <DevicePlacement_ShapeZ>0.21</DevicePlacement_ShapeZ>
   </RECTANGLE>
   <RECTANGLE uuid="{f811955c-5b5e-427c-90ad-ae1fba946f33}">
@@ -125485,6 +125559,74 @@ jXhHFivJeQ==
   <LOG_ENTRY>3f3f203f3f3f2031372032313a35373a323220323032350053776974636828464c442900464c442d53574954434828636f6e666967292300696e74657266616365204661737445746865726e6574372f3100696e74657266616365204661737445746865726e6574372f2031</LOG_ENTRY>
   <LOG_ENTRY>3f3f203f3f3f2031372032313a35373a323220323032350053776974636828464c442900464c442d53574954434828636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
   <LOG_ENTRY>3f3f203f3f3f2031372032313a35373a323220323032350053776974636828464c442900464c442d53574954434828636f6e666967292300696e74657266616365204661737445746865726e6574392f3100696e74657266616365204661737445746865726e6574392f2031</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30303a31312032303235005469657220312053776974636800544945522d312d53574954434828636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30303a31312032303235005469657220312053776974636800544945522d312d53574954434828636f6e666967292300696e74657266616365204661737445746865726e6574302f3100696e74657266616365204661737445746865726e6574302f31</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30313a33322032303235005469657220312053776974636800544945522d312d53574954434828636f6e6669672d696629230065780065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30313a33342032303235005469657220312053776974636800544945522d312d53574954434828636f6e666967292300636f6e66207400</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30313a33342032303235005469657220312053776974636800544945522d312d53574954434828636f6e666967292300697020646820706f20564c414e3734006970206468637020706f6f6c20564c414e3734</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30313a33342032303235005469657220312053776974636800544945522d312d53574954434828646863702d636f6e6669672923006e6574203139322e3136382e37342e30203235352e3235352e3235352e30006e6574776f726b203139322e3136382e37342e30203235352e3235352e3235352e30</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30313a33342032303235005469657220312053776974636800544945522d312d53574954434828646863702d636f6e66696729230064656661756c742d72203139322e3136382e37342e310064656661756c742d726f75746572203139322e3136382e37342e31</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30313a33342032303235005469657220312053776974636800544945522d312d53574954434828646863702d636f6e666967292300646e7320382e382e382e3800646e732d73657276657220382e382e382e38</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30313a33342032303235005469657220312053776974636800544945522d312d53574954434828646863702d636f6e66696729230065780065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30313a34312032303235005469657220312053776974636800544945522d312d53574954434828636f6e66696729230065780065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30313a34322032303235005469657220312053776974636800544945522d312d53574954434823007368200073686f77</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30313a34392032303235005469657220312053776974636800544945522d312d5357495443482300736820697020646820706f0073686f77206970206468637020706f6f6c</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30323a30322032303235005469657220312053776974636800544945522d312d5357495443482300656e00656e61626c65</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30323a30342032303235005469657220312053776974636800544945522d312d5357495443482300636f6e66207400636f6e666967757265207465726d696e616c</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30323a31342032303235005469657220312053776974636800544945522d312d53574954434828636f6e6669672923006e6f20697020646820706f20564c414e3737006e6f206970206468637020706f6f6c20564c414e3737</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30323a31362032303235005469657220312053776974636800544945522d312d53574954434828636f6e66696729230065780065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30323a32302032303235005469657220312053776974636800544945522d312d5357495443482300736820697020646820706f0073686f77206970206468637020706f6f6c</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30333a32322032303235005469657220312053776974636800544945522d312d5357495443482300636f6e66207400636f6e666967757265207465726d696e616c</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30333a32322032303235005469657220312053776974636800544945522d312d53574954434828636f6e666967292300766c616e20373500766c616e203735</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30333a32322032303235005469657220312053776974636800544945522d312d53574954434828636f6e6669672d766c616e2923006e616d6520485244006e616d6520485244</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30333a32322032303235005469657220312053776974636800544945522d312d53574954434828636f6e6669672d766c616e29230065780065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30333a32322032303235005469657220312053776974636800544945522d312d53574954434828636f6e666967292300696e7420766c616e20373500696e7465726661636520566c616e3735</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30333a32322032303235005469657220312053776974636800544945522d312d53574954434828636f6e6669672d6966292300697020616464203139322e3136382e37352e31203235352e3235352e3235352e300069702061646472657373203139322e3136382e37352e31203235352e3235352e3235352e30</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30333a32322032303235005469657220312053776974636800544945522d312d53574954434828636f6e6669672d69662923006e6f2073687574006e6f2073687574646f776e</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30333a32322032303235005469657220312053776974636800544945522d312d53574954434828636f6e6669672d696629230065780065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30333a32322032303235005469657220312053776974636800544945522d312d53574954434828636f6e666967292300696e742066302f3500696e74657266616365204661737445746865726e6574302f35</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30333a32322032303235005469657220312053776974636800544945522d312d53574954434828636f6e6669672d6966292300737720742065206400737769746368706f7274207472756e6b20656e63617073756c6174696f6e20646f743171</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30333a32322032303235005469657220312053776974636800544945522d312d53574954434828636f6e6669672d69662923007377206d207400737769746368706f7274206d6f6465207472756e6b</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30333a32322032303235005469657220312053776974636800544945522d312d53574954434828636f6e6669672d6966292300737720742061207620373500737769746368706f7274207472756e6b20616c6c6f77656420766c616e203735</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30333a32322032303235005469657220312053776974636800544945522d312d53574954434828636f6e6669672d69662923006e6f2073687574006e6f2073687574646f776e</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30333a32322032303235005469657220312053776974636800544945522d312d53574954434828636f6e6669672d6966292300636f6e66207400</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30333a32322032303235005469657220312053776974636800544945522d312d53574954434828636f6e6669672d6966292300697020646820706f20564c414e3735006970206468637020706f6f6c20564c414e3735</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30333a32322032303235005469657220312053776974636800544945522d312d53574954434828646863702d636f6e6669672923006e6574203139322e3136382e37352e30203235352e3235352e3235352e30006e6574776f726b203139322e3136382e37352e30203235352e3235352e3235352e30</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30333a32322032303235005469657220312053776974636800544945522d312d53574954434828646863702d636f6e66696729230064656661756c742d72203139322e3136382e37352e310064656661756c742d726f75746572203139322e3136382e37352e31</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30333a32322032303235005469657220312053776974636800544945522d312d53574954434828646863702d636f6e666967292300646e7320382e382e382e3800646e732d73657276657220382e382e382e38</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30333a32322032303235005469657220312053776974636800544945522d312d53574954434828646863702d636f6e66696729230065780065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30333a32322032303235005469657220312053776974636800544945522d312d53574954434828636f6e6669672923006970206468206578203139322e3136382e37352e31203139322e3136382e37352e39390069702064686370206578636c756465642d61646472657373203139322e3136382e37352e31203139322e3136382e37352e3939</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30333a32322032303235005469657220312053776974636800544945522d312d53574954434828636f6e6669672923006970206468206578203139322e3136382e37352e323031203139322e3136382e37352e3234350069702064686370206578636c756465642d61646472657373203139322e3136382e37352e323031203139322e3136382e37352e323435</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30333a32332032303235005469657220312053776974636800544945522d312d53574954434828636f6e66696729230065780065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30333a32352032303235005469657220312053776974636800544945522d312d535749544348230065780065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30333a32382032303235005469657220312053776974636800544945522d312d5357495443483e00656e00656e61626c65</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30343a30332032303235005377697463682848524429005377697463683e00656e00656e61626c65</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30343a30372032303235005377697463682848524429005377697463682300636f6e662000636f6e666967757265</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30343a323020323032350053776974636828485244290053776974636828636f6e666967292300686f73746e616d65204852442d53574954434800686f73746e616d65204852442d535749544348</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30343a32332032303235005377697463682848524429004852442d53574954434828636f6e666967292300636f6e66207400</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30343a32332032303235005377697463682848524429004852442d53574954434828636f6e666967292300696e742066302f3100696e74657266616365204661737445746865726e6574302f2031</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30343a32332032303235005377697463682848524429004852442d53574954434828636f6e6669672d69662923007377206d207400737769746368706f7274206d6f6465207472756e6b</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30343a32332032303235005377697463682848524429004852442d53574954434828636f6e6669672d6966292300737720742061207620373500737769746368706f7274207472756e6b20616c6c6f77656420766c616e203735</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30343a32332032303235005377697463682848524429004852442d53574954434828636f6e6669672d69662923006e6f2073687574006e6f2073687574646f776e</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30343a32332032303235005377697463682848524429004852442d53574954434828636f6e6669672d696629230065780065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30343a32332032303235005377697463682848524429004852442d53574954434828636f6e666967292300636f6e66207400</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30343a32332032303235005377697463682848524429004852442d53574954434828636f6e666967292300696e742072616e2066312f312c2066322f312c2066332f312c2066342f312c2066352f312c2066362f312c2066372f312c2066382f312c2066392f3100696e746572666163652072616e67654661737445746865726e6574312f312e2030202c204661737445746865726e6574322f312e2030202c204661737445746865726e6574332f312e2030202c204661737445746865726e6574342f312e2030202c204661737445746865726e6574352f312e2030202c204661737445746865726e6574362f312e2030202c204661737445746865726e6574372f312e2030202c204661737445746865726e6574382f312e2030202c204661737445746865726e6574392f312e2030</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30343a32332032303235005377697463682848524429004852442d53574954434828636f6e6669672d69662d72616e67652923007377206d206100737769746368706f7274206d6f646520616363657373</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30343a32332032303235005377697463682848524429004852442d53574954434828636f6e6669672d69662d72616e676529230073772061207620373500737769746368706f72742061636365737320766c616e203735</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30343a32332032303235005377697463682848524429004852442d53574954434828636f6e6669672d69662d72616e67652923007370612070007370616e6e696e672d7472656520706f727466617374</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30343a32332032303235005377697463682848524429004852442d53574954434828636f6e6669672d69662d72616e676529230073706120622065007370616e6e696e672d747265652062706475677561726420656e61626c65</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30343a32342032303235005377697463682848524429004852442d53574954434828636f6e6669672d69662d72616e676529230065780065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30363a34382032303235005469657220312053776974636800544945522d312d5357495443482300636f6e666967757265207465726d696e616c00636f6e666967757265207465726d696e616c</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30363a34382032303235005469657220312053776974636800544945522d312d53574954434828636f6e666967292300696e74657266616365204661737445746865726e6574302f3500696e74657266616365204661737445746865726e6574302f35</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30363a34392032303235005469657220312053776974636800544945522d312d53574954434828636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30363a34392032303235005469657220312053776974636800544945522d312d53574954434828636f6e666967292300696e74657266616365204661737445746865726e6574302f3400696e74657266616365204661737445746865726e6574302f34</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30363a35302032303235005469657220312053776974636800544945522d312d53574954434828636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30363a35302032303235005469657220312053776974636800544945522d312d53574954434828636f6e666967292300696e74657266616365204661737445746865726e6574302f3500696e74657266616365204661737445746865726e6574302f35</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30363a35332032303235005469657220312053776974636800544945522d312d53574954434828636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30363a35332032303235005469657220312053776974636800544945522d312d53574954434828636f6e666967292300696e74657266616365204661737445746865726e6574302f3500696e74657266616365204661737445746865726e6574302f35</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30373a31352032303235005377697463682848524429004852442d53574954434828636f6e666967292300696e74657266616365204661737445746865726e6574302f3100696e74657266616365204661737445746865726e6574302f2031</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30373a31362032303235005377697463682848524429004852442d53574954434828636f6e6669672d6966292300657869740065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372032323a30373a31362032303235005377697463682848524429004852442d53574954434828636f6e666967292300696e74657266616365204661737445746865726e6574312f3100696e74657266616365204661737445746865726e6574312f2031</LOG_ENTRY>
  </COMMAND_LOGS>
  <CEPS/>
  <EXT_PORT_MGR/>
