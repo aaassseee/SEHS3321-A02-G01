@@ -102,13 +102,24 @@ inspect icmp
 service-policy global_policy global
 !
 
-interface range f0/1, f1/1, f2/1, f3/1, f4/1, f5/1, f6/1, g7/1, g8/1, g9/1
+interface range f1/1, f2/1, f3/1, f4/1, f5/1, f6/1, f7/1, f8/1, g9/1
 switchport mode access
-switchport access vlan 26
+switchport access vlan 64
 spanning-tree portfast
 spanning-tree bpduguard enable
-
 
 dhcpd address 192.168.10.100-192.168.10.200 dmz2
 dhcpd dns 8.8.8.8
 dhcpd enable dmz2
+
+conf t
+ip dhcp pool VLAN64
+network 192.168.64.0 255.255.254.0
+default-router 192.168.64.1
+dns 8.8.8.8
+exit
+
+ip dhcp excluded-address 192.168.64.1 192.168.64.99
+ip dhcp excluded-address 192.168.64.201 192.168.64.245
+exit
+sh ip dhcp pool
