@@ -551,7 +551,7 @@
          <IP>192.168.0.2</IP>
          <SUBNET>255.255.255.0</SUBNET>
          <PORT_GATEWAY>192.168.0.1</PORT_GATEWAY>
-         <PORT_DNS/>
+         <PORT_DNS>192.168.0.10</PORT_DNS>
          <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
          <ND_SUPPRESSED>false</ND_SUPPRESSED>
          <ND_IPV6_DNS_ADDRESSES/>
@@ -598,7 +598,7 @@
      <SYS_NAME>PC</SYS_NAME>
      <GATEWAY>192.168.0.1</GATEWAY>
      <DNS_CLIENT>
-      <SERVER_IP/>
+      <SERVER_IP>192.168.0.10</SERVER_IP>
       <SERVER_IPV6/>
      </DNS_CLIENT>
      <EMAIL_CLIENT>
@@ -2582,7 +2582,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <UP_METHOD>5</UP_METHOD>
          <IP>192.168.0.10</IP>
          <SUBNET>255.255.255.0</SUBNET>
-         <PORT_GATEWAY>192.168.254.1</PORT_GATEWAY>
+         <PORT_GATEWAY>192.168.0.1</PORT_GATEWAY>
          <PORT_DNS>8.8.8.8</PORT_DNS>
          <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
          <ND_SUPPRESSED>false</ND_SUPPRESSED>
@@ -2628,7 +2628,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      </USER_APPS>
      <SAVE_REF_ID>save-ref-id:1563245237067990702</SAVE_REF_ID>
      <SYS_NAME>PC</SYS_NAME>
-     <GATEWAY>192.168.254.1</GATEWAY>
+     <GATEWAY>192.168.0.1</GATEWAY>
      <DNS_CLIENT>
       <SERVER_IP>8.8.8.8</SERVER_IP>
       <SERVER_IPV6/>
@@ -4103,7 +4103,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
          <UP_METHOD>5</UP_METHOD>
          <IP>192.168.0.11</IP>
          <SUBNET>255.255.0.0</SUBNET>
-         <PORT_GATEWAY>192.168.254.1</PORT_GATEWAY>
+         <PORT_GATEWAY>192.168.0.1</PORT_GATEWAY>
          <PORT_DNS>8.8.8.8</PORT_DNS>
          <PORT_DHCP_ENABLE>false</PORT_DHCP_ENABLE>
          <ND_SUPPRESSED>false</ND_SUPPRESSED>
@@ -4149,7 +4149,7 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      </USER_APPS>
      <SAVE_REF_ID>save-ref-id:10180136787002238700</SAVE_REF_ID>
      <SYS_NAME>PC</SYS_NAME>
-     <GATEWAY>192.168.254.1</GATEWAY>
+     <GATEWAY>192.168.0.1</GATEWAY>
      <DNS_CLIENT>
       <SERVER_IP>8.8.8.8</SERVER_IP>
       <SERVER_IPV6/>
@@ -32979,8 +32979,8 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <PREFIX_NAME></PREFIX_NAME>
           <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:12 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -32997,10 +32997,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:00 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 06:53:00 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -33544,8 +33544,8 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <PREFIX_NAME></PREFIX_NAME>
           <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:12 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -33562,10 +33562,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:00 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 06:53:00 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -34109,8 +34109,8 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <PREFIX_NAME></PREFIX_NAME>
           <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:12 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -34127,10 +34127,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:00 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 06:53:00 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -35064,8 +35064,8 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <PREFIX_NAME></PREFIX_NAME>
           <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:12 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -35082,10 +35082,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:00 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 06:53:00 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -35629,8 +35629,8 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <PREFIX_NAME></PREFIX_NAME>
           <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:12 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -35647,10 +35647,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:00 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 06:53:00 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -36194,8 +36194,8 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <PREFIX_NAME></PREFIX_NAME>
           <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:12 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -36212,10 +36212,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:00 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 06:53:00 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -36759,8 +36759,8 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <PREFIX_NAME></PREFIX_NAME>
           <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:12 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -36777,10 +36777,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:00 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 06:53:00 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -37324,8 +37324,8 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <PREFIX_NAME></PREFIX_NAME>
           <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:12 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -37342,10 +37342,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:00 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 06:53:00 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -40512,8 +40512,8 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <PREFIX_NAME></PREFIX_NAME>
           <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:12 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -40530,10 +40530,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 03:02:00 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 06:53:00 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -41264,6 +41264,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
       <LINE>object network DMZ2</LINE>
       <LINE> subnet 192.168.10.0 255.255.255.0</LINE>
       <LINE> nat (dmz2,outside) dynamic interface</LINE>
+      <LINE>object network FACTORY</LINE>
+      <LINE> subnet 192.168.26.0 255.255.254.0</LINE>
+      <LINE> nat (factory,outside) dynamic interface</LINE>
       <LINE>object network TIER1</LINE>
       <LINE> subnet 192.168.64.0 255.255.240.0</LINE>
       <LINE> nat (tier1,outside) dynamic interface</LINE>
@@ -41310,8 +41313,8 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
      </RUNNINGCONFIG>
      <STARTUPCONFIG>
       <LINE>: Saved</LINE>
-      <LINE>: Written by enable_15 at 02:42:23 UTC 三月 1 1993</LINE>
-      <LINE>: Call-home enabled from prompt by enable_15 at 02:42:23 UTC 三月 1 1993</LINE>
+      <LINE>: Written by enable_15 at 06:54:53 UTC 三月 1 1993</LINE>
+      <LINE>: Call-home enabled from prompt by enable_15 at 06:54:53 UTC 三月 1 1993</LINE>
       <LINE>:</LINE>
       <LINE>ASA Version 9.6(1)</LINE>
       <LINE>!</LINE>
@@ -41372,6 +41375,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
       <LINE>object network DMZ2</LINE>
       <LINE> subnet 192.168.10.0 255.255.255.0</LINE>
       <LINE> nat (dmz2,outside) dynamic interface</LINE>
+      <LINE>object network FACTORY</LINE>
+      <LINE> subnet 192.168.26.0 255.255.254.0</LINE>
+      <LINE> nat (factory,outside) dynamic interface</LINE>
       <LINE>object network TIER1</LINE>
       <LINE> subnet 192.168.64.0 255.255.240.0</LINE>
       <LINE> nat (tier1,outside) dynamic interface</LINE>
@@ -41409,6 +41415,9 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
       <LINE>!</LINE>
       <LINE>dhcpd address 192.168.10.100-192.168.10.200 dmz2</LINE>
       <LINE>dhcpd enable dmz2</LINE>
+      <LINE>!</LINE>
+      <LINE>dhcpd address 192.168.26.100-192.168.27.200 factory</LINE>
+      <LINE>dhcpd enable factory</LINE>
       <LINE>!</LINE>
       <LINE>!</LINE>
       <LINE>!</LINE>
@@ -41593,39 +41602,39 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
              <CLIENT_ID>0060.3E5C.C179</CLIENT_ID>
             </DHCP_POOL_LEASE>
             <DHCP_POOL_LEASE>
-             <IP_ADDRESS>192.168.26.112</IP_ADDRESS>
-             <MAC_ADDRESS>00D0.D3AC.EDB1</MAC_ADDRESS>
-             <HOST_PORT>GigabitEthernet1/7</HOST_PORT>
-             <LEASE_TIME>86400000</LEASE_TIME>
-             <CLIENT_ID>00D0.D3AC.EDB1</CLIENT_ID>
-            </DHCP_POOL_LEASE>
-            <DHCP_POOL_LEASE>
-             <IP_ADDRESS>192.168.26.117</IP_ADDRESS>
-             <MAC_ADDRESS>00D0.D3D2.E7C2</MAC_ADDRESS>
-             <HOST_PORT>GigabitEthernet1/7</HOST_PORT>
-             <LEASE_TIME>86400000</LEASE_TIME>
-             <CLIENT_ID>00D0.D3D2.E7C2</CLIENT_ID>
-            </DHCP_POOL_LEASE>
-            <DHCP_POOL_LEASE>
-             <IP_ADDRESS>192.168.26.119</IP_ADDRESS>
+             <IP_ADDRESS>192.168.26.113</IP_ADDRESS>
              <MAC_ADDRESS>0090.0CBA.8814</MAC_ADDRESS>
              <HOST_PORT>GigabitEthernet1/7</HOST_PORT>
              <LEASE_TIME>86400000</LEASE_TIME>
              <CLIENT_ID>0090.0CBA.8814</CLIENT_ID>
             </DHCP_POOL_LEASE>
             <DHCP_POOL_LEASE>
-             <IP_ADDRESS>192.168.26.116</IP_ADDRESS>
-             <MAC_ADDRESS>0090.2134.3611</MAC_ADDRESS>
+             <IP_ADDRESS>192.168.26.106</IP_ADDRESS>
+             <MAC_ADDRESS>00D0.D3AC.EDB1</MAC_ADDRESS>
              <HOST_PORT>GigabitEthernet1/7</HOST_PORT>
              <LEASE_TIME>86400000</LEASE_TIME>
-             <CLIENT_ID>0090.2134.3611</CLIENT_ID>
+             <CLIENT_ID>00D0.D3AC.EDB1</CLIENT_ID>
             </DHCP_POOL_LEASE>
             <DHCP_POOL_LEASE>
-             <IP_ADDRESS>192.168.26.118</IP_ADDRESS>
+             <IP_ADDRESS>192.168.26.110</IP_ADDRESS>
              <MAC_ADDRESS>00E0.F95E.20A4</MAC_ADDRESS>
              <HOST_PORT>GigabitEthernet1/7</HOST_PORT>
              <LEASE_TIME>86400000</LEASE_TIME>
              <CLIENT_ID>00E0.F95E.20A4</CLIENT_ID>
+            </DHCP_POOL_LEASE>
+            <DHCP_POOL_LEASE>
+             <IP_ADDRESS>192.168.26.107</IP_ADDRESS>
+             <MAC_ADDRESS>00D0.D3D2.E7C2</MAC_ADDRESS>
+             <HOST_PORT>GigabitEthernet1/7</HOST_PORT>
+             <LEASE_TIME>86400000</LEASE_TIME>
+             <CLIENT_ID>00D0.D3D2.E7C2</CLIENT_ID>
+            </DHCP_POOL_LEASE>
+            <DHCP_POOL_LEASE>
+             <IP_ADDRESS>192.168.26.109</IP_ADDRESS>
+             <MAC_ADDRESS>0090.2134.3611</MAC_ADDRESS>
+             <HOST_PORT>GigabitEthernet1/7</HOST_PORT>
+             <LEASE_TIME>86400000</LEASE_TIME>
+             <CLIENT_ID>0090.2134.3611</CLIENT_ID>
             </DHCP_POOL_LEASE>
            </DHCP_POOL_LEASES>
            <LEASE_TIME>3600000</LEASE_TIME>
@@ -61875,10 +61884,10 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
           <RAPID_COMMIT>0</RAPID_COMMIT>
           <HINT>0</HINT>
           <PREFIX_NAME></PREFIX_NAME>
-          <INITIAL_SOLICIT_TIME>週一 三月 1 01:06:30 1993</INITIAL_SOLICIT_TIME>
+          <INITIAL_SOLICIT_TIME>週一 三月 1 04:57:30 1993</INITIAL_SOLICIT_TIME>
           <LAST_SOLICIT_TIME></LAST_SOLICIT_TIME>
-          <PRERX_SOLICIT_TIME>69</PRERX_SOLICIT_TIME>
-          <SOLICIT_MSG_COUNT>6</SOLICIT_MSG_COUNT>
+          <PRERX_SOLICIT_TIME>1</PRERX_SOLICIT_TIME>
+          <SOLICIT_MSG_COUNT>0</SOLICIT_MSG_COUNT>
           <INITIAL_REQUEST_TIME></INITIAL_REQUEST_TIME>
           <LAST_REQUEST_TIME></LAST_REQUEST_TIME>
           <REQUEST_MSG_COUNT>0</REQUEST_MSG_COUNT>
@@ -64203,6 +64212,34 @@ Password: &lt;input type="password" name="pw" id="pw" value="" size="20">&lt;br>
     <PDU_SIZE>0</PDU_SIZE>
     <START>0</START>
    </PDU>
+   <PDU>
+    <TYPE patterned="no">0</TYPE>
+    <CUSTOM_TYPE></CUSTOM_TYPE>
+    <SOURCE>save-ref-id:10180136787002238700</SOURCE>
+    <PORT/>
+    <DESTINATION device="save-ref-id:5763164974530018746"></DESTINATION>
+    <COLOR>-10687675</COLOR>
+    <PDU>
+     <TYPE>CIpHeader</TYPE>
+     <SRCADDR/>
+     <DSTADDR>8.8.8.8</DSTADDR>
+     <PROTOCOL/>
+     <TTL>255</TTL>
+     <PDU>
+      <TYPE>CIcmpMessage</TYPE>
+      <ICMPTYPE>8</ICMPTYPE>
+      <CODE>0</CODE>
+      <ID>0</ID>
+      <SEQ>0</SEQ>
+      <CHK>0</CHK>
+     </PDU>
+     <TOS>0</TOS>
+    </PDU>
+    <TEST_CONDITION>0</TEST_CONDITION>
+    <POINTS>1</POINTS>
+    <PDU_SIZE>0</PDU_SIZE>
+    <START>0</START>
+   </PDU>
   </SCENARIO>
  </SCENARIOSET>
  <OPTIONS>
@@ -65814,7 +65851,7 @@ jXhHFivJeQ==
          <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
          <SCALE_FACTOR>1</SCALE_FACTOR>
          <ENVIRONMENT>
-          <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
+          <TIME_IN_SECONDS>80310</TIME_IN_SECONDS>
           <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
           <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
           <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -67991,7 +68028,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>17.0555</VALUE>
+            <VALUE>2.74506e-12</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-0.00138889</MIN_RATE>
@@ -68105,7 +68142,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>9.27659</VALUE>
+            <VALUE>5.79041</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -68162,7 +68199,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>71.0648</VALUE>
+            <VALUE>1.14377e-11</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -68295,7 +68332,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>71.4467</VALUE>
+            <VALUE>78.4191</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -68333,7 +68370,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>39.0856</VALUE>
+            <VALUE>6.29076e-12</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -68599,7 +68636,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>71.0648</VALUE>
+            <VALUE>1.14377e-11</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -68637,7 +68674,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.85532</VALUE>
+            <VALUE>0.158082</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -68751,7 +68788,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>67.6389</VALUE>
+            <VALUE>0</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -68789,7 +68826,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>2.13194</VALUE>
+            <VALUE>3.43132e-13</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -68808,7 +68845,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>29.8472</VALUE>
+            <VALUE>4.80384e-12</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -68979,7 +69016,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>76.9788</VALUE>
+            <VALUE>14.2274</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -68998,7 +69035,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>17.1064</VALUE>
+            <VALUE>3.16165</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -69017,7 +69054,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.723397</VALUE>
+            <VALUE>4.20959</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -70947,7 +70984,7 @@ jXhHFivJeQ==
          <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
          <SCALE_FACTOR>1</SCALE_FACTOR>
          <ENVIRONMENT>
-          <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
+          <TIME_IN_SECONDS>80310</TIME_IN_SECONDS>
           <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
           <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
           <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -73124,7 +73161,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>17.0555</VALUE>
+            <VALUE>2.74506e-12</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-0.00138889</MIN_RATE>
@@ -73238,7 +73275,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>9.27659</VALUE>
+            <VALUE>5.79041</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -73295,7 +73332,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>71.0648</VALUE>
+            <VALUE>1.14377e-11</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -73428,7 +73465,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>71.4467</VALUE>
+            <VALUE>78.4191</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -73466,7 +73503,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>39.0856</VALUE>
+            <VALUE>6.29076e-12</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -73732,7 +73769,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>71.0648</VALUE>
+            <VALUE>1.14377e-11</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -73770,7 +73807,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.85532</VALUE>
+            <VALUE>0.158082</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -73884,7 +73921,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>67.6389</VALUE>
+            <VALUE>0</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -73922,7 +73959,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>2.13194</VALUE>
+            <VALUE>3.43132e-13</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -73941,7 +73978,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>29.8472</VALUE>
+            <VALUE>4.80384e-12</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -74112,7 +74149,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>76.9788</VALUE>
+            <VALUE>14.2274</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -74131,7 +74168,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>17.1064</VALUE>
+            <VALUE>3.16165</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -74150,7 +74187,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.723397</VALUE>
+            <VALUE>4.20959</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -74210,7 +74247,7 @@ jXhHFivJeQ==
        <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
        <SCALE_FACTOR>0.296296</SCALE_FACTOR>
        <ENVIRONMENT>
-        <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
+        <TIME_IN_SECONDS>80310</TIME_IN_SECONDS>
         <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
         <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
         <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -76387,7 +76424,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>16.4222</VALUE>
+          <VALUE>6.10648e-38</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-0.00138889</MIN_RATE>
@@ -76501,7 +76538,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>9.21063</VALUE>
+          <VALUE>5.72444</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -76558,7 +76595,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>68.4259</VALUE>
+          <VALUE>2.54436e-37</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -76691,7 +76728,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>71.5787</VALUE>
+          <VALUE>78.5511</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -76729,7 +76766,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>37.6343</VALUE>
+          <VALUE>1.3994e-37</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -76995,7 +77032,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>68.4259</VALUE>
+          <VALUE>2.54436e-37</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -77033,7 +77070,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>0.842126</VALUE>
+          <VALUE>0.144888</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -77147,7 +77184,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>67.6389</VALUE>
+          <VALUE>0</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -77185,7 +77222,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>2.05278</VALUE>
+          <VALUE>7.6331e-39</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -77204,7 +77241,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>28.7389</VALUE>
+          <VALUE>1.06863e-37</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -77375,7 +77412,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>75.7914</VALUE>
+          <VALUE>13.0399</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -77394,7 +77431,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>16.8425</VALUE>
+          <VALUE>2.89775</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -77413,7 +77450,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>0.78937</VALUE>
+          <VALUE>4.27556</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -77444,7 +77481,7 @@ jXhHFivJeQ==
      <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
      <SCALE_FACTOR>1</SCALE_FACTOR>
      <ENVIRONMENT>
-      <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
+      <TIME_IN_SECONDS>80310</TIME_IN_SECONDS>
       <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
       <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
       <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -79621,7 +79658,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>16.2333</VALUE>
+        <VALUE>0</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-0.00138889</MIN_RATE>
@@ -79735,7 +79772,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>9.19095</VALUE>
+        <VALUE>5.70476</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -79792,7 +79829,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>67.6389</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -79925,7 +79962,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>71.6181</VALUE>
+        <VALUE>78.5905</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -79963,7 +80000,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>37.2014</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -80229,7 +80266,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>67.6389</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -80267,7 +80304,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0.838191</VALUE>
+        <VALUE>0.140952</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -80381,7 +80418,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>67.6389</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -80419,7 +80456,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>2.02917</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -80438,7 +80475,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>28.4083</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -80609,7 +80646,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>75.4372</VALUE>
+        <VALUE>12.6857</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -80628,7 +80665,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>16.7638</VALUE>
+        <VALUE>2.81905</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -80647,7 +80684,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0.809047</VALUE>
+        <VALUE>4.29524</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -80713,7 +80750,7 @@ jXhHFivJeQ==
          <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
          <SCALE_FACTOR>1</SCALE_FACTOR>
          <ENVIRONMENT>
-          <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
+          <TIME_IN_SECONDS>80310</TIME_IN_SECONDS>
           <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
           <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
           <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -82890,7 +82927,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>17.0555</VALUE>
+            <VALUE>2.74506e-12</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-0.00138889</MIN_RATE>
@@ -83004,7 +83041,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>9.27659</VALUE>
+            <VALUE>5.79041</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -83061,7 +83098,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>71.0648</VALUE>
+            <VALUE>1.14377e-11</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -83194,7 +83231,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>71.4467</VALUE>
+            <VALUE>78.4191</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -83232,7 +83269,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>39.0856</VALUE>
+            <VALUE>6.29076e-12</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -83498,7 +83535,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>71.0648</VALUE>
+            <VALUE>1.14377e-11</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -83536,7 +83573,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.85532</VALUE>
+            <VALUE>0.158082</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -83650,7 +83687,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>67.6389</VALUE>
+            <VALUE>0</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -83688,7 +83725,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>2.13194</VALUE>
+            <VALUE>3.43132e-13</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -83707,7 +83744,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>29.8472</VALUE>
+            <VALUE>4.80384e-12</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -83878,7 +83915,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>76.9788</VALUE>
+            <VALUE>14.2274</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -83897,7 +83934,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>17.1064</VALUE>
+            <VALUE>3.16165</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -83916,7 +83953,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.723397</VALUE>
+            <VALUE>4.20959</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -83947,7 +83984,7 @@ jXhHFivJeQ==
        <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
        <SCALE_FACTOR>1</SCALE_FACTOR>
        <ENVIRONMENT>
-        <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
+        <TIME_IN_SECONDS>80310</TIME_IN_SECONDS>
         <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
         <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
         <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -86124,7 +86161,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>16.4222</VALUE>
+          <VALUE>6.10648e-38</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-0.00138889</MIN_RATE>
@@ -86238,7 +86275,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>9.21063</VALUE>
+          <VALUE>5.72444</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -86295,7 +86332,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>68.4259</VALUE>
+          <VALUE>2.54436e-37</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -86428,7 +86465,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>71.5787</VALUE>
+          <VALUE>78.5511</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -86466,7 +86503,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>37.6343</VALUE>
+          <VALUE>1.3994e-37</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -86732,7 +86769,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>68.4259</VALUE>
+          <VALUE>2.54436e-37</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -86770,7 +86807,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>0.842126</VALUE>
+          <VALUE>0.144888</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -86884,7 +86921,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>67.6389</VALUE>
+          <VALUE>0</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -86922,7 +86959,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>2.05278</VALUE>
+          <VALUE>7.6331e-39</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -86941,7 +86978,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>28.7389</VALUE>
+          <VALUE>1.06863e-37</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -87112,7 +87149,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>75.7914</VALUE>
+          <VALUE>13.0399</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -87131,7 +87168,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>16.8425</VALUE>
+          <VALUE>2.89775</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -87150,7 +87187,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>0.78937</VALUE>
+          <VALUE>4.27556</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -87181,7 +87218,7 @@ jXhHFivJeQ==
      <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
      <SCALE_FACTOR>1</SCALE_FACTOR>
      <ENVIRONMENT>
-      <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
+      <TIME_IN_SECONDS>80310</TIME_IN_SECONDS>
       <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
       <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
       <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -89358,7 +89395,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>16.2333</VALUE>
+        <VALUE>0</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-0.00138889</MIN_RATE>
@@ -89472,7 +89509,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>9.19095</VALUE>
+        <VALUE>5.70476</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -89529,7 +89566,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>67.6389</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -89662,7 +89699,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>71.6181</VALUE>
+        <VALUE>78.5905</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -89700,7 +89737,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>37.2014</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -89966,7 +90003,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>67.6389</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -90004,7 +90041,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0.838191</VALUE>
+        <VALUE>0.140952</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -90118,7 +90155,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>67.6389</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -90156,7 +90193,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>2.02917</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -90175,7 +90212,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>28.4083</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -90346,7 +90383,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>75.4372</VALUE>
+        <VALUE>12.6857</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -90365,7 +90402,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>16.7638</VALUE>
+        <VALUE>2.81905</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -90384,7 +90421,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0.809047</VALUE>
+        <VALUE>4.29524</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -90450,7 +90487,7 @@ jXhHFivJeQ==
          <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
          <SCALE_FACTOR>1</SCALE_FACTOR>
          <ENVIRONMENT>
-          <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
+          <TIME_IN_SECONDS>80310</TIME_IN_SECONDS>
           <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
           <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
           <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -92627,7 +92664,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>17.0555</VALUE>
+            <VALUE>2.74506e-12</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-0.00138889</MIN_RATE>
@@ -92741,7 +92778,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>9.27659</VALUE>
+            <VALUE>5.79041</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -92798,7 +92835,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>71.0648</VALUE>
+            <VALUE>1.14377e-11</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -92931,7 +92968,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>71.4467</VALUE>
+            <VALUE>78.4191</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -92969,7 +93006,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>39.0856</VALUE>
+            <VALUE>6.29076e-12</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -93235,7 +93272,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>71.0648</VALUE>
+            <VALUE>1.14377e-11</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -93273,7 +93310,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.85532</VALUE>
+            <VALUE>0.158082</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -93387,7 +93424,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>67.6389</VALUE>
+            <VALUE>0</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -93425,7 +93462,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>2.13194</VALUE>
+            <VALUE>3.43132e-13</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -93444,7 +93481,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>29.8472</VALUE>
+            <VALUE>4.80384e-12</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -93615,7 +93652,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>76.9788</VALUE>
+            <VALUE>14.2274</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -93634,7 +93671,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>17.1064</VALUE>
+            <VALUE>3.16165</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -93653,7 +93690,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.723397</VALUE>
+            <VALUE>4.20959</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -93684,7 +93721,7 @@ jXhHFivJeQ==
        <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
        <SCALE_FACTOR>1</SCALE_FACTOR>
        <ENVIRONMENT>
-        <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
+        <TIME_IN_SECONDS>80310</TIME_IN_SECONDS>
         <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
         <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
         <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -95861,7 +95898,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>16.4222</VALUE>
+          <VALUE>6.10648e-38</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-0.00138889</MIN_RATE>
@@ -95975,7 +96012,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>9.21063</VALUE>
+          <VALUE>5.72444</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -96032,7 +96069,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>68.4259</VALUE>
+          <VALUE>2.54436e-37</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -96165,7 +96202,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>71.5787</VALUE>
+          <VALUE>78.5511</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -96203,7 +96240,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>37.6343</VALUE>
+          <VALUE>1.3994e-37</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -96469,7 +96506,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>68.4259</VALUE>
+          <VALUE>2.54436e-37</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -96507,7 +96544,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>0.842126</VALUE>
+          <VALUE>0.144888</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -96621,7 +96658,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>67.6389</VALUE>
+          <VALUE>0</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -96659,7 +96696,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>2.05278</VALUE>
+          <VALUE>7.6331e-39</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -96678,7 +96715,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>28.7389</VALUE>
+          <VALUE>1.06863e-37</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -96849,7 +96886,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>75.7914</VALUE>
+          <VALUE>13.0399</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -96868,7 +96905,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>16.8425</VALUE>
+          <VALUE>2.89775</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -96887,7 +96924,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>0.78937</VALUE>
+          <VALUE>4.27556</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -96918,7 +96955,7 @@ jXhHFivJeQ==
      <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
      <SCALE_FACTOR>1</SCALE_FACTOR>
      <ENVIRONMENT>
-      <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
+      <TIME_IN_SECONDS>80310</TIME_IN_SECONDS>
       <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
       <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
       <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -99095,7 +99132,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>16.2333</VALUE>
+        <VALUE>0</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-0.00138889</MIN_RATE>
@@ -99209,7 +99246,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>9.19095</VALUE>
+        <VALUE>5.70476</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -99266,7 +99303,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>67.6389</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -99399,7 +99436,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>71.6181</VALUE>
+        <VALUE>78.5905</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -99437,7 +99474,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>37.2014</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -99703,7 +99740,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>67.6389</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -99741,7 +99778,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0.838191</VALUE>
+        <VALUE>0.140952</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -99855,7 +99892,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>67.6389</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -99893,7 +99930,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>2.02917</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -99912,7 +99949,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>28.4083</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -100083,7 +100120,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>75.4372</VALUE>
+        <VALUE>12.6857</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -100102,7 +100139,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>16.7638</VALUE>
+        <VALUE>2.81905</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -100121,7 +100158,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0.809047</VALUE>
+        <VALUE>4.29524</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -100187,7 +100224,7 @@ jXhHFivJeQ==
          <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
          <SCALE_FACTOR>1</SCALE_FACTOR>
          <ENVIRONMENT>
-          <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
+          <TIME_IN_SECONDS>80310</TIME_IN_SECONDS>
           <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
           <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
           <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -102364,7 +102401,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>17.0555</VALUE>
+            <VALUE>2.74506e-12</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-0.00138889</MIN_RATE>
@@ -102478,7 +102515,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>9.27659</VALUE>
+            <VALUE>5.79041</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -102535,7 +102572,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>71.0648</VALUE>
+            <VALUE>1.14377e-11</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -102668,7 +102705,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>71.4467</VALUE>
+            <VALUE>78.4191</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -102706,7 +102743,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>39.0856</VALUE>
+            <VALUE>6.29076e-12</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -102972,7 +103009,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>71.0648</VALUE>
+            <VALUE>1.14377e-11</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -103010,7 +103047,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.85532</VALUE>
+            <VALUE>0.158082</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -103124,7 +103161,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>67.6389</VALUE>
+            <VALUE>0</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -103162,7 +103199,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>2.13194</VALUE>
+            <VALUE>3.43132e-13</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -103181,7 +103218,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>29.8472</VALUE>
+            <VALUE>4.80384e-12</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -103352,7 +103389,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>76.9788</VALUE>
+            <VALUE>14.2274</VALUE>
             <MIN>-100</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -103371,7 +103408,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>17.1064</VALUE>
+            <VALUE>3.16165</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -103390,7 +103427,7 @@ jXhHFivJeQ==
             <SHOW>true</SHOW>
             <INTERPOLATE>true</INTERPOLATE>
             <ACTIVE>false</ACTIVE>
-            <VALUE>0.723397</VALUE>
+            <VALUE>4.20959</VALUE>
             <MIN>0</MIN>
             <MAX>100</MAX>
             <MIN_RATE>-1000</MIN_RATE>
@@ -103421,7 +103458,7 @@ jXhHFivJeQ==
        <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
        <SCALE_FACTOR>1</SCALE_FACTOR>
        <ENVIRONMENT>
-        <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
+        <TIME_IN_SECONDS>80310</TIME_IN_SECONDS>
         <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
         <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
         <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -105598,7 +105635,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>16.4222</VALUE>
+          <VALUE>6.10648e-38</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-0.00138889</MIN_RATE>
@@ -105712,7 +105749,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>9.21063</VALUE>
+          <VALUE>5.72444</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -105769,7 +105806,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>68.4259</VALUE>
+          <VALUE>2.54436e-37</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -105902,7 +105939,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>71.5787</VALUE>
+          <VALUE>78.5511</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -105940,7 +105977,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>37.6343</VALUE>
+          <VALUE>1.3994e-37</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -106206,7 +106243,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>68.4259</VALUE>
+          <VALUE>2.54436e-37</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -106244,7 +106281,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>0.842126</VALUE>
+          <VALUE>0.144888</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -106358,7 +106395,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>67.6389</VALUE>
+          <VALUE>0</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -106396,7 +106433,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>2.05278</VALUE>
+          <VALUE>7.6331e-39</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -106415,7 +106452,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>28.7389</VALUE>
+          <VALUE>1.06863e-37</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -106586,7 +106623,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>75.7914</VALUE>
+          <VALUE>13.0399</VALUE>
           <MIN>-100</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -106605,7 +106642,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>16.8425</VALUE>
+          <VALUE>2.89775</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -106624,7 +106661,7 @@ jXhHFivJeQ==
           <SHOW>true</SHOW>
           <INTERPOLATE>true</INTERPOLATE>
           <ACTIVE>false</ACTIVE>
-          <VALUE>0.78937</VALUE>
+          <VALUE>4.27556</VALUE>
           <MIN>0</MIN>
           <MAX>100</MAX>
           <MIN_RATE>-1000</MIN_RATE>
@@ -106655,7 +106692,7 @@ jXhHFivJeQ==
      <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
      <SCALE_FACTOR>1</SCALE_FACTOR>
      <ENVIRONMENT>
-      <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
+      <TIME_IN_SECONDS>80310</TIME_IN_SECONDS>
       <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
       <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
       <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -108832,7 +108869,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>16.2333</VALUE>
+        <VALUE>0</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-0.00138889</MIN_RATE>
@@ -108946,7 +108983,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>9.19095</VALUE>
+        <VALUE>5.70476</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -109003,7 +109040,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>67.6389</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -109136,7 +109173,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>71.6181</VALUE>
+        <VALUE>78.5905</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -109174,7 +109211,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>37.2014</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -109440,7 +109477,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>67.6389</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -109478,7 +109515,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0.838191</VALUE>
+        <VALUE>0.140952</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -109592,7 +109629,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>67.6389</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -109630,7 +109667,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>2.02917</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -109649,7 +109686,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>28.4083</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -109820,7 +109857,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>75.4372</VALUE>
+        <VALUE>12.6857</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -109839,7 +109876,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>16.7638</VALUE>
+        <VALUE>2.81905</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -109858,7 +109895,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0.809047</VALUE>
+        <VALUE>4.29524</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -110105,7 +110142,7 @@ jXhHFivJeQ==
      <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
      <SCALE_FACTOR>1</SCALE_FACTOR>
      <ENVIRONMENT>
-      <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
+      <TIME_IN_SECONDS>80310</TIME_IN_SECONDS>
       <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
       <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
       <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -112282,7 +112319,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>16.8667</VALUE>
+        <VALUE>1.92635e-12</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-0.00138889</MIN_RATE>
@@ -112396,7 +112433,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>9.25692</VALUE>
+        <VALUE>5.77073</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -112453,7 +112490,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>70.2777</VALUE>
+        <VALUE>8.02648e-12</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -112586,7 +112623,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>71.4861</VALUE>
+        <VALUE>78.4585</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -112624,7 +112661,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>38.6528</VALUE>
+        <VALUE>4.41457e-12</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -112890,7 +112927,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>70.2777</VALUE>
+        <VALUE>8.02648e-12</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -112928,7 +112965,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0.851385</VALUE>
+        <VALUE>0.154147</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -113042,7 +113079,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>67.6389</VALUE>
+        <VALUE>0</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -113080,7 +113117,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>2.10833</VALUE>
+        <VALUE>2.40794e-13</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -113099,7 +113136,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>29.5166</VALUE>
+        <VALUE>3.37112e-12</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -113270,7 +113307,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>76.6246</VALUE>
+        <VALUE>13.8732</VALUE>
         <MIN>-100</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -113289,7 +113326,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>17.0277</VALUE>
+        <VALUE>3.08294</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -113308,7 +113345,7 @@ jXhHFivJeQ==
         <SHOW>true</SHOW>
         <INTERPOLATE>true</INTERPOLATE>
         <ACTIVE>false</ACTIVE>
-        <VALUE>0.743073</VALUE>
+        <VALUE>4.22927</VALUE>
         <MIN>0</MIN>
         <MAX>100</MAX>
         <MIN_RATE>-1000</MIN_RATE>
@@ -113339,7 +113376,7 @@ jXhHFivJeQ==
    <CUSTOM_IMAGE_HEIGHT>-1</CUSTOM_IMAGE_HEIGHT>
    <SCALE_FACTOR>1</SCALE_FACTOR>
    <ENVIRONMENT>
-    <TIME_IN_SECONDS>50190</TIME_IN_SECONDS>
+    <TIME_IN_SECONDS>80310</TIME_IN_SECONDS>
     <TIME_MULTIPLIER>30</TIME_MULTIPLIER>
     <SIM_TIME_SETTING>30</SIM_TIME_SETTING>
     <REAL_TIME_SETTING>1</REAL_TIME_SETTING>
@@ -118723,7 +118760,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>16.2333</VALUE>
+      <VALUE>0</VALUE>
       <MIN>-100</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-0.00138889</MIN_RATE>
@@ -118837,7 +118874,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>9.19095</VALUE>
+      <VALUE>5.70476</VALUE>
       <MIN>0</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -118894,7 +118931,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>67.6389</VALUE>
+      <VALUE>0</VALUE>
       <MIN>0</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -119027,7 +119064,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>71.6181</VALUE>
+      <VALUE>78.5905</VALUE>
       <MIN>0</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -119065,7 +119102,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>37.2014</VALUE>
+      <VALUE>0</VALUE>
       <MIN>0</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -119331,7 +119368,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>67.6389</VALUE>
+      <VALUE>0</VALUE>
       <MIN>0</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -119369,7 +119406,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>0.838191</VALUE>
+      <VALUE>0.140952</VALUE>
       <MIN>-100</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -119483,7 +119520,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>67.6389</VALUE>
+      <VALUE>0</VALUE>
       <MIN>0</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -119521,7 +119558,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>2.02917</VALUE>
+      <VALUE>0</VALUE>
       <MIN>0</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -119540,7 +119577,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>28.4083</VALUE>
+      <VALUE>0</VALUE>
       <MIN>0</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -119711,7 +119748,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>75.4372</VALUE>
+      <VALUE>12.6857</VALUE>
       <MIN>-100</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -119730,7 +119767,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>16.7638</VALUE>
+      <VALUE>2.81905</VALUE>
       <MIN>0</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -119749,7 +119786,7 @@ jXhHFivJeQ==
       <SHOW>true</SHOW>
       <INTERPOLATE>true</INTERPOLATE>
       <ACTIVE>true</ACTIVE>
-      <VALUE>0.809047</VALUE>
+      <VALUE>4.29524</VALUE>
       <MIN>0</MIN>
       <MAX>100</MAX>
       <MIN_RATE>-1000</MIN_RATE>
@@ -122871,6 +122908,16 @@ jXhHFivJeQ==
   <LOG_ENTRY>3f3f203f3f3f2031372030343a30303a30362032303235004661746f727920537769746368005377697463682300636f7020727520737400636f70792072756e6e696e672d636f6e66696720737461727475702d636f6e666967</LOG_ENTRY>
   <LOG_ENTRY>3f3f203f3f3f2031372030343a30303a31302032303235004661746f727920537769746368005377697463682300636f6e666967757265207465726d696e616c00636f6e666967757265207465726d696e616c</LOG_ENTRY>
   <LOG_ENTRY>3f3f203f3f3f2031372030343a30303a31302032303235004661746f7279205377697463680053776974636828636f6e666967292300696e74657266616365204661737445746865726e6574342f3100696e74657266616365204661737445746865726e6574342f2031</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030383a31353a33362032303235004265696a696e6720526f6f7420526f75746572004245494a494e472d524f4f542d524f555445523e00656e61626c6500656e61626c65</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030383a31353a33362032303235004265696a696e6720526f6f7420526f75746572004245494a494e472d524f4f542d524f555445522300636f6e666967757265207465726d696e616c00636f6e666967757265207465726d696e616c</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030383a31353a33362032303235004265696a696e6720526f6f7420526f75746572004245494a494e472d524f4f542d524f5554455228636f6e666967292300696e74657266616365204661737445746865726e6574302f3100696e74657266616365204661737445746865726e6574302f31</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030383a32313a31332032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c2300636f6e66207400636f6e666967757265207465726d696e616c</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030383a32323a32312032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672923006f626a656374206e6574776f726b20464143544f5259006f626a656374206e6574776f726b20464143544f5259</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030383a32323a32312032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672d6e6574776f726b2d6f626a6563742923007375626e6574203139322e3136382e32362e30203235352e3235352e3235342e30007375626e6574203139322e3136382e32362e30203235352e3235352e3235342e30</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030383a32323a32332032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672d6e6574776f726b2d6f626a6563742923006e6174202820666163746f7279202c206f75747369646520292064796e616d696320696e74657266616365006e6174202820666163746f7279202c206f75747369646520292064796e616d696320696e74657266616365</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030383a32323a32342032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c28636f6e6669672d6e6574776f726b2d6f626a65637429230065780065786974</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030383a32323a32372032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c23007772206d007772697465206d656d6f7279</LOG_ENTRY>
+  <LOG_ENTRY>3f3f203f3f3f2031372030383a32323a33322032303235004f757473696465204669726577616c6c004f5554534944452d4649524557414c4c2300636f7020727520737400636f70792072756e6e696e672d636f6e66696720737461727475702d636f6e666967</LOG_ENTRY>
  </COMMAND_LOGS>
  <CEPS/>
  <EXT_PORT_MGR/>
