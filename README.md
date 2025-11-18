@@ -115,45 +115,66 @@ dhcpd enable dmz2
 ## VLAN Trunk
 conf t
 
-vlan 72
-name GAO
+vlan 73
+name SCD
 ex
 
-int vlan 72
-ip add 192.168.72.1 255.255.255.0
+int vlan 73
+ip add 192.168.73.1 255.255.255.0
 no shut
 ex
 
-int f0/3
+int f0/8
 sw t e d
 sw m t
-sw t a v 72
+sw t a v 73
 no shut
 
 conf t
-ip dh po VLAN72
-net 192.168.72.0 255.255.255.0
-default-r 192.168.72.1
+ip dh po VLAN73
+net 192.168.73.0 255.255.255.0
+default-r 192.168.73.1
 dns 8.8.8.8
 ex
 
-ip dh ex 192.168.72.1 192.168.72.99
-ip dh ex 192.168.72.201 192.168.72.245
+ip dh ex 192.168.73.1 192.168.73.99
+ip dh ex 192.168.73.201 192.168.73.245
+ip dh ex 192.168.69.1 192.168.69.99
+ip dh ex 192.168.69.201 192.168.69.245
 ex
 
 ## Sub Switch
+en
+conf t
+line con 0
+logg sy
+exi
+
+conf t
+host RND-SWITCH
+
 conf t
 int f0/1
 sw m t
-sw t a v 72
+sw t a v 73
 no shut
 ex
 
 conf t
-int ran f1/1, f2/1, f3/1, f4/1, f5/1, f6/1, f7/1, f8/1, g9/1
+int ran f1/1, f2/1, f3/1, f4/1, f5/1, f6/1, f7/1, f8/1, f9/1
 sw m a
-sw a v 72
+sw a v 73
+no shut
+ex
+
+conf t
+int ran f0/1-24
+sw m a
+sw a v 66
 spa p
 spa b e
 no shut
 ex
+ex
+wr m
+cop ru st
