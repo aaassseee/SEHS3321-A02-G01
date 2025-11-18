@@ -1,5 +1,3 @@
-: Saved
-:
 ASA Version 9.6(1)
 !
 hostname OUTSIDE-FIREWALL
@@ -8,7 +6,7 @@ names
 interface GigabitEthernet1/1
  nameif outside
  security-level 0
- ip address 192.168.191.250 255.255.255.248
+ ip address 192.168.191.251 255.255.255.248
 !
 interface GigabitEthernet1/2
  nameif dmz1
@@ -23,12 +21,12 @@ interface GigabitEthernet1/3
 interface GigabitEthernet1/4
  nameif tier1
  security-level 70
- ip address 192.168.130.1 255.255.240.0
+ ip address 192.168.136.1 255.255.255.0
 !
 interface GigabitEthernet1/5
  nameif tier2
  security-level 80
- ip address 192.168.144.1 255.255.252.0
+ ip address 192.168.144.1 255.255.255.0
 !
 interface GigabitEthernet1/6
  nameif tier3
@@ -58,22 +56,22 @@ object network DMZ2
 
  conf t
 object network TIER1
- subnet 192.168.130.0 255.255.240.0
+ subnet 192.168.136.0 255.255.255.0
  nat (tier1,outside) dynamic interface
  end
 conf t
  object network TIER2
- subnet 192.168.144.0 255.255.252.0
+ subnet 192.168.144.0 255.255.255.0
  nat (tier2,outside) dynamic interface
   object network TIER3
  subnet 192.168.148.0 255.255.255.0
  nat (tier3,outside) dynamic interface
 !
-route outside 0.0.0.0 0.0.0.0 192.168.191.251 1
+route outside 0.0.0.0 0.0.0.0 192.168.191.250 1
 !
 access-list OUTSIDE_IN extended permit tcp any any eq domain
 access-list OUTSIDE_IN extended permit udp any any eq domain
-access-list OUTSIDE_IN extended permit icmp any host 192.168.255.2 echo-reply
+access-list OUTSIDE_IN extended permit icmp any host 192.168.191.251 echo-reply
 !
 !
 access-group OUTSIDE_IN in interface outside
@@ -100,20 +98,135 @@ ssh timeout 5
 !
 dhcpd dns 8.8.8.8
 !
-dhcpd address 192.168.10.100-192.168.10.200 dmz2
+dhcpd address 192.168.129.150-192.168.129.250 dmz2
 dhcpd enable dmz2
 !
-dhcpd address 192.168.26.100-192.168.27.200 factory
-dhcpd enable factory
+
+-----------------------------------------------------------------------------------------------------------------------
+
+hostname TIER-1-SWITCH
+!
+!
+!
+ip dhcp excluded-address 192.168.136.1 192.168.136.99
+ip dhcp excluded-address 192.168.136.201 192.168.136.254
+ip dhcp excluded-address 192.168.137.1 192.168.137.99
+ip dhcp excluded-address 192.168.137.201 192.168.137.254
+ip dhcp excluded-address 192.168.138.1 192.168.138.99
+ip dhcp excluded-address 192.168.138.201 192.168.138.254
+ip dhcp excluded-address 192.168.139.1 192.168.139.99
+ip dhcp excluded-address 192.168.139.201 192.168.139.254
+ip dhcp excluded-address 192.168.140.1 192.168.140.99
+ip dhcp excluded-address 192.168.140.201 192.168.140.254
+!
+ip dhcp pool VLAN136
+ network 192.168.136.0 255.255.255.0
+ default-router 192.168.136.1
+ dns-server 8.8.8.8
+ip dhcp pool VLAN137
+ network 192.168.137.0 255.255.255.0
+ default-router 192.168.137.1
+ dns-server 8.8.8.8
+ip dhcp pool VLAN138
+ network 192.168.138.0 255.255.255.0
+ default-router 192.168.138.1
+ dns-server 8.8.8.8
+ip dhcp pool VLAN139
+ network 192.168.139.0 255.255.255.0
+ default-router 192.168.139.1
+ dns-server 8.8.8.8
+ ip dhcp pool VLAN140
+ network 192.168.140.0 255.255.255.0
+ default-router 192.168.140.1
+ dns-server 8.8.8.8
+!
+!
+ip routing
+!
+!
+spanning-tree mode pvst
+!
+!
+interface FastEthernet0/1
+ switchport access vlan 136
+ switchport trunk encapsulation dot1q
+ switchport mode access
+ spanning-tree portfast
+!
+interface FastEthernet0/2
+ switchport trunk allowed vlan 136
+!
+interface FastEthernet0/3
+ switchport trunk allowed vlan 137
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+!
+interface FastEthernet0/4
+ switchport trunk allowed vlan 138
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+!
+interface FastEthernet0/5
+ switchport trunk allowed vlan 139
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+!
+interface FastEthernet0/6
+ switchport trunk allowed vlan 140
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+!
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+interface Vlan136
+ mac-address 0003.e4d1.9c02
+ ip address 192.168.136.1 255.255.255.0
+!
+interface Vlan137
+ mac-address 0003.e4d1.9c03
+ ip address 192.168.137.1 255.255.255.0
+!
+interface Vlan138
+ mac-address 0003.e4d1.9c04
+ ip address 192.168.138.1 255.255.255.0
+!
+interface Vlan139
+ mac-address 0003.e4d1.9c05
+ ip address 192.168.139.1 255.255.255.0
+!
+interface Vlan140
+ mac-address 0003.e4d1.9c06
+ ip address 192.168.140.1 255.255.255.0
+!
+router rip
+!
+ip default-gateway 192.168.136.1
+ip classless
+ip route 0.0.0.0 0.0.0.0 192.168.136.1
+!
+ip flow-export version 9
 !
 !
 !
 !
-
-
-
-
-
+!
+!
+!
+!
+line con 0
+!
+line aux 0
+!
+line vty 0 4
+ login
+!
+!
+!
+!
+end
 
 
 
