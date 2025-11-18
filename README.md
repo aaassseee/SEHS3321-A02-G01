@@ -155,4 +155,5 @@ sw m a
 sw a v 72
 spa p
 spa b e
+no shut
 ex
