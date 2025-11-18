@@ -102,24 +102,78 @@ inspect icmp
 service-policy global_policy global
 !
 
-interface range f1/1, f2/1, f3/1, f4/1, f5/1, f6/1, f7/1, f8/1, g9/1
-switchport mode access
-switchport access vlan 64
-spanning-tree portfast
-spanning-tree bpduguard enable
+object network FACTORY
+subnet 192.168.26.0 255.255.254.0
+nat (factory,outside) dynamic interface
 
+## ASA dhcpd
 dhcpd address 192.168.10.100-192.168.10.200 dmz2
 dhcpd dns 8.8.8.8
 dhcpd enable dmz2
 
-conf t
-ip dhcp pool VLAN64
-network 192.168.64.0 255.255.254.0
-default-router 192.168.64.1
-dns 8.8.8.8
-exit
 
-ip dhcp excluded-address 192.168.64.1 192.168.64.99
-ip dhcp excluded-address 192.168.64.201 192.168.64.245
-exit
-sh ip dhcp pool
+## VLAN Trunk
+conf t
+
+vlan 66
+name DAD
+ex
+
+int vlan 66
+ip add 192.168.66.8 255.255.254.0
+no shut
+
+int f0/8
+sw t e d
+sw m t
+sw t a v 73
+no shut
+
+conf t
+ip dh po VLAN73
+net 192.168.73.0 255.255.255.0
+default-r 192.168.73.1
+dns 8.8.8.8
+ex
+
+ip dh ex 192.168.73.1 192.168.73.99
+ip dh ex 192.168.73.201 192.168.73.245
+ip dh ex 192.168.69.1 192.168.69.99
+ip dh ex 192.168.69.201 192.168.69.245
+ex
+
+## Sub Switch
+en
+conf t
+line con 0
+logg sy
+exi
+
+conf t
+host RND-SWITCH
+
+conf t
+int f0/1
+sw m t
+sw t a v 68
+no shut
+ex
+
+conf t
+int ran f1/1, f2/1, f3/1, f4/1, f5/1, f6/1, f7/1, f8/1, f9/1
+sw m t
+sw t a v 66
+no shut
+ex
+
+conf t
+int ran f0/1-24
+sw m a
+sw a v 66
+spa p
+spa b e
+no shut
+ex
+ex
+wr m
+cop ru st

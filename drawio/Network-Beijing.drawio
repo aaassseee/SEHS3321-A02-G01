@@ -1,13 +1,13 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
   <diagram name="Page-1" id="nEtCHljzPWbgRBMz3HW8">
-    <mxGraphModel dx="2109" dy="2152" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2505" dy="2158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="gPMcUuZHE5Z8gxD9XFu--328" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 4 1 4;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-360" y="2480" width="1080" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="gPMcUuZHE5Z8gxD9XFu--327" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 4 1 4;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="gPMcUuZHE5Z8gxD9XFu--327" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 4 1 4;fillColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="-360" y="80" width="3000" height="2320" as="geometry" />
         </mxCell>
         <mxCell id="gPMcUuZHE5Z8gxD9XFu--265" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 4;" parent="1" vertex="1">
@@ -25,7 +25,7 @@
         <mxCell id="HfEsNrcY_xCIzGmtiXhy-27" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 4;" parent="1" vertex="1">
           <mxGeometry x="40" y="480" width="480" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="HfEsNrcY_xCIzGmtiXhy-9" value="&lt;span lang=&quot;EN-GB&quot; style=&quot;line-height: 116%; font-family: Arial, sans-serif;&quot;&gt;DeMilitarized Zone 1 (DMZ) subnet&lt;br&gt;192.168.10.0/24&lt;/span&gt;&lt;div&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;255.255.255.0&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=12;" parent="1" vertex="1">
+        <mxCell id="HfEsNrcY_xCIzGmtiXhy-9" value="&lt;span lang=&quot;EN-GB&quot; style=&quot;line-height: 116%; font-family: Arial, sans-serif;&quot;&gt;DeMilitarized Zone 1 (DMZ) subnet&lt;br&gt;192.168.0.0/24&lt;/span&gt;&lt;div&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;255.255.255.0&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="65" y="505" width="195" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HfEsNrcY_xCIzGmtiXhy-10" value="API Gateway" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png;aspect=fixed;" parent="1" vertex="1">
@@ -1668,7 +1668,7 @@
         <mxCell id="gPMcUuZHE5Z8gxD9XFu--277" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 4;" parent="1" vertex="1">
           <mxGeometry x="600" y="480" width="320" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="gPMcUuZHE5Z8gxD9XFu--278" value="&lt;span lang=&quot;EN-GB&quot; style=&quot;line-height: 116%; font-family: Arial, sans-serif;&quot;&gt;DeMilitarized Zone 2 (DMZ) subnet&lt;br&gt;192.168.20.0/24&lt;/span&gt;&lt;div&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;255.255.255.0&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=12;" parent="1" vertex="1">
+        <mxCell id="gPMcUuZHE5Z8gxD9XFu--278" value="&lt;span lang=&quot;EN-GB&quot; style=&quot;line-height: 116%; font-family: Arial, sans-serif;&quot;&gt;DeMilitarized Zone 2 (DMZ) subnet&lt;br&gt;192.168.10.0/24&lt;/span&gt;&lt;div&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;255.255.255.0&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="625" y="505" width="195" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gPMcUuZHE5Z8gxD9XFu--291" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png;aspect=fixed;" parent="1" vertex="1">
@@ -1787,13 +1787,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8pIb3X-bhC3U_KoxB2xW-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="gPMcUuZHE5Z8gxD9XFu--25" target="8pIb3X-bhC3U_KoxB2xW-1">
+        <mxCell id="8pIb3X-bhC3U_KoxB2xW-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="gPMcUuZHE5Z8gxD9XFu--25" target="8pIb3X-bhC3U_KoxB2xW-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="32" as="sourcePoint" />
             <mxPoint x="280" y="225" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8pIb3X-bhC3U_KoxB2xW-1" value="Beijing-router" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="8pIb3X-bhC3U_KoxB2xW-1" value="Beijing-router" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="265" y="140" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
