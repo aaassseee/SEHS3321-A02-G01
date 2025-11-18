@@ -115,14 +115,13 @@ dhcpd enable dmz2
 ## VLAN Trunk
 conf t
 
-vlan 73
-name SCD
+vlan 66
+name DAD
 ex
 
-int vlan 73
-ip add 192.168.73.1 255.255.255.0
+int vlan 66
+ip add 192.168.66.8 255.255.254.0
 no shut
-ex
 
 int f0/8
 sw t e d
@@ -156,14 +155,14 @@ host RND-SWITCH
 conf t
 int f0/1
 sw m t
-sw t a v 73
+sw t a v 68
 no shut
 ex
 
 conf t
 int ran f1/1, f2/1, f3/1, f4/1, f5/1, f6/1, f7/1, f8/1, f9/1
-sw m a
-sw a v 73
+sw m t
+sw t a v 66
 no shut
 ex
 
