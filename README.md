@@ -120,7 +120,7 @@ name DAD
 ex
 
 int vlan 66
-ip add 192.168.66.8 255.255.254.0
+ip add 192.168.68.2 255.255.254.0
 no shut
 
 int f0/8
@@ -150,6 +150,11 @@ logg sy
 exi
 
 conf t
+vlan 68
+name RND
+ex
+
+conf t
 host RND-SWITCH
 
 conf t
@@ -161,19 +166,11 @@ ex
 
 conf t
 int ran f1/1, f2/1, f3/1, f4/1, f5/1, f6/1, f7/1, f8/1, f9/1
-sw m t
-sw t a v 66
+sw m a
+sw a v 68
 no shut
 ex
 
-conf t
-int ran f0/1-24
-sw m a
-sw a v 66
-spa p
-spa b e
-no shut
-ex
 ex
 wr m
 cop ru st
