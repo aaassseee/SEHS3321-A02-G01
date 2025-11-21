@@ -7,44 +7,40 @@ interface GigabitEthernet1/1
  nameif outside
  security-level 0
  ip address 192.168.191.251 255.255.255.248
+ no shutdown
 !
 interface GigabitEthernet1/2
  nameif dmz1
  security-level 50
  ip address 192.168.128.1 255.255.255.0
+ no shutdown
 !
 interface GigabitEthernet1/3
  nameif dmz2
  security-level 50
  ip address 192.168.129.1 255.255.255.0
+ no shutdown
 !
 interface GigabitEthernet1/4
+ no channel-group 10
  nameif tier1
  security-level 70
  ip address 192.168.136.1 255.255.255.0
+ no shutdown
 !
 interface GigabitEthernet1/5
+ no channel-group 10
  nameif tier2
  security-level 80
  ip address 192.168.144.1 255.255.255.0
+ no shutdown
 !
 interface GigabitEthernet1/6
+ no channel-group 10
  nameif tier3
  security-level 90
  ip address 192.168.148.1 255.255.255.0
-!
-interface GigabitEthernet1/8
- no nameif
- no security-level
- no ip address
- shutdown
-!
-interface Management1/1
- management-only
- no nameif
- no security-level
- no ip address
- shutdown
+ no shutdown
 !
 object network DMZ1
  subnet 192.168.128.0 255.255.255.0
@@ -52,14 +48,9 @@ object network DMZ1
 object network DMZ2
  subnet 192.168.129.0 255.255.255.0
  nat (dmz2,outside) dynamic interface
- end
-
- conf t
 object network TIER1
  subnet 192.168.136.0 255.255.255.0
  nat (tier1,outside) dynamic interface
- end
-conf t
  object network TIER2
  subnet 192.168.144.0 255.255.255.0
  nat (tier2,outside) dynamic interface
@@ -103,22 +94,39 @@ dhcpd enable dmz2
 !
 
 -----------------------------------------------------------------------------------------------------------------------
+vlan 136
+name ITD
+vlan 137
+name GAO
+vlan 138
+name FLD
+vlan 139
+name SCD
+vlan 149
+name HRD
 
-hostname TIER-1-SWITCH
-!
-!
-!
-ip dhcp excluded-address 192.168.136.1 192.168.136.99
-ip dhcp excluded-address 192.168.136.201 192.168.136.254
-ip dhcp excluded-address 192.168.137.1 192.168.137.99
-ip dhcp excluded-address 192.168.137.201 192.168.137.254
-ip dhcp excluded-address 192.168.138.1 192.168.138.99
-ip dhcp excluded-address 192.168.138.201 192.168.138.254
-ip dhcp excluded-address 192.168.139.1 192.168.139.99
-ip dhcp excluded-address 192.168.139.201 192.168.139.254
-ip dhcp excluded-address 192.168.140.1 192.168.140.99
-ip dhcp excluded-address 192.168.140.201 192.168.140.254
-!
+ip dhcp pool ITD
+ network 192.168.136.0 255.255.255.0
+ default-router 192.168.136.1
+ dns-server 8.8.8.8
+ip dhcp pool GAO
+ network 192.168.137.0 255.255.255.0
+ default-router 192.168.137.1
+ dns-server 8.8.8.8
+ip dhcp pool FLD
+ network 192.168.138.0 255.255.255.0
+ default-router 192.168.138.1
+ dns-server 8.8.8.8
+ip dhcp pool SCD
+ network 192.168.139.0 255.255.255.0
+ default-router 192.168.139.1
+ dns-server 8.8.8.8
+ip dhcp pool HRD
+ network 192.168.140.0 255.255.255.0
+ default-router 192.168.140.1
+ dns-server 8.8.8.8
+
+
 ip dhcp pool VLAN136
  network 192.168.136.0 255.255.255.0
  default-router 192.168.136.1
@@ -135,18 +143,12 @@ ip dhcp pool VLAN139
  network 192.168.139.0 255.255.255.0
  default-router 192.168.139.1
  dns-server 8.8.8.8
- ip dhcp pool VLAN140
+ip dhcp pool VLAN140
  network 192.168.140.0 255.255.255.0
  default-router 192.168.140.1
  dns-server 8.8.8.8
-!
-!
-ip routing
-!
-!
-spanning-tree mode pvst
-!
-!
+
+
 interface FastEthernet0/1
  switchport access vlan 136
  switchport trunk encapsulation dot1q
@@ -176,61 +178,23 @@ interface FastEthernet0/6
  switchport trunk encapsulation dot1q
  switchport mode trunk
 !
+interface Vlan 136
+ip address 192.168.136.1 255.255.255.0
+no shutdown
 !
-interface Vlan1
- no ip address
- shutdown
+interface Vlan 137
+ip address 192.168.137.1 255.255.255.0
+no shutdown
 !
-interface Vlan136
- mac-address 0003.e4d1.9c02
- ip address 192.168.136.1 255.255.255.0
+interface Vlan 138
+ip address 192.168.138.1 255.255.255.0
+no shutdown
 !
-interface Vlan137
- mac-address 0003.e4d1.9c03
- ip address 192.168.137.1 255.255.255.0
+interface Vlan 139
+ip address 192.168.139.1 255.255.255.0
+no shutdown
 !
-interface Vlan138
- mac-address 0003.e4d1.9c04
- ip address 192.168.138.1 255.255.255.0
+interface Vlan 140
+ip address 192.168.140.1 255.255.255.0
+no shutdown
 !
-interface Vlan139
- mac-address 0003.e4d1.9c05
- ip address 192.168.139.1 255.255.255.0
-!
-interface Vlan140
- mac-address 0003.e4d1.9c06
- ip address 192.168.140.1 255.255.255.0
-!
-router rip
-!
-ip default-gateway 192.168.136.1
-ip classless
-ip route 0.0.0.0 0.0.0.0 192.168.136.1
-!
-ip flow-export version 9
-!
-!
-!
-!
-!
-!
-!
-!
-line con 0
-!
-line aux 0
-!
-line vty 0 4
- login
-!
-!
-!
-!
-end
-
-
-
-
-
-wr m
-cop ru st
