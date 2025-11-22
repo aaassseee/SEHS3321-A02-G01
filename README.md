@@ -174,3 +174,18 @@ ex
 ex
 wr m
 cop ru st
+
+conf t
+object network API-SERVER
+host 192.168.0.2
+nat (factory,outside) static 218.107.132.2
+
+conf t
+object network MAIL-SERVER
+host 192.168.0.3
+nat (factory,outside) static 218.107.132.3
+
+conf t
+object network MAIL2-SERVER
+host 192.168.0.4
+nat (factory,outside) static 218.107.132.4
