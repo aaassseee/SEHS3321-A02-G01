@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
   <diagram name="Page-1" id="nEtCHljzPWbgRBMz3HW8">
-    <mxGraphModel dx="2707" dy="2610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2311" dy="2307" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -229,9 +229,6 @@
         <mxCell id="HfEsNrcY_xCIzGmtiXhy-197" value="ActiveDirectory&lt;br&gt;Server" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="670" y="1685" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HfEsNrcY_xCIzGmtiXhy-203" value="Monitoring&lt;br&gt;Server" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="595" y="1685" width="30" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="gPMcUuZHE5Z8gxD9XFu--260" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HfEsNrcY_xCIzGmtiXhy-222" target="HfEsNrcY_xCIzGmtiXhy-186" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -240,12 +237,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gPMcUuZHE5Z8gxD9XFu--261" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HfEsNrcY_xCIzGmtiXhy-222" target="HfEsNrcY_xCIzGmtiXhy-203" edge="1">
+        <mxCell id="gPMcUuZHE5Z8gxD9XFu--261" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HfEsNrcY_xCIzGmtiXhy-222" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="710" y="1655" />
               <mxPoint x="610" y="1655" />
             </Array>
+            <mxPoint x="610.0666666666671" y="1685" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gPMcUuZHE5Z8gxD9XFu--262" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HfEsNrcY_xCIzGmtiXhy-222" target="HfEsNrcY_xCIzGmtiXhy-197" edge="1">
@@ -1055,6 +1053,12 @@
         </mxCell>
         <mxCell id="yJgOLuOU1Adj9Zk3SA0b-20" value="DHCP Server" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="960" y="470" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yJgOLuOU1Adj9Zk3SA0b-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="yJgOLuOU1Adj9Zk3SA0b-21" target="HfEsNrcY_xCIzGmtiXhy-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yJgOLuOU1Adj9Zk3SA0b-21" value="Monitoring&lt;br&gt;Server" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="545" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
