@@ -120,7 +120,7 @@ name DAD
 ex
 
 int vlan 66
-ip add 192.168.68.2 255.255.254.0
+ip add 192.168.68.1 255.255.254.0
 no shut
 
 int f0/8
@@ -136,10 +136,10 @@ default-r 192.168.73.1
 dns 8.8.8.8
 ex
 
-ip dh ex 192.168.73.1 192.168.73.99
-ip dh ex 192.168.73.201 192.168.73.245
-ip dh ex 192.168.69.1 192.168.69.99
-ip dh ex 192.168.69.201 192.168.69.245
+ip dh ex 192.168.26.1 192.168.26.99
+ip dh ex 192.168.26.201 192.168.26.245
+ip dh ex 192.168.27.1 192.168.27.99
+ip dh ex 192.168.27.201 192.168.27.245
 ex
 
 ## Sub Switch
@@ -150,24 +150,24 @@ logg sy
 exi
 
 conf t
-vlan 68
-name RND
+vlan 26
+name FACTORY
 ex
 
 conf t
-host RND-SWITCH
+host FACTORY-SWITCH
 
 conf t
 int f0/1
 sw m t
-sw t a v 68
+sw t a v 26
 no shut
 ex
 
 conf t
-int ran f1/1, f2/1, f3/1, f4/1, f5/1, f6/1, f7/1, f8/1, f9/1
+int ran f1/1, f2/1, f3/1, f4/1, f5/1, f6/1, g7/1, g8/1, g9/1
 sw m a
-sw a v 68
+sw a v 26
 no shut
 ex
 
