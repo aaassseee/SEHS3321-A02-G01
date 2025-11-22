@@ -203,3 +203,8 @@ conf t
 object network MAIL2-SERVER
 host 192.168.0.4
 nat (factory,outside) static 218.107.132.4
+
+
+router eigrp 1
+network 192.168.24.0
+network 192.168.25.0
