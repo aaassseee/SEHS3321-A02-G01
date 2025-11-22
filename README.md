@@ -150,24 +150,38 @@ logg sy
 exi
 
 conf t
-vlan 26
-name FACTORY
+vlan 24
+name DB
 ex
 
 conf t
-host FACTORY-SWITCH
+vlan 25
+name VDB
+ex
+
+conf t
+host TIER-3-SWITCH
 
 conf t
 int f0/1
-sw m t
-sw t a v 26
+sw m a
+sw a v 24
 no shut
 ex
 
 conf t
-int ran f1/1, f2/1, f3/1, f4/1, f5/1, f6/1, g7/1, g8/1, g9/1
-sw m a
-sw a v 26
+int f0/2
+sw t e d
+sw m t
+sw t a v 24
+no shut
+ex
+
+conf t
+int f0/3
+sw t e d
+sw m t
+sw t a v 25
 no shut
 ex
 
