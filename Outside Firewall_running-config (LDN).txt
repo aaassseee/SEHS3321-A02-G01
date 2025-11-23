@@ -1,0 +1,115 @@
+: Saved
+:
+ASA Version 9.6(1)
+!
+hostname OUTSIDE-FIREWALL
+names
+!
+interface GigabitEthernet1/1
+ nameif outside
+ security-level 0
+ ip address 84.17.50.161 255.255.255.240
+!
+interface GigabitEthernet1/2
+ nameif dmz1
+ security-level 50
+ ip address 192.168.208.1 255.255.255.0
+!
+interface GigabitEthernet1/3
+ nameif dmz2
+ security-level 50
+ ip address 192.168.209.1 255.255.255.0
+!
+interface GigabitEthernet1/4
+ nameif tier1
+ security-level 100
+ ip address 192.168.216.1 255.255.248.0
+!
+interface GigabitEthernet1/5
+ nameif tier2
+ security-level 100
+ ip address 192.168.210.1 255.255.252.0
+!
+
+interface Management1/1
+ management-only
+ no nameif
+ no security-level
+ no ip address
+ shutdown
+!
+
+/*object network API-SERVER
+ host 192.168.0.2
+ nat (factory,outside) static 218.107.132.2*/
+
+object network DMZ1
+ subnet 192.168.208.0 255.255.255.0
+ nat (dmz1,outside) dynamic interface
+object network DMZ2
+ subnet 192.168.209.0 255.255.255.0
+ nat (dmz2,outside) dynamic interface
+object network DNS-SERVER
+ host 192.168.208.10
+ nat (dmz1,outside) static 84.17.50.162
+object network DNS2-SERVER
+ host 192.168.209.11
+ nat (dmz1,outside) static 84.17.50.163
+
+/*object network FACTORY
+ subnet 192.168.26.0 255.255.254.0 */
+
+object network MAIL-SERVER
+ host 192.168.208.1
+ nat (dmz1,outside) static 84.17.50.164
+
+object network MONITORING
+ host 192.168.210.2
+ nat (dmz1,outside) static 84.17.50.165
+object network TIER1
+ subnet 192.168.208.0 255.255.255.0
+ nat (tier1,outside) dynamic interface
+object network TIER2
+ subnet 192.168.216.0 255.255.255.0
+
+!
+route outside 0.0.0.0 0.0.0.0 84.17.50.161 1
+!
+access-list DMZ-OUT extended permit tcp any any eq www
+access-list DMZ-OUT extended permit icmp any any
+access-list DMZ-OUT extended permit udp any any eq domain
+access-list DMZ-OUT extended permit tcp any any eq 443
+!
+!
+access-group DMZ-OUT in interface outside
+!
+!
+class-map inspection_default
+ match default-inspection-traffic
+!
+policy-map type inspect dns preset_dns_map
+ parameters
+  message-length maximum 512
+policy-map global_policy
+ class inspection_default
+  inspect dns preset_dns_map
+  inspect ftp 
+  inspect http 
+  inspect icmp 
+  inspect tftp 
+!
+service-policy global_policy global
+!
+telnet timeout 5
+ssh timeout 5
+!
+!
+!
+!
+router eigrp 1
+ network 192.168.208.0
+ network 192.168.209.0
+ network 192.168.216.0 0.0.3.255
+ network 192.168.210.0 0.0.0.3
+ network 84.17.50.0 0.0.0.7
+!
